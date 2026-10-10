@@ -1,0 +1,250 @@
+{
+ "edition": "2026-10-07",
+ "last_bar": "2026-10-07",
+ "generated_at": "2026-10-10T12:28:59+03:00",
+ "basis": {
+  "basis_id": "tv-4eb83e3fc718",
+  "adjusted": true,
+  "state": "complete",
+  "writer": "egxpro-tv-export",
+  "source": "tradingview split-adjusted (vendor), anonymous tvDatafeed",
+  "exported_at": "2026-10-10T12:23:09+03:00",
+  "cutoff_date": "2026-10-10",
+  "manifest": null,
+  "warning_ar": "الأسعار متعدلة من المصدر نفسه للتجزئة وأسهم المنحة، بس المصدر مش بيدينا قايمة بالإجراءات اللي عدلها. عشان كده مش بنقول عدد الإجراءات اللي اتطبقت، ومش بنفترض إنها صفر.",
+  "engine_warning_ar": "⚠️ المجلد مختوم كـ«معدَّل» لكن ملف الإجراءات (manifest) غير قابل للقراءة — كل عدّاد إجراءات في هذا التقرير غير مقيس، وليس صفراً"
+ },
+ "crosscheck": {
+  "status": "partial",
+  "feed": "Yahoo Finance via yfinance, split-adjusted closes (dividends not backed out)",
+  "rule": "a name whose last 5 common closes differ by more than 0.5% is held back from the edition; more than 1 such name(s) that no recorded split explains, or fewer than 3 agreeing names beside them, halts the run",
+  "tolerance_pct": 0.5,
+  "recent_bars": 5,
+  "counts": {
+   "ok": 9,
+   "divergent": 0,
+   "unavailable": 4,
+   "insufficient": 0
+  },
+  "divergent": [],
+  "quarantine": [],
+  "max_quarantine": 1,
+  "checked_at": "2026-10-10T12:28:17+03:00",
+  "note": null,
+  "sample_n": 13
+ },
+ "fetch": {
+  "exported_at": "2026-10-10T12:23:09+03:00",
+  "cutoff_date": "2026-10-10",
+  "n_requested": 284,
+  "n_ok": 256,
+  "n_carried": 0,
+  "n_failed": 0,
+  "n_unserved": 28,
+  "elapsed_s": 297.7,
+  "unserved": [
+   "ACFR",
+   "ACRO",
+   "AIHC",
+   "ANCC",
+   "BQDC",
+   "DIFC",
+   "EFAC",
+   "EGWA",
+   "ENHD",
+   "ESAC",
+   "ESRS",
+   "FCMD",
+   "GEOS",
+   "HAVC",
+   "HCFI",
+   "HDST",
+   "KNGC",
+   "MLIC",
+   "NAPR",
+   "QNBA",
+   "RMTV",
+   "SFWA",
+   "SIEG",
+   "SINA",
+   "SLAR",
+   "SWDY",
+   "UASG",
+   "YAYT"
+  ],
+  "carried": [],
+  "failed": []
+ },
+ "universe": {
+  "source": "egx_sectors.json",
+  "n_shares": 284,
+  "n_with_prices": 256,
+  "n_scanned": 256,
+  "no_price_data": [
+   "ACFR",
+   "ACRO",
+   "AIHC",
+   "ANCC",
+   "BQDC",
+   "DIFC",
+   "EFAC",
+   "EGWA",
+   "ENHD",
+   "ESAC",
+   "ESRS",
+   "FCMD",
+   "GEOS",
+   "HAVC",
+   "HCFI",
+   "HDST",
+   "KNGC",
+   "MLIC",
+   "NAPR",
+   "QNBA",
+   "RMTV",
+   "SFWA",
+   "SIEG",
+   "SINA",
+   "SLAR",
+   "SWDY",
+   "UASG",
+   "YAYT"
+  ]
+ },
+ "scan": {
+  "timeframes": [
+   "D",
+   "W",
+   "M",
+   "Q",
+   "Y"
+  ],
+  "timeframe_horizon_ar": {
+   "D": "الأيام الجاية",
+   "W": "الأسبوع الجاي",
+   "M": "الشهر الجاي",
+   "Q": "الربع الجاي",
+   "Y": "السنة الجاية"
+  },
+  "scoring_notes_ar": "التقييم أداة ترتيب أولية شفافة (وزن أساس حسب الوضع الموجي ورقم الموجة + تعديلات الاتجاه/الزخم/التشبع × عامل ثقة العدّ)، وليس حكماً. موجة 2 (شراء للموجة 3) تفوق موجة 4 (شراء للموجة 5)؛ وموجة 5 ممتدّة مشبعة ترجّح التصحيح. الترقيم اجتهادي على ZigZag — يراجع الوكيل المرشحين ويذكر الإبطال والأهداف.",
+  "coverage": {
+   "requested": 284,
+   "scanned": 256,
+   "no_price_data": [
+    "ACFR",
+    "ACRO",
+    "AIHC",
+    "ANCC",
+    "BQDC",
+    "DIFC",
+    "EFAC",
+    "EGWA",
+    "ENHD",
+    "ESAC",
+    "ESRS",
+    "FCMD",
+    "GEOS",
+    "HAVC",
+    "HCFI",
+    "HDST",
+    "KNGC",
+    "MLIC",
+    "NAPR",
+    "QNBA",
+    "RMTV",
+    "SFWA",
+    "SIEG",
+    "SINA",
+    "SLAR",
+    "SWDY",
+    "UASG",
+    "YAYT"
+   ],
+   "per_timeframe_analysed": {
+    "D": 256,
+    "W": 254,
+    "M": 246,
+    "Q": 244,
+    "Y": 232
+   }
+  },
+  "engine": {
+   "source_repo": "egx_multi_agent",
+   "source_commit": "82f822b3a3f3ef1b243fa8b27c19b874ea1434e9",
+   "vendored_files": 28,
+   "vendored_on": "2026-10-06T15:17:54+03:00"
+  }
+ },
+ "gate": {
+  "params": {
+   "min_turnover_egp": 5000000.0,
+   "turnover_window": 20,
+   "max_stale_sessions": 3,
+   "ranked_kinds": [
+    "real"
+   ]
+  },
+  "counts": {
+   "no_price_data": 28,
+   "feed_disagreement": 0,
+   "illiquid": 91,
+   "stale": 13,
+   "not_a_stop": 243,
+   "spans_break": 178,
+   "no_invalidation": 42
+  },
+  "ranked": {
+   "D": {
+    "top_impulse": 4,
+    "top_correction": 10
+   },
+   "W": {
+    "top_impulse": 10,
+    "top_correction": 0
+   },
+   "M": {
+    "top_impulse": 8,
+    "top_correction": 6
+   },
+   "Q": {
+    "top_impulse": 6,
+    "top_correction": 1
+   },
+   "Y": {
+    "top_impulse": 9,
+    "top_correction": 0
+   }
+  }
+ },
+ "market": {
+  "date": "2026-10-07",
+  "verdict": "quiet",
+  "verdict_ar": "السوق هادي، ومفيش قطاع عامل حركة لوحده",
+  "n_sectors": 20,
+  "n_event_sectors": 0
+ },
+ "momentum": {
+  "scanned": 147,
+  "counts": {
+   "breakout": 4,
+   "ep": 2,
+   "parabolic": 0,
+   "triggered": 0,
+   "watch": 6
+  },
+  "excluded_counts": {
+   "stale": 18,
+   "feed_disagreement": 0,
+   "illiquid": 73,
+   "penny": 15,
+   "short_history": 1,
+   "price_break": 2
+  },
+  "regime": "mixed"
+ },
+ "voice": {
+  "untranslated": 0,
+  "distinct": 0,
+  "examples": []
+ }
+}

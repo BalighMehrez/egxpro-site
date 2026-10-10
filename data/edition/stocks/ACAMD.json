@@ -1,0 +1,1418 @@
+{
+ "ticker": "ACAMD",
+ "name_ar": "الشركة العربية لادارة وتطوير الاصول",
+ "name_en": "Arab Co. for Asset Management And Development",
+ "sector_en": "Real Estate",
+ "sector_ar": "عقارات",
+ "edition": "2026-10-07",
+ "basis_id": "tv-4eb83e3fc718",
+ "last_close": 2.05,
+ "last_date": "2026-10-07",
+ "sessions_behind": 0,
+ "turnover_med": 41673453.61,
+ "liquid": true,
+ "price_breaks": [],
+ "price_break_warning_ar": null,
+ "feed_disagreement_ar": null,
+ "frames": {
+  "D": {
+   "last_close": 2.05,
+   "last_date": "2026-10-07",
+   "posture": "impulse_down_complete",
+   "posture_ar": "النزلة كملت خمس موجات، والمتوقع ارتداد لفوق",
+   "direction": "bullish",
+   "invalidation_kind": "provisional",
+   "invalidation_kind_ar": "⚠️ مش وقف خسارة ثابت: العد هنا خلص، فلو السعر عدى المستوى العد كله هيتعاد من الأول والمستوى هيتنقل بدل ما يتكسر.",
+   "invalidation_is_a_stop": false,
+   "wave_position": 5,
+   "current_wave": "الخمس موجات النازلة خلصت، والارتداد بدأ",
+   "extended_wave": null,
+   "extension_note_ar": null,
+   "truncated": false,
+   "truncation_note_ar": null,
+   "channel": null,
+   "wave_equality_ar": null,
+   "depth_typical": false,
+   "volume_profile": {
+    "per_wave": {
+     "1": 23844740,
+     "2": 24870104,
+     "3": 26414736,
+     "4": 32101310,
+     "5": 22553710
+    },
+    "flags": {
+     "wave3_highest": true,
+     "wave5_lighter": true,
+     "breakout_volume": false
+    }
+   },
+   "momentum_signal": "bullish_divergence",
+   "momentum_note_ar": "دايفرجنس إيجابي في الموجة 5: السعر عمل قاع أوطى والـ RSI أعلى، يعني النزلة بدأت تتعب",
+   "personality_ar": "الموجة 5: اتساع وزخم يضيقان (تباعد محتمل)",
+   "fib_relationships": [
+    "ارتداد م2=50٪"
+   ],
+   "confluence_zones": [],
+   "fib_time": {
+    "spans_bars": [
+     5,
+     3,
+     14,
+     9,
+     15
+    ],
+    "relationships": [
+     "زمن م2 ≈ 0.618× زمن م1",
+     "زمن م4 ≈ 0.618× زمن م3",
+     "زمن م5 ≈ 1.0× زمن م3",
+     "زمن م5 ≈ 1.618× زمن م4"
+    ],
+    "next_turn": [
+     {
+      "mult": 0.618,
+      "bars_ahead": 9,
+      "date": "2026-10-11"
+     },
+     {
+      "mult": 1.0,
+      "bars_ahead": 15,
+      "date": "2026-10-20"
+     },
+     {
+      "mult": 1.618,
+      "bars_ahead": 24,
+      "date": "2026-11-03"
+     }
+    ]
+   },
+   "degree": "Minute",
+   "degree_ar": "دقيقة (Minute)",
+   "current_wave_degree": "(v) · دقيقة (Minute)",
+   "degree_note_ar": "درجة مُرسّاة بالفريم (D=الدقيقة (Minute)) — دلالية بالمدّة لا حقيقة مطلقة.",
+   "degree_consistent": true,
+   "wave_boundaries": [
+    {
+     "wave": "0",
+     "role_ar": "بداية الموجة 1",
+     "date": "2026-07-22",
+     "price": 2.52,
+     "kind": "H",
+     "degree_label": "0"
+    },
+    {
+     "wave": "1",
+     "role_ar": "نهاية الموجة 1",
+     "date": "2026-07-30",
+     "price": 2.31,
+     "kind": "L",
+     "degree_label": "(i)"
+    },
+    {
+     "wave": "2",
+     "role_ar": "نهاية الموجة 2",
+     "date": "2026-08-04",
+     "price": 2.42,
+     "kind": "H",
+     "degree_label": "(ii)"
+    },
+    {
+     "wave": "3",
+     "role_ar": "نهاية الموجة 3",
+     "date": "2026-08-24",
+     "price": 1.95,
+     "kind": "L",
+     "degree_label": "(iii)"
+    },
+    {
+     "wave": "4",
+     "role_ar": "نهاية الموجة 4",
+     "date": "2026-09-07",
+     "price": 2.25,
+     "kind": "H",
+     "degree_label": "(iv)"
+    },
+    {
+     "wave": "5",
+     "role_ar": "نهاية الموجة 5",
+     "date": "2026-09-28",
+     "price": 1.87,
+     "kind": "L",
+     "degree_label": "(v)"
+    }
+   ],
+   "internal_count": {
+    "degree_source": "finer_timeframe",
+    "waves_checked": 0,
+    "waves_valid": 0,
+    "position_violations": 0,
+    "alternation_ok": false,
+    "substructure_violations": 0,
+    "internal_score": 0.5,
+    "waves": [
+     {
+      "wave": "1",
+      "from": "2026-07-22",
+      "to": "2026-07-30",
+      "expected": "motive",
+      "valid": null,
+      "note_ar": "لا تتوفّر درجة أدنى كافية للتحقق",
+      "degree_label": "i"
+     },
+     {
+      "wave": "2",
+      "from": "2026-07-30",
+      "to": "2026-08-04",
+      "expected": "corrective",
+      "valid": null,
+      "note_ar": "لا تتوفّر درجة أدنى كافية للتحقق",
+      "degree_label": "ii"
+     },
+     {
+      "wave": "3",
+      "from": "2026-08-04",
+      "to": "2026-08-24",
+      "expected": "motive",
+      "valid": null,
+      "note_ar": "لا تتوفّر درجة أدنى كافية للتحقق",
+      "degree_label": "iii"
+     },
+     {
+      "wave": "4",
+      "from": "2026-08-24",
+      "to": "2026-09-07",
+      "expected": "corrective",
+      "valid": null,
+      "note_ar": "لا تتوفّر درجة أدنى كافية للتحقق",
+      "degree_label": "iv"
+     },
+     {
+      "wave": "5",
+      "from": "2026-09-07",
+      "to": "2026-09-28",
+      "expected": "motive",
+      "valid": null,
+      "note_ar": "لا تتوفّر درجة أدنى كافية للتحقق",
+      "degree_label": "v"
+     }
+    ],
+    "note_ar": "لا درجة أدنى كافية للتحقق من التفرّع",
+    "degree": "Minuette",
+    "degree_ar": "الأدقّ (Minuette)",
+    "degree_jumps": 0
+   },
+   "entry_zone": [
+    1.87,
+    1.935
+   ],
+   "targets": [
+    {
+     "label": "هدف الارتداد (0.382)",
+     "price": 2.118
+    },
+    {
+     "label": "هدف الارتداد (0.618)",
+     "price": 2.272
+    }
+   ],
+   "target_note_ar": null,
+   "confidence": 0.618,
+   "confidence_breakdown": {
+    "structural_base": 0.8,
+    "raw_nudge": 0.05,
+    "capped_nudge": 0.05,
+    "cap": 0.2,
+    "raw_final": 0.85,
+    "calibrated": 0.618,
+    "final": 0.618,
+    "calibration": "walk-forward 60m 2021-08→2026-07",
+    "factors": [
+     {
+      "guideline": "cross_degree_agree",
+      "delta": 0.05,
+      "reason_ar": "الاتجاه يتّفق مع الدرجة الأكبر"
+     }
+    ]
+   },
+   "probability": 0.34,
+   "alternates": [
+    {
+     "pattern": "impulse",
+     "stage": "forming",
+     "direction_ar": "موجة دافعة هابطة",
+     "current_wave": "2 (لسه بتتكون)",
+     "confidence": 0.46,
+     "probability": 0.27,
+     "invalidation": 2.25,
+     "entry_zone": [
+      2.015,
+      2.105
+     ],
+     "targets": [
+      1.7,
+      1.465,
+      1.085
+     ]
+    },
+    {
+     "pattern": "abc",
+     "stage": null,
+     "direction_ar": "ارتداد لفوق (A-B-C) جوه اتجاه هابط",
+     "current_wave": "C (لسه بتتكون)",
+     "confidence": 0.42,
+     "probability": 0.22,
+     "invalidation": 2.08,
+     "entry_zone": [
+      2.061,
+      2.08
+     ],
+     "targets": [
+      1.87,
+      1.95,
+      1.915
+     ]
+    }
+   ],
+   "higher_degree_ar": "موجة دافعة هابطة",
+   "subwave_wave3_motive": null,
+   "multiscale_note_ar": "الاتجاه ماشي مع الفريم الأكبر",
+   "rules_all_pass": true,
+   "invalidation": 1.87,
+   "invalidation_ar": "لو كسر قاع الموجة الخامسة لتحت، يتلغي سيناريو الارتداد",
+   "dist_to_invalidation_pct": 8.8,
+   "rsi14": 48.8,
+   "trend": "downtrend",
+   "wave5_maturity_w5_over_w1": 1.81,
+   "impulse_score": 0.908,
+   "correction_score": 0.04,
+   "gate": {
+    "ranked": false,
+    "reasons": [
+     "not_a_stop"
+    ],
+    "reasons_ar": [
+     "مستوى الإلغاء هنا مش وقف خسارة: لو السعر عداه العد بيتعاد بدل ما يتلغي، فمش بيدخل الترتيب"
+    ]
+   }
+  },
+  "W": {
+   "last_close": 2.05,
+   "last_date": "2026-10-08",
+   "posture": "impulse_down_motive",
+   "posture_ar": "اتجاه هابط، والسهم في موجة نازلة (1 أو 3 أو 5) لسه بتتكون",
+   "direction": "bearish",
+   "invalidation_kind": "real",
+   "invalidation_kind_ar": "مستوى ثابت: لو السعر كسره يبقى السيناريو فشل فعلا",
+   "invalidation_is_a_stop": true,
+   "wave_position": 3,
+   "current_wave": "3 (لسه بتتكون)",
+   "extended_wave": null,
+   "extension_note_ar": null,
+   "truncated": false,
+   "truncation_note_ar": null,
+   "channel": null,
+   "wave_equality_ar": null,
+   "depth_typical": false,
+   "volume_profile": {
+    "per_wave": {
+     "1": 177086820,
+     "2": 159309429,
+     "3": 124184029
+    },
+    "flags": {
+     "wave3_highest": false,
+     "breakout_volume": false
+    }
+   },
+   "momentum_signal": null,
+   "momentum_note_ar": null,
+   "personality_ar": "الموجة 3: الأقوى — اتساع وسيولة وفجوات",
+   "fib_relationships": [],
+   "confluence_zones": [],
+   "fib_time": {
+    "spans_bars": [
+     3,
+     3,
+     10
+    ],
+    "relationships": [
+     "زمن م2 ≈ 1.0× زمن م1"
+    ],
+    "next_turn": [
+     {
+      "mult": 0.618,
+      "bars_ahead": 6,
+      "date": "2026-11-12"
+     },
+     {
+      "mult": 1.0,
+      "bars_ahead": 10,
+      "date": "2026-12-10"
+     },
+     {
+      "mult": 1.618,
+      "bars_ahead": 16,
+      "date": "2027-01-22"
+     }
+    ]
+   },
+   "degree": "Minor",
+   "degree_ar": "صغرى (Minor)",
+   "current_wave_degree": "3 · صغرى (Minor)",
+   "degree_note_ar": "درجة مُرسّاة بالفريم (W=الصغرى (Minor)) — دلالية بالمدّة لا حقيقة مطلقة.",
+   "degree_consistent": true,
+   "wave_boundaries": [
+    {
+     "wave": "0",
+     "role_ar": "بداية الموجة 1",
+     "date": "2026-06-11",
+     "price": 2.6,
+     "kind": "H",
+     "degree_label": "0"
+    },
+    {
+     "wave": "1",
+     "role_ar": "نهاية الموجة 1",
+     "date": "2026-07-02",
+     "price": 2.14,
+     "kind": "L",
+     "degree_label": "1"
+    },
+    {
+     "wave": "2",
+     "role_ar": "نهاية الموجة 2",
+     "date": "2026-07-23",
+     "price": 2.52,
+     "kind": "H",
+     "degree_label": "2"
+    },
+    {
+     "wave": "3",
+     "role_ar": "الموجة 3 الحالية (لسه بتتكون)",
+     "date": "2026-10-01",
+     "price": 1.87,
+     "kind": "L",
+     "degree_label": "3"
+    }
+   ],
+   "internal_count": {
+    "degree_source": "finer_timeframe",
+    "waves_checked": 2,
+    "waves_valid": 0,
+    "position_violations": 0,
+    "alternation_ok": null,
+    "substructure_violations": 0,
+    "internal_score": 0.0,
+    "waves": [
+     {
+      "expected": "motive",
+      "expected_min": 5,
+      "found_subwaves": 1,
+      "valid": false,
+      "subpattern_ar": "لا تنطبق دفعة أو قطري صحيح",
+      "subpattern_type": "",
+      "source_frame": "D",
+      "subpivots": [
+       {
+        "date": "2026-06-22 00:00",
+        "price": 2.44,
+        "kind": "H"
+       },
+       {
+        "date": "2026-06-28 00:00",
+        "price": 2.14,
+        "kind": "L"
+       }
+      ],
+      "wave": "1",
+      "from": "2026-06-11",
+      "to": "2026-07-02",
+      "position_ok": true,
+      "degree_label": "(i)"
+     },
+     {
+      "expected": "corrective",
+      "expected_min": 3,
+      "found_subwaves": 0,
+      "valid": false,
+      "subpattern_ar": "أقل من ثلاث موجات — تصحيح غير مكتمل",
+      "subpattern_type": "",
+      "source_frame": "D",
+      "subpivots": [
+       {
+        "date": "2026-07-22 00:00",
+        "price": 2.52,
+        "kind": "H"
+       }
+      ],
+      "wave": "2",
+      "from": "2026-07-02",
+      "to": "2026-07-23",
+      "position_ok": true,
+      "degree_label": "(ii)"
+     }
+    ],
+    "note_ar": "تحقّق تفرّع 0/2 موجة مؤكَّدة عند الدرجة الأدنى (finer_timeframe)",
+    "degree": "Minute",
+    "degree_ar": "الدقيقة (Minute)",
+    "degree_jumps": 0
+   },
+   "entry_zone": [
+    2.14,
+    2.52
+   ],
+   "targets": [
+    {
+     "label": "نهاية الموجة 3 (1.618 × الموجة 1)",
+     "price": 1.776
+    },
+    {
+     "label": "نهاية الموجة 3 (2.618 × الموجة 1)",
+     "price": 1.316
+    }
+   ],
+   "target_note_ar": null,
+   "confidence": 0.46,
+   "confidence_breakdown": {
+    "structural_base": 0.59,
+    "raw_nudge": 0.0,
+    "capped_nudge": 0.0,
+    "cap": 0.2,
+    "raw_final": 0.59,
+    "calibrated": 0.46,
+    "final": 0.46,
+    "calibration": "walk-forward 60m 2021-08→2026-07",
+    "factors": [
+     {
+      "guideline": "internal_weak",
+      "delta": -0.05,
+      "reason_ar": "الموجات الفرعية لا تُظهر التفرّع المطلوب"
+     },
+     {
+      "guideline": "cross_degree_agree",
+      "delta": 0.05,
+      "reason_ar": "الاتجاه يتّفق مع الدرجة الأكبر"
+     }
+    ]
+   },
+   "probability": 0.44,
+   "alternates": [
+    {
+     "pattern": "abc",
+     "stage": null,
+     "direction_ar": "تصحيح لتحت (A-B-C) جوه اتجاه صاعد",
+     "current_wave": "C (لسه بتتكون)",
+     "confidence": 0.46,
+     "probability": 0.56,
+     "invalidation": 1.87,
+     "entry_zone": [
+      1.87,
+      1.98
+     ],
+     "targets": [
+      2.52,
+      2.6,
+      2.799
+     ]
+    }
+   ],
+   "higher_degree_ar": "موجة دافعة هابطة",
+   "subwave_wave3_motive": null,
+   "multiscale_note_ar": "الاتجاه ماشي مع الفريم الأكبر",
+   "rules_all_pass": true,
+   "invalidation": 2.52,
+   "invalidation_ar": "لو اخترق مستوى الإلغاء لفوق، عد الموجة النازلة الحالية يتلغي",
+   "dist_to_invalidation_pct": 22.9,
+   "rsi14": 48.6,
+   "trend": "sideways",
+   "wave5_maturity_w5_over_w1": null,
+   "impulse_score": 0.086,
+   "correction_score": 0.453,
+   "gate": {
+    "ranked": true,
+    "reasons": [],
+    "reasons_ar": []
+   }
+  },
+  "M": {
+   "last_close": 2.05,
+   "last_date": "2026-10-31",
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "direction": "bullish",
+   "invalidation_kind": "real",
+   "invalidation_kind_ar": "مستوى ثابت: لو السعر كسره يبقى السيناريو فشل فعلا",
+   "invalidation_is_a_stop": true,
+   "wave_position": 4,
+   "current_wave": "4 (لسه بتتكون)",
+   "extended_wave": null,
+   "extension_note_ar": null,
+   "truncated": false,
+   "truncation_note_ar": null,
+   "channel": {
+    "arith": {
+     "scale": "arith",
+     "wave5_target": 3.64,
+     "wave4_target": 2.29,
+     "throwover": null,
+     "final_lower": {
+      "2": 0.83,
+      "4": 1.87
+     },
+     "final_upper": {
+      "3": 2.6,
+      "5_proj": 3.64
+     }
+    },
+    "semilog": {
+     "scale": "semilog",
+     "wave5_target": 5.858,
+     "wave4_target": 1.893,
+     "throwover": null,
+     "final_lower": {
+      "2": 0.83,
+      "4": 1.87
+     },
+     "final_upper": {
+      "3": 2.6,
+      "5_proj": 5.858
+     }
+    }
+   },
+   "wave_equality_ar": null,
+   "depth_typical": true,
+   "volume_profile": {
+    "per_wave": {
+     "1": 143272591,
+     "2": 159755100,
+     "3": 845615184,
+     "4": 575042058
+    },
+    "flags": {
+     "wave3_highest": true,
+     "breakout_volume": false
+    }
+   },
+   "momentum_signal": null,
+   "momentum_note_ar": null,
+   "personality_ar": "الموجة 4: تصريف جانبي متذبذب",
+   "fib_relationships": [],
+   "confluence_zones": [],
+   "fib_time": {
+    "spans_bars": [
+     9,
+     3,
+     12,
+     3
+    ],
+    "relationships": [
+     "زمن م4 ≈ 1.0× زمن م2"
+    ],
+    "next_turn": [
+     {
+      "mult": 0.618,
+      "bars_ahead": 2,
+      "date": "2026-11-29"
+     },
+     {
+      "mult": 1.0,
+      "bars_ahead": 3,
+      "date": "2026-12-30"
+     },
+     {
+      "mult": 1.618,
+      "bars_ahead": 5,
+      "date": "2027-03-01"
+     }
+    ]
+   },
+   "degree": "Intermediate",
+   "degree_ar": "متوسطة (Intermediate)",
+   "current_wave_degree": "(4) · متوسطة (Intermediate)",
+   "degree_note_ar": "درجة مُرسّاة بالفريم (M=المتوسطة (Intermediate)) — دلالية بالمدّة لا حقيقة مطلقة.",
+   "degree_consistent": true,
+   "wave_boundaries": [
+    {
+     "wave": "0",
+     "role_ar": "بداية الموجة 1",
+     "date": "2024-06-30",
+     "price": 0.6,
+     "kind": "L",
+     "degree_label": "0"
+    },
+    {
+     "wave": "1",
+     "role_ar": "نهاية الموجة 1",
+     "date": "2025-03-31",
+     "price": 1.14,
+     "kind": "H",
+     "degree_label": "(1)"
+    },
+    {
+     "wave": "2",
+     "role_ar": "نهاية الموجة 2",
+     "date": "2025-06-30",
+     "price": 0.83,
+     "kind": "L",
+     "degree_label": "(2)"
+    },
+    {
+     "wave": "3",
+     "role_ar": "نهاية الموجة 3",
+     "date": "2026-06-30",
+     "price": 2.6,
+     "kind": "H",
+     "degree_label": "(3)"
+    },
+    {
+     "wave": "4",
+     "role_ar": "الموجة 4 الحالية (لسه بتتكون)",
+     "date": "2026-09-30",
+     "price": 1.87,
+     "kind": "L",
+     "degree_label": "(4)"
+    }
+   ],
+   "internal_count": {
+    "degree_source": "finer_timeframe",
+    "waves_checked": 3,
+    "waves_valid": 0,
+    "position_violations": 0,
+    "alternation_ok": null,
+    "substructure_violations": 0,
+    "internal_score": 0.0,
+    "waves": [
+     {
+      "expected": "motive",
+      "expected_min": 5,
+      "found_subwaves": 4,
+      "valid": false,
+      "subpattern_ar": "لا تنطبق دفعة أو قطري صحيح",
+      "subpattern_type": "",
+      "source_frame": "W",
+      "subpivots": [
+       {
+        "date": "2024-08-01 00:00",
+        "price": 0.836,
+        "kind": "H"
+       },
+       {
+        "date": "2024-08-08 00:00",
+        "price": 0.701,
+        "kind": "L"
+       },
+       {
+        "date": "2024-11-21 00:00",
+        "price": 1.1,
+        "kind": "H"
+       },
+       {
+        "date": "2024-12-26 00:00",
+        "price": 0.841,
+        "kind": "L"
+       },
+       {
+        "date": "2025-03-20 00:00",
+        "price": 1.14,
+        "kind": "H"
+       }
+      ],
+      "children": [
+       {
+        "sub_wave": 2,
+        "sub_expected": "corrective",
+        "expected": "corrective",
+        "expected_min": 3,
+        "found_subwaves": 7,
+        "valid": false,
+        "subpattern_ar": "تصحيح مركّب غير محسوم (WXY — يُترك للمرحلة 3)",
+        "subpattern_type": "",
+        "source_frame": "D",
+        "subpivots": [
+         {
+          "date": "2024-08-15 00:00",
+          "price": 0.728,
+          "kind": "L"
+         },
+         {
+          "date": "2024-08-26 00:00",
+          "price": 0.817,
+          "kind": "H"
+         },
+         {
+          "date": "2024-09-17 00:00",
+          "price": 0.745,
+          "kind": "L"
+         },
+         {
+          "date": "2024-10-02 00:00",
+          "price": 0.899,
+          "kind": "H"
+         },
+         {
+          "date": "2024-10-13 00:00",
+          "price": 0.761,
+          "kind": "L"
+         },
+         {
+          "date": "2024-10-16 00:00",
+          "price": 0.859,
+          "kind": "H"
+         },
+         {
+          "date": "2024-10-21 00:00",
+          "price": 0.777,
+          "kind": "L"
+         },
+         {
+          "date": "2024-11-17 00:00",
+          "price": 1.1,
+          "kind": "H"
+         }
+        ]
+       },
+       {
+        "sub_wave": 3,
+        "sub_expected": "motive",
+        "expected": "motive",
+        "expected_min": 5,
+        "found_subwaves": 2,
+        "valid": false,
+        "subpattern_ar": "لا تنطبق دفعة أو قطري صحيح",
+        "subpattern_type": "",
+        "source_frame": "D",
+        "subpivots": [
+         {
+          "date": "2024-11-28 00:00",
+          "price": 0.945,
+          "kind": "L"
+         },
+         {
+          "date": "2024-12-04 00:00",
+          "price": 1.035,
+          "kind": "H"
+         },
+         {
+          "date": "2024-12-25 00:00",
+          "price": 0.841,
+          "kind": "L"
+         }
+        ]
+       }
+      ],
+      "wave": "1",
+      "from": "2024-06-30",
+      "to": "2025-03-31",
+      "position_ok": true,
+      "degree_label": "1"
+     },
+     {
+      "expected": "corrective",
+      "expected_min": 3,
+      "found_subwaves": 0,
+      "valid": false,
+      "subpattern_ar": "أقل من ثلاث موجات — تصحيح غير مكتمل",
+      "subpattern_type": "",
+      "source_frame": "W",
+      "subpivots": [
+       {
+        "date": "2025-04-03 00:00",
+        "price": 1.04,
+        "kind": "H"
+       }
+      ],
+      "wave": "2",
+      "from": "2025-03-31",
+      "to": "2025-06-30",
+      "position_ok": true,
+      "degree_label": "2"
+     },
+     {
+      "expected": "motive",
+      "expected_min": 5,
+      "found_subwaves": 6,
+      "valid": false,
+      "subpattern_ar": "لا تنطبق دفعة أو قطري صحيح",
+      "subpattern_type": "",
+      "source_frame": "W",
+      "subpivots": [
+       {
+        "date": "2025-08-28 00:00",
+        "price": 1.06,
+        "kind": "H"
+       },
+       {
+        "date": "2025-09-25 00:00",
+        "price": 0.87,
+        "kind": "L"
+       },
+       {
+        "date": "2025-10-09 00:00",
+        "price": 0.985,
+        "kind": "H"
+       },
+       {
+        "date": "2025-11-06 00:00",
+        "price": 0.91,
+        "kind": "L"
+       },
+       {
+        "date": "2026-02-19 00:00",
+        "price": 2.3,
+        "kind": "H"
+       },
+       {
+        "date": "2026-04-02 00:00",
+        "price": 1.66,
+        "kind": "L"
+       },
+       {
+        "date": "2026-06-11 00:00",
+        "price": 2.6,
+        "kind": "H"
+       }
+      ],
+      "children": [
+       {
+        "sub_wave": 1,
+        "sub_expected": "motive",
+        "expected": "motive",
+        "expected_min": 5,
+        "found_subwaves": 0,
+        "valid": false,
+        "subpattern_ar": "لا تنطبق دفعة أو قطري صحيح",
+        "subpattern_type": "",
+        "source_frame": "D",
+        "subpivots": [
+         {
+          "date": "2025-08-28 00:00",
+          "price": 1.06,
+          "kind": "H"
+         }
+        ]
+       },
+       {
+        "sub_wave": 3,
+        "sub_expected": "motive",
+        "expected": "motive",
+        "expected_min": 5,
+        "found_subwaves": 1,
+        "valid": false,
+        "subpattern_ar": "لا تنطبق دفعة أو قطري صحيح",
+        "subpattern_type": "",
+        "source_frame": "D",
+        "subpivots": [
+         {
+          "date": "2025-10-26 00:00",
+          "price": 0.964,
+          "kind": "H"
+         },
+         {
+          "date": "2025-11-05 00:00",
+          "price": 0.91,
+          "kind": "L"
+         }
+        ]
+       },
+       {
+        "sub_wave": 4,
+        "sub_expected": "corrective",
+        "expected": "corrective",
+        "expected_min": 3,
+        "found_subwaves": 6,
+        "valid": false,
+        "subpattern_ar": "خمس موجات تكسر قاعدة «لا تتجاوز» فلا تُكوّن مثلثاً",
+        "subpattern_type": "",
+        "source_frame": "D",
+        "subpivots": [
+         {
+          "date": "2025-11-23 00:00",
+          "price": 1.31,
+          "kind": "H"
+         },
+         {
+          "date": "2025-11-25 00:00",
+          "price": 1.12,
+          "kind": "L"
+         },
+         {
+          "date": "2026-01-06 00:00",
+          "price": 2.0,
+          "kind": "H"
+         },
+         {
+          "date": "2026-01-15 00:00",
+          "price": 1.66,
+          "kind": "L"
+         },
+         {
+          "date": "2026-01-20 00:00",
+          "price": 2.06,
+          "kind": "H"
+         },
+         {
+          "date": "2026-01-26 00:00",
+          "price": 1.87,
+          "kind": "L"
+         },
+         {
+          "date": "2026-02-16 00:00",
+          "price": 2.3,
+          "kind": "H"
+         }
+        ]
+       },
+       {
+        "sub_wave": 5,
+        "sub_expected": "motive",
+        "expected": "motive",
+        "expected_min": 5,
+        "found_subwaves": 2,
+        "valid": false,
+        "subpattern_ar": "لا تنطبق دفعة أو قطري صحيح",
+        "subpattern_type": "",
+        "source_frame": "D",
+        "subpivots": [
+         {
+          "date": "2026-03-01 00:00",
+          "price": 1.83,
+          "kind": "L"
+         },
+         {
+          "date": "2026-03-11 00:00",
+          "price": 2.13,
+          "kind": "H"
+         },
+         {
+          "date": "2026-03-30 00:00",
+          "price": 1.66,
+          "kind": "L"
+         }
+        ]
+       }
+      ],
+      "wave": "3",
+      "from": "2025-06-30",
+      "to": "2026-06-30",
+      "position_ok": true,
+      "degree_label": "3"
+     }
+    ],
+    "note_ar": "تحقّق تفرّع 0/3 موجة مؤكَّدة عند الدرجة الأدنى (finer_timeframe)",
+    "degree": "Minor",
+    "degree_ar": "الصغرى (Minor)",
+    "degree_jumps": 0
+   },
+   "entry_zone": [
+    1.715,
+    2.182
+   ],
+   "targets": [
+    {
+     "label": "الموجة 5 قد الموجة 1 (لأن الموجة 3 ممتدة)",
+     "price": 2.41
+    },
+    {
+     "label": "الموجة 5 (0.618 × الموجة 1)",
+     "price": 2.204
+    },
+    {
+     "label": "الموجة 5 (1.618 × الموجة 1)",
+     "price": 2.744
+    },
+    {
+     "label": "هدف القناة (سكيل عادي)",
+     "price": 3.64
+    },
+    {
+     "label": "هدف القناة (سكيل لوغاريتمي)",
+     "price": 5.858
+    }
+   ],
+   "target_note_ar": null,
+   "confidence": 0.555,
+   "confidence_breakdown": {
+    "structural_base": 0.76,
+    "raw_nudge": 0.05,
+    "capped_nudge": 0.05,
+    "cap": 0.2,
+    "raw_final": 0.81,
+    "calibrated": 0.555,
+    "final": 0.555,
+    "calibration": "walk-forward 60m 2021-08→2026-07",
+    "factors": [
+     {
+      "guideline": "correction_depth",
+      "delta": 0.05,
+      "reason_ar": "عمق تصحيح م2/م4 نمطي"
+     },
+     {
+      "guideline": "internal_weak",
+      "delta": -0.05,
+      "reason_ar": "الموجات الفرعية لا تُظهر التفرّع المطلوب"
+     },
+     {
+      "guideline": "cross_degree_agree",
+      "delta": 0.05,
+      "reason_ar": "الاتجاه يتّفق مع الدرجة الأكبر"
+     }
+    ]
+   },
+   "probability": 0.47,
+   "alternates": [
+    {
+     "pattern": "impulse",
+     "stage": "forming",
+     "direction_ar": "موجة دافعة صاعدة",
+     "current_wave": "2 (لسه بتتكون)",
+     "confidence": 0.46,
+     "probability": 0.38,
+     "invalidation": 0.83,
+     "entry_zone": [
+      1.506,
+      1.924
+     ],
+     "targets": [
+      3.64,
+      4.734,
+      6.504
+     ]
+    },
+    {
+     "pattern": "abc",
+     "stage": null,
+     "direction_ar": "تصحيح لتحت (A-B-C) جوه اتجاه صاعد",
+     "current_wave": "C (لسه بتتكون)",
+     "confidence": 0.269,
+     "probability": 0.15,
+     "invalidation": 1.87,
+     "entry_zone": [
+      1.87,
+      1.98
+     ],
+     "targets": [
+      2.6
+     ]
+    }
+   ],
+   "higher_degree_ar": "موجة دافعة صاعدة",
+   "subwave_wave3_motive": false,
+   "multiscale_note_ar": "الاتجاه ماشي مع الفريم الأكبر",
+   "rules_all_pass": true,
+   "invalidation": 1.14,
+   "invalidation_ar": "لو كسر مستوى الإلغاء لتحت، يبقى اللي بيحصل مش مجرد تصحيح جوه اتجاه صاعد",
+   "dist_to_invalidation_pct": 44.4,
+   "rsi14": 65.4,
+   "trend": "uptrend",
+   "wave5_maturity_w5_over_w1": null,
+   "impulse_score": 0.776,
+   "correction_score": 0.039,
+   "gate": {
+    "ranked": true,
+    "reasons": [],
+    "reasons_ar": []
+   }
+  },
+  "Q": {
+   "last_close": 2.05,
+   "last_date": "2026-12-31",
+   "posture": "impulse_up_motive",
+   "posture_ar": "اتجاه صاعد، والسهم في موجة دافعة (1 أو 3 أو 5) لسه بتتكون",
+   "direction": "bullish",
+   "invalidation_kind": "real",
+   "invalidation_kind_ar": "مستوى ثابت: لو السعر كسره يبقى السيناريو فشل فعلا",
+   "invalidation_is_a_stop": true,
+   "wave_position": 3,
+   "current_wave": "3 (لسه بتتكون)",
+   "extended_wave": null,
+   "extension_note_ar": null,
+   "truncated": false,
+   "truncation_note_ar": null,
+   "channel": null,
+   "wave_equality_ar": null,
+   "depth_typical": false,
+   "volume_profile": {
+    "per_wave": {
+     "1": 2082906722,
+     "2": 871285448,
+     "3": 1246014688
+    },
+    "flags": {
+     "wave3_highest": false,
+     "breakout_volume": false
+    }
+   },
+   "momentum_signal": null,
+   "momentum_note_ar": null,
+   "personality_ar": "الموجة 3: الأقوى — اتساع وسيولة وفجوات",
+   "fib_relationships": [],
+   "confluence_zones": [],
+   "fib_time": {
+    "spans_bars": [
+     3,
+     6,
+     16
+    ],
+    "relationships": [],
+    "next_turn": [
+     {
+      "mult": 0.618,
+      "bars_ahead": 10,
+      "date": "2028-12-29"
+     },
+     {
+      "mult": 1.0,
+      "bars_ahead": 16,
+      "date": "2030-06-30"
+     },
+     {
+      "mult": 1.618,
+      "bars_ahead": 26,
+      "date": "2032-12-30"
+     }
+    ]
+   },
+   "degree": "Primary",
+   "degree_ar": "رئيسية (Primary)",
+   "current_wave_degree": "③ · رئيسية (Primary)",
+   "degree_note_ar": "درجة مُرسّاة بالفريم (Q=الابتدائية (Primary)) — دلالية بالمدّة لا حقيقة مطلقة.",
+   "degree_consistent": true,
+   "wave_boundaries": [
+    {
+     "wave": "0",
+     "role_ar": "بداية الموجة 1",
+     "date": "2020-03-31",
+     "price": 0.1924,
+     "kind": "L",
+     "degree_label": "0"
+    },
+    {
+     "wave": "1",
+     "role_ar": "نهاية الموجة 1",
+     "date": "2020-12-31",
+     "price": 1.37,
+     "kind": "H",
+     "degree_label": "①"
+    },
+    {
+     "wave": "2",
+     "role_ar": "نهاية الموجة 2",
+     "date": "2022-06-30",
+     "price": 0.271,
+     "kind": "L",
+     "degree_label": "②"
+    },
+    {
+     "wave": "3",
+     "role_ar": "الموجة 3 الحالية (لسه بتتكون)",
+     "date": "2026-06-30",
+     "price": 2.6,
+     "kind": "H",
+     "degree_label": "③"
+    }
+   ],
+   "internal_count": {
+    "degree_source": "finer_timeframe",
+    "waves_checked": 2,
+    "waves_valid": 0,
+    "position_violations": 0,
+    "alternation_ok": null,
+    "substructure_violations": 0,
+    "internal_score": 0.0,
+    "waves": [
+     {
+      "expected": "motive",
+      "expected_min": 5,
+      "found_subwaves": 0,
+      "valid": false,
+      "subpattern_ar": "لا تنطبق دفعة أو قطري صحيح",
+      "subpattern_type": "",
+      "source_frame": "M",
+      "subpivots": [
+       {
+        "date": "2020-11-30 00:00",
+        "price": 1.37,
+        "kind": "H"
+       }
+      ],
+      "wave": "1",
+      "from": "2020-03-31",
+      "to": "2020-12-31",
+      "position_ok": true,
+      "degree_label": "(1)"
+     },
+     {
+      "expected": "corrective",
+      "expected_min": 3,
+      "found_subwaves": 0,
+      "valid": false,
+      "subpattern_ar": "أقل من ثلاث موجات — تصحيح غير مكتمل",
+      "subpattern_type": "",
+      "source_frame": "M",
+      "subpivots": [
+       {
+        "date": "2022-04-30 00:00",
+        "price": 0.271,
+        "kind": "L"
+       }
+      ],
+      "wave": "2",
+      "from": "2020-12-31",
+      "to": "2022-06-30",
+      "position_ok": true,
+      "degree_label": "(2)"
+     }
+    ],
+    "note_ar": "تحقّق تفرّع 0/2 موجة مؤكَّدة عند الدرجة الأدنى (finer_timeframe)",
+    "degree": "Intermediate",
+    "degree_ar": "المتوسطة (Intermediate)",
+    "degree_jumps": 0
+   },
+   "entry_zone": [
+    0.271,
+    1.37
+   ],
+   "targets": [
+    {
+     "label": "نهاية الموجة 3 (2.618 × الموجة 1)",
+     "price": 3.354
+    }
+   ],
+   "target_note_ar": null,
+   "confidence": 0.46,
+   "confidence_breakdown": {
+    "structural_base": 0.59,
+    "raw_nudge": 0.0,
+    "capped_nudge": 0.0,
+    "cap": 0.2,
+    "raw_final": 0.59,
+    "calibrated": 0.46,
+    "final": 0.46,
+    "calibration": "walk-forward 60m 2021-08→2026-07",
+    "factors": [
+     {
+      "guideline": "internal_weak",
+      "delta": -0.05,
+      "reason_ar": "الموجات الفرعية لا تُظهر التفرّع المطلوب"
+     },
+     {
+      "guideline": "cross_degree_agree",
+      "delta": 0.05,
+      "reason_ar": "الاتجاه يتّفق مع الدرجة الأكبر"
+     }
+    ]
+   },
+   "probability": 0.48,
+   "alternates": [
+    {
+     "pattern": "impulse",
+     "stage": "forming",
+     "direction_ar": "موجة دافعة صاعدة",
+     "current_wave": "1 (لسه بتتكون)",
+     "confidence": 0.32,
+     "probability": 0.32,
+     "invalidation": 0.271,
+     "entry_zone": null,
+     "targets": [
+      4.039
+     ]
+    },
+    {
+     "pattern": "abc",
+     "stage": null,
+     "direction_ar": "ارتداد لفوق (A-B-C) جوه اتجاه هابط",
+     "current_wave": "C (لسه بتتكون)",
+     "confidence": 0.269,
+     "probability": 0.2,
+     "invalidation": 2.6,
+     "entry_zone": [
+      2.239,
+      2.6
+     ],
+     "targets": [
+      0.271,
+      0.192
+     ]
+    }
+   ],
+   "higher_degree_ar": "موجة دافعة صاعدة",
+   "subwave_wave3_motive": null,
+   "multiscale_note_ar": "الاتجاه ماشي مع الفريم الأكبر",
+   "rules_all_pass": true,
+   "invalidation": 0.271,
+   "invalidation_ar": "لو السعر كسر مستوى الإلغاء لتحت، عد الموجة الصاعدة الحالية يتلغي",
+   "dist_to_invalidation_pct": 86.8,
+   "rsi14": 66.0,
+   "trend": "sideways",
+   "wave5_maturity_w5_over_w1": null,
+   "impulse_score": 0.539,
+   "correction_score": 0.036,
+   "gate": {
+    "ranked": true,
+    "reasons": [],
+    "reasons_ar": []
+   }
+  },
+  "Y": {
+   "last_close": 2.05,
+   "last_date": "2026-12-31",
+   "posture": "unclassified",
+   "posture_ar": "مفيش عد موجي واضح على الفريم ده",
+   "direction": "neutral",
+   "invalidation_kind": "real",
+   "invalidation_kind_ar": "مستوى ثابت: لو السعر كسره يبقى السيناريو فشل فعلا",
+   "invalidation_is_a_stop": true,
+   "wave_position": null,
+   "current_wave": null,
+   "extended_wave": null,
+   "extension_note_ar": null,
+   "truncated": false,
+   "truncation_note_ar": null,
+   "channel": null,
+   "wave_equality_ar": null,
+   "depth_typical": false,
+   "volume_profile": null,
+   "momentum_signal": null,
+   "momentum_note_ar": null,
+   "personality_ar": null,
+   "fib_relationships": [],
+   "confluence_zones": [],
+   "fib_time": null,
+   "degree": null,
+   "degree_ar": null,
+   "current_wave_degree": null,
+   "degree_note_ar": null,
+   "degree_consistent": null,
+   "wave_boundaries": [],
+   "internal_count": null,
+   "entry_zone": null,
+   "targets": [],
+   "target_note_ar": null,
+   "confidence": null,
+   "confidence_breakdown": null,
+   "probability": null,
+   "alternates": [],
+   "higher_degree_ar": null,
+   "subwave_wave3_motive": null,
+   "multiscale_note_ar": null,
+   "rules_all_pass": null,
+   "invalidation": null,
+   "invalidation_ar": "",
+   "dist_to_invalidation_pct": null,
+   "rsi14": 50.0,
+   "trend": "downtrend",
+   "wave5_maturity_w5_over_w1": null,
+   "impulse_score": 0.0,
+   "correction_score": 0.0,
+   "gate": {
+    "ranked": false,
+    "reasons": [
+     "no_invalidation"
+    ],
+    "reasons_ar": [
+     "مفيش مستوى إلغاء على الفريم ده"
+    ]
+   }
+  }
+ }
+}

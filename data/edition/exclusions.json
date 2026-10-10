@@ -1,0 +1,2756 @@
+{
+ "edition": "2026-10-07",
+ "basis_id": "tv-4eb83e3fc718",
+ "counts": {
+  "no_price_data": 28,
+  "feed_disagreement": 0,
+  "illiquid": 91,
+  "stale": 13,
+  "not_a_stop": 243,
+  "spans_break": 178,
+  "no_invalidation": 42
+ },
+ "no_price_data": [
+  "ACFR",
+  "ACRO",
+  "AIHC",
+  "ANCC",
+  "BQDC",
+  "DIFC",
+  "EFAC",
+  "EGWA",
+  "ENHD",
+  "ESAC",
+  "ESRS",
+  "FCMD",
+  "GEOS",
+  "HAVC",
+  "HCFI",
+  "HDST",
+  "KNGC",
+  "MLIC",
+  "NAPR",
+  "QNBA",
+  "RMTV",
+  "SFWA",
+  "SIEG",
+  "SINA",
+  "SLAR",
+  "SWDY",
+  "UASG",
+  "YAYT"
+ ],
+ "feed_disagreement": [],
+ "illiquid": [
+  {
+   "ticker": "ACAP",
+   "turnover_med": 3950228.235
+  },
+  {
+   "ticker": "ADCI",
+   "turnover_med": 2434607.585
+  },
+  {
+   "ticker": "ALEX",
+   "turnover_med": 73504.0
+  },
+  {
+   "ticker": "ALMF",
+   "turnover_med": 0.0
+  },
+  {
+   "ticker": "ALUM",
+   "turnover_med": 4820965.8
+  },
+  {
+   "ticker": "AMPI",
+   "turnover_med": 236666.885
+  },
+  {
+   "ticker": "APPC",
+   "turnover_med": 53852.399999999994
+  },
+  {
+   "ticker": "APSW",
+   "turnover_med": 504032.95499999996
+  },
+  {
+   "ticker": "BIDI",
+   "turnover_med": 348871.355
+  },
+  {
+   "ticker": "BIGP",
+   "turnover_med": 1307852.9505
+  },
+  {
+   "ticker": "CCAPP",
+   "turnover_med": 0.0
+  },
+  {
+   "ticker": "CEFM",
+   "turnover_med": 2401063.825
+  },
+  {
+   "ticker": "CFGH",
+   "turnover_med": 6493.1565
+  },
+  {
+   "ticker": "CICH",
+   "turnover_med": 2316038.425
+  },
+  {
+   "ticker": "CPCI",
+   "turnover_med": 3723916.9749999996
+  },
+  {
+   "ticker": "CPME",
+   "turnover_med": 4200572.5
+  },
+  {
+   "ticker": "DCRC",
+   "turnover_med": 37416.035
+  },
+  {
+   "ticker": "DEIN",
+   "turnover_med": 218.40000006275505
+  },
+  {
+   "ticker": "DGTZ",
+   "turnover_med": 1786976.2650000001
+  },
+  {
+   "ticker": "DOMT",
+   "turnover_med": 4736020.38
+  },
+  {
+   "ticker": "EALR",
+   "turnover_med": 4871582.12
+  },
+  {
+   "ticker": "EASB",
+   "turnover_med": 4788700.074999999
+  },
+  {
+   "ticker": "EBSC",
+   "turnover_med": 2300001.52
+  },
+  {
+   "ticker": "ECAP",
+   "turnover_med": 3867060.175
+  },
+  {
+   "ticker": "EDFM",
+   "turnover_med": 1040437.87
+  },
+  {
+   "ticker": "EGBE",
+   "turnover_med": 85880.99100000001
+  },
+  {
+   "ticker": "EGSA",
+   "turnover_med": 4109.82
+  },
+  {
+   "ticker": "EITP",
+   "turnover_med": 7279.425
+  },
+  {
+   "ticker": "ELNA",
+   "turnover_med": 136827.225
+  },
+  {
+   "ticker": "ELWA",
+   "turnover_med": 601634.625
+  },
+  {
+   "ticker": "EOSB",
+   "turnover_med": 28829.22
+  },
+  {
+   "ticker": "EPPK",
+   "turnover_med": 913708.88
+  },
+  {
+   "ticker": "FAIT",
+   "turnover_med": 3027405.5
+  },
+  {
+   "ticker": "FAITA",
+   "turnover_med": 16696.841
+  },
+  {
+   "ticker": "FERC",
+   "turnover_med": 4501326.08
+  },
+  {
+   "ticker": "FIRE",
+   "turnover_med": 369110.51
+  },
+  {
+   "ticker": "FNAR",
+   "turnover_med": 3795738.785
+  },
+  {
+   "ticker": "FTNS",
+   "turnover_med": 293826.96499999997
+  },
+  {
+   "ticker": "GMCI",
+   "turnover_med": 375110.025
+  },
+  {
+   "ticker": "GPPL",
+   "turnover_med": 633.09
+  },
+  {
+   "ticker": "GSSC",
+   "turnover_med": 2480690.375
+  },
+  {
+   "ticker": "GTEX",
+   "turnover_med": 6176.955
+  },
+  {
+   "ticker": "GTHE",
+   "turnover_med": 83940.75
+  },
+  {
+   "ticker": "IBCT",
+   "turnover_med": 747171.32
+  },
+  {
+   "ticker": "ICLE",
+   "turnover_med": 196.7999999334029
+  },
+  {
+   "ticker": "IRAX",
+   "turnover_med": 8125.0
+  },
+  {
+   "ticker": "MBEG",
+   "turnover_med": 3421194.88
+  },
+  {
+   "ticker": "MEGM",
+   "turnover_med": 0.0
+  },
+  {
+   "ticker": "MENA",
+   "turnover_med": 886956.565
+  },
+  {
+   "ticker": "MFSC",
+   "turnover_med": 2258016.3099999996
+  },
+  {
+   "ticker": "MIPH",
+   "turnover_med": 3284371.38
+  },
+  {
+   "ticker": "MISR",
+   "turnover_med": 321.74
+  },
+  {
+   "ticker": "MKIT",
+   "turnover_med": 59865.53
+  },
+  {
+   "ticker": "MMAT",
+   "turnover_med": 350000.0
+  },
+  {
+   "ticker": "MOIL",
+   "turnover_med": 193246.425
+  },
+  {
+   "ticker": "MOSC",
+   "turnover_med": 1921820.0499999998
+  },
+  {
+   "ticker": "NAHO",
+   "turnover_med": 14016.7255
+  },
+  {
+   "ticker": "NBKE",
+   "turnover_med": 25886.3
+  },
+  {
+   "ticker": "NCGC",
+   "turnover_med": 7508.625
+  },
+  {
+   "ticker": "NDRL",
+   "turnover_med": 136.16500000000002
+  },
+  {
+   "ticker": "NEDA",
+   "turnover_med": 306629.38
+  },
+  {
+   "ticker": "OCPH",
+   "turnover_med": 3369153.435
+  },
+  {
+   "ticker": "PACH",
+   "turnover_med": 34907.5
+  },
+  {
+   "ticker": "PHTV",
+   "turnover_med": 849668.1599999999
+  },
+  {
+   "ticker": "PRMH",
+   "turnover_med": 3601573.2299999995
+  },
+  {
+   "ticker": "RAKT",
+   "turnover_med": 217400.74
+  },
+  {
+   "ticker": "RKAZ",
+   "turnover_med": 1455064.85
+  },
+  {
+   "ticker": "RTVC",
+   "turnover_med": 2286470.85
+  },
+  {
+   "ticker": "SAIB",
+   "turnover_med": 144.825
+  },
+  {
+   "ticker": "SCFM",
+   "turnover_med": 1759058.51
+  },
+  {
+   "ticker": "SCTS",
+   "turnover_med": 1047009.69
+  },
+  {
+   "ticker": "SEIG",
+   "turnover_med": 1179510.02
+  },
+  {
+   "ticker": "SEIGA",
+   "turnover_med": 0.0
+  },
+  {
+   "ticker": "SMFR",
+   "turnover_med": 2520883.865
+  },
+  {
+   "ticker": "SMPP",
+   "turnover_med": 3906.5
+  },
+  {
+   "ticker": "SNFI",
+   "turnover_med": 38671.2
+  },
+  {
+   "ticker": "SPHT",
+   "turnover_med": 1974.2100000031
+  },
+  {
+   "ticker": "SUCE",
+   "turnover_med": 2166114.95
+  },
+  {
+   "ticker": "TORA",
+   "turnover_med": 732712.0
+  },
+  {
+   "ticker": "TRTO",
+   "turnover_med": 7710.918000000001
+  },
+  {
+   "ticker": "TWSA",
+   "turnover_med": 4212473.865
+  },
+  {
+   "ticker": "UBEE",
+   "turnover_med": 1338139.735
+  },
+  {
+   "ticker": "UEFM",
+   "turnover_med": 2319522.825
+  },
+  {
+   "ticker": "UNIT",
+   "turnover_med": 3836204.8199999994
+  },
+  {
+   "ticker": "UPMS",
+   "turnover_med": 165023.20500000002
+  },
+  {
+   "ticker": "UTOP",
+   "turnover_med": 522037.5
+  },
+  {
+   "ticker": "VERT",
+   "turnover_med": 646239.375
+  },
+  {
+   "ticker": "VLMR",
+   "turnover_med": 118279.85
+  },
+  {
+   "ticker": "WATP",
+   "turnover_med": 7866.0
+  },
+  {
+   "ticker": "WCDF",
+   "turnover_med": 2977618.6950000003
+  },
+  {
+   "ticker": "ZEOT",
+   "turnover_med": 4721883.6
+  }
+ ],
+ "stale": [
+  {
+   "ticker": "ALMF",
+   "last_date": "2022-01-20",
+   "sessions_behind": 1139
+  },
+  {
+   "ticker": "BIDI",
+   "last_date": "2026-07-20",
+   "sessions_behind": 55
+  },
+  {
+   "ticker": "CCAPP",
+   "last_date": "2022-01-20",
+   "sessions_behind": 1139
+  },
+  {
+   "ticker": "DCRC",
+   "last_date": "2026-09-30",
+   "sessions_behind": 5
+  },
+  {
+   "ticker": "EPPK",
+   "last_date": "2026-09-09",
+   "sessions_behind": 20
+  },
+  {
+   "ticker": "GPPL",
+   "last_date": "2026-09-08",
+   "sessions_behind": 21
+  },
+  {
+   "ticker": "ICLE",
+   "last_date": "2026-09-08",
+   "sessions_behind": 21
+  },
+  {
+   "ticker": "MEGM",
+   "last_date": "2022-04-28",
+   "sessions_behind": 1072
+  },
+  {
+   "ticker": "MISR",
+   "last_date": "2026-09-03",
+   "sessions_behind": 24
+  },
+  {
+   "ticker": "SAIB",
+   "last_date": "2026-09-15",
+   "sessions_behind": 16
+  },
+  {
+   "ticker": "SEIGA",
+   "last_date": "2022-01-20",
+   "sessions_behind": 1139
+  },
+  {
+   "ticker": "SMPP",
+   "last_date": "2026-09-30",
+   "sessions_behind": 5
+  },
+  {
+   "ticker": "WATP",
+   "last_date": "2026-09-28",
+   "sessions_behind": 7
+  }
+ ],
+ "not_a_stop": [
+  {
+   "ticker": "AALR",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "AALR",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ACAMD",
+   "timeframe": "D",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "ACTF",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ACTF",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ADPC",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ADRI",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "AFDI",
+   "timeframe": "D",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "AIDC",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "AJWA",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "AJWA",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ALUM",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ALUM",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ALUM",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "AMES",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "AMES",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "AMIA",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "AMIA",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "AMIA",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "AMII",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "AMOC",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "AMOC",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "AMPI",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "APSW",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "APSW",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ARAB",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ASPI",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "BIDI",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "BIDI",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "BIGP",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "BTFH",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "CICH",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "CICH",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "CIEB",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "CLHO",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "CNFN",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "COMI",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "COPR",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "COPR",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "COPR",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "COSG",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "COSG",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "CRST",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "CRST",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "CRST",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "CRST",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "DAPH",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "DCRC",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "DCRC",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "DCRC",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "DCRC",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "DEIN",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "DEIN",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "DEIN",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "DGTZ",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "DOMT",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "DOMT",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "DSCW",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "DSCW",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EALR",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EALR",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EASB",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EBSC",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EBSC",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EFIC",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EFID",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EFID",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EFIH",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EGAS",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EGBE",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EGREF",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EGTS",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EITP",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ELKA",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ELNA",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ELWA",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ELWA",
+   "timeframe": "M",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "ELWA",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ELWA",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EMFD",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ENGC",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "ENGC",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EOSB",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "EOSB",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EPCO",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EPPK",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EPPK",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ETEL",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ETEL",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ETRS",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "ETRS",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ETRS",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "EXPA",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "FAIT",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "FIRE",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "FIRE",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "FNAR",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "FNAR",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "FTNS",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "GBCO",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "GBCO",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "GBCO",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "GDWA",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "GGCC",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "GIHD",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "GMCI",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "GRCA",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "GTEX",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "GTWL",
+   "timeframe": "Y",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "HBCO",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "HDBK",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "HELI",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "HRHO",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "HRHO",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "HRHO",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "IBCT",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ICFC",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ICID",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ICID",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ICLE",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ICLE",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ICLE",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ICLE",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "IDRE",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "IFAP",
+   "timeframe": "M",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "IFAP",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "IRAX",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "IRON",
+   "timeframe": "D",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "IRON",
+   "timeframe": "M",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "ISMA",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "KABO",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "KABO",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "KABO",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "KWIN",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "KZPC",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "KZPC",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "LCSW",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "MAAL",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "MBSC",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "MCQE",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "MCRO",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "MENA",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "MHOT",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "MILS",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "MIPH",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "MKIT",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "MKIT",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "MOSC",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "MOSC",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "MPCI",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "MPCI",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "MPCO",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "MTIE",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "NARE",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "NARE",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "NBKE",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "NBKE",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "NCGC",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "NCGC",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "NDRL",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "NDRL",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "NDRL",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "NDRL",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "NDRL",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "NHPS",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "NINH",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "OBRI",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "OCDI",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "OCDI",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "OLFI",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "OLFI",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ORAS",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ORAS",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ORHD",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ORWE",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "PACH",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "PHAR",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "PHDC",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "PHDC",
+   "timeframe": "M",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "PHDC",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "PHTV",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "POUL",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "POUL",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "PRCL",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "PRDC",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "PRMH",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "RACC",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "RAKT",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "RAKT",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "RAYA",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "RKAZ",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ROTO",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ROTO",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "RREI",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "RREI",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "RREI",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "RTVC",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "RTVC",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "RUBX",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "RUBX",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SAIB",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SAIB",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SAIB",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SAUD",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SCEM",
+   "timeframe": "Q",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "SCFM",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SCTS",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "SCTS",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SDTI",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SDTI",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SDTI",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SEIG",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SIPC",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SKPC",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SMFR",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SNFC",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SNFI",
+   "timeframe": "Q",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "SPHT",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SPHT",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SPIN",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SPMD",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SUCE",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SUGR",
+   "timeframe": "M",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "SVCE",
+   "timeframe": "Q",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "SVCE",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "TAQA",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "TMGH",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "TMGH",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "TMGH",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "TORA",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "TRTO",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "TRTO",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "TYCN",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "UEFM",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "UEFM",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "UEGC",
+   "timeframe": "Y",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "UPMS",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "VERT",
+   "timeframe": "W",
+   "kind": "provisional"
+  },
+  {
+   "ticker": "VERT",
+   "timeframe": "Q",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "VLMRA",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "WKOL",
+   "timeframe": "D",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "WKOL",
+   "timeframe": "W",
+   "kind": "repainting"
+  },
+  {
+   "ticker": "ZEOT",
+   "timeframe": "Y",
+   "kind": "repainting"
+  }
+ ],
+ "spans_break": [
+  {
+   "ticker": "AALR",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-02-14، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "AALR",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2010-11-29، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ADPC",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-02-27، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ADPC",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-02-27، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ALEX",
+   "timeframe": "D",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-09-09، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ALEX",
+   "timeframe": "W",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-09-09، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ALEX",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-11-10، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ALEX",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-10-30، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ALEX",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-03-06، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "AMES",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-09-26، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "AMES",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2008-06-12، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "AMII",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2018-10-11، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "AMPI",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-03-06، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "APPC",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-10-20، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "APPC",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-10-30، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "APPC",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-07-28، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ARAB",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-03-11، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ARAB",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-03-11، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ASPI",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2021-10-11، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ASPI",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2021-10-11، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "BIGP",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2021-11-03، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "BINV",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-07-05، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "BINV",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2018-02-12، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "CAED",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-05-07، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "CAED",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-05-07، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "CAED",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-05-07، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "CCRS",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2008-10-07، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "COPR",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-11-10، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "COSG",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-11-10، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "CRST",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-09-22، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "CRST",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2019-11-25، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "CRST",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2019-11-25، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "DCRC",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-05-01، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "DCRC",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-05-01، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "DCRC",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-05-01، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "DEIN",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2020-03-05، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "DTPP",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-11-25، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "DTPP",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-06-08، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "DTPP",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-06-08، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "EALR",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-09-08، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "EALR",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-02-27، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "EALR",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-11-06، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "EASB",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-06-26، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "EASB",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2016-01-21، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "EBSC",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-03-23، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "EBSC",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2008-07-09، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "EGREF",
+   "timeframe": "D",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-08-09، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "EGREF",
+   "timeframe": "W",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-08-09، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "EGREF",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-08-09، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "EGREF",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-09-24، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "EITP",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-03-18، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "EITP",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-04-05، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "EITP",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-01-13، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ENGC",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2021-06-17، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ENGC",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2021-06-17، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "EOSB",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-03-03، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "FERC",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-10-18، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "FERC",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-04-12، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "GPIM",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2021-04-15، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "GPIM",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2021-04-15، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "GRCA",
+   "timeframe": "W",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-08-18، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "GRCA",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-09-04، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "GRCA",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-09-04، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "GRCA",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-09-04، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "GSSC",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-02-27، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "GSSC",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-02-27، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "GTHE",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-09-09، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "GTWL",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-12-04، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "GTWL",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2004-07-25، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "HBCO",
+   "timeframe": "D",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-09-21، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "HBCO",
+   "timeframe": "W",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-09-21، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "IBCT",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-10-24، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "IBCT",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-12-28، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ICID",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-05-31، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ICID",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2009-04-01، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ICLE",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-10-03، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ICLE",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-09-21، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "INEG",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-11-27، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "INEG",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-11-27، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "INEG",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-11-27، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "IRAX",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-07-27، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "IRAX",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-11-04، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "IRAX",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-06-03، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "IRON",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2021-05-30، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "IRON",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2021-05-30، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ISMA",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2008-02-04، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "KWIN",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-12-04، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "KWIN",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-02-06، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "KWIN",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-02-06، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MAAL",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-01-08، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MAAL",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-03-19، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MBSC",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-12-13، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MBSC",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-12-13، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MEGM",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2020-01-06، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MILS",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-02-28، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MILS",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-02-28، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MIPH",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-07-19، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MIPH",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-07-19، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MKIT",
+   "timeframe": "D",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-08-17، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MKIT",
+   "timeframe": "W",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-08-17، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MKIT",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-08-17، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MKIT",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-08-17، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MKIT",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-08-17، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MOIN",
+   "timeframe": "W",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-01-08، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MOIN",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-04-30، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MOIN",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-08-03، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MOIN",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-08-03، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MOSC",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-07-27، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MOSC",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-05-11، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "MOSC",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-05-11، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NARE",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-06-27، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NARE",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-06-27، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NBKE",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-11-05، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NBKE",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-01-29، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NCCW",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2008-06-11، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NCGC",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-10-06، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NCGC",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-10-23، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NDRL",
+   "timeframe": "D",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-04-04، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NDRL",
+   "timeframe": "W",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-04-04، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NDRL",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-04-04، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NDRL",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-04-04، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NDRL",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-03-10، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NHPS",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-02-21، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NHPS",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-04-04، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NINH",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2008-07-17، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NIPH",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-03-22، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "NIPH",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-03-22، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "OBRI",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2010-07-07، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "OCPH",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-03-03، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "OCPH",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2017-01-30، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "ODIN",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2021-12-05، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "PACH",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-10-28، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "PACH",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-02-07، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "PACH",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-02-07، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "PHTV",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-05-09، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "PHTV",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-05-09، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SAUD",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-01-04، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SAUD",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-01-04، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SCEM",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-08-13، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SCEM",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-03-30، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SCEM",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-03-30، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SCFM",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-11-19، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SCFM",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-11-06، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SCTS",
+   "timeframe": "W",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-11-06، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SCTS",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-11-06، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SCTS",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-11-06، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SCTS",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-11-06، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SDTI",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2009-10-01، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SEIG",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-08-15، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SEIG",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-08-15، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SIPC",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-03-22، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SMPP",
+   "timeframe": "D",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-05-25، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SMPP",
+   "timeframe": "W",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-06-01، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SMPP",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-09-03، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SMPP",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-05-25، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SNFI",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-10-30، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SNFI",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2018-03-14، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SNFI",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-12-21، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SPHT",
+   "timeframe": "D",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-09-17، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SPHT",
+   "timeframe": "W",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-09-17، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SPHT",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-03-16، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SPHT",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-03-16، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SPHT",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-03-16، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SUCE",
+   "timeframe": "D",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-09-09، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SUCE",
+   "timeframe": "W",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2026-09-09، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SUCE",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-11-25، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "SUCE",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-10-03، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "TYCN",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-03-01، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "TYCN",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2022-03-01، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "UEFM",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-03-14، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "UEFM",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-03-14، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "UPMS",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-07-15، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "UPMS",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2024-07-15، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "UTOP",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-12-18، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "UTOP",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2020-04-15، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "VERT",
+   "timeframe": "Y",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2023-05-22، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "WATP",
+   "timeframe": "M",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-03-05، فبيقيس تعديل إداري مش حركة سوق"
+  },
+  {
+   "ticker": "WATP",
+   "timeframe": "Q",
+   "reason_ar": "العد بيعدي فوق قفزة سعرية مالهاش تفسير يوم 2025-04-23، فبيقيس تعديل إداري مش حركة سوق"
+  }
+ ],
+ "no_invalidation": [
+  {
+   "ticker": "ACAMD",
+   "timeframe": "Y"
+  },
+  {
+   "ticker": "ACAP",
+   "timeframe": "Q"
+  },
+  {
+   "ticker": "ALMF",
+   "timeframe": "D"
+  },
+  {
+   "ticker": "ALMF",
+   "timeframe": "W"
+  },
+  {
+   "ticker": "ALMF",
+   "timeframe": "M"
+  },
+  {
+   "ticker": "ALMF",
+   "timeframe": "Q"
+  },
+  {
+   "ticker": "ALMF",
+   "timeframe": "Y"
+  },
+  {
+   "ticker": "CCAPP",
+   "timeframe": "D"
+  },
+  {
+   "ticker": "CCAPP",
+   "timeframe": "W"
+  },
+  {
+   "ticker": "CCAPP",
+   "timeframe": "M"
+  },
+  {
+   "ticker": "CCAPP",
+   "timeframe": "Q"
+  },
+  {
+   "ticker": "CCAPP",
+   "timeframe": "Y"
+  },
+  {
+   "ticker": "CCRS",
+   "timeframe": "Q"
+  },
+  {
+   "ticker": "CEFM",
+   "timeframe": "Q"
+  },
+  {
+   "ticker": "EFIH",
+   "timeframe": "Y"
+  },
+  {
+   "ticker": "EGREF",
+   "timeframe": "Y"
+  },
+  {
+   "ticker": "FTNS",
+   "timeframe": "Q"
+  },
+  {
+   "ticker": "FWRY",
+   "timeframe": "Y"
+  },
+  {
+   "ticker": "GDWA",
+   "timeframe": "Y"
+  },
+  {
+   "ticker": "GTEX",
+   "timeframe": "Q"
+  },
+  {
+   "ticker": "IRAX",
+   "timeframe": "D"
+  },
+  {
+   "ticker": "IRAX",
+   "timeframe": "W"
+  },
+  {
+   "ticker": "ISMQ",
+   "timeframe": "Y"
+  },
+  {
+   "ticker": "LUTS",
+   "timeframe": "Q"
+  },
+  {
+   "ticker": "MEGM",
+   "timeframe": "D"
+  },
+  {
+   "ticker": "MEGM",
+   "timeframe": "W"
+  },
+  {
+   "ticker": "MEGM",
+   "timeframe": "M"
+  },
+  {
+   "ticker": "MEGM",
+   "timeframe": "Q"
+  },
+  {
+   "ticker": "OFH",
+   "timeframe": "Y"
+  },
+  {
+   "ticker": "PRDC",
+   "timeframe": "Y"
+  },
+  {
+   "ticker": "RMDA",
+   "timeframe": "Y"
+  },
+  {
+   "ticker": "SEIGA",
+   "timeframe": "D"
+  },
+  {
+   "ticker": "SEIGA",
+   "timeframe": "W"
+  },
+  {
+   "ticker": "SEIGA",
+   "timeframe": "M"
+  },
+  {
+   "ticker": "SEIGA",
+   "timeframe": "Q"
+  },
+  {
+   "ticker": "SEIGA",
+   "timeframe": "Y"
+  },
+  {
+   "ticker": "SUCE",
+   "timeframe": "Y"
+  },
+  {
+   "ticker": "TALM",
+   "timeframe": "Y"
+  },
+  {
+   "ticker": "TANM",
+   "timeframe": "Y"
+  },
+  {
+   "ticker": "TAQA",
+   "timeframe": "Q"
+  },
+  {
+   "ticker": "TORA",
+   "timeframe": "Y"
+  },
+  {
+   "ticker": "WATP",
+   "timeframe": "Y"
+  }
+ ]
+}

@@ -1,0 +1,2848 @@
+{
+ "edition": "2026-10-07",
+ "basis_id": "tv-4eb83e3fc718",
+ "source": "egx_sectors.json",
+ "n": 284,
+ "tickers": [
+  {
+   "ticker": "AALR",
+   "name_ar": "العامة لاستصلاح الأراضي",
+   "name_en": "General Co for Land Reclamation",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ABUK",
+   "name_ar": "ابوقير للاسمدة",
+   "name_en": "Abu Qir Fertilizers",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ACAMD",
+   "name_ar": "الشركة العربية لادارة وتطوير الاصول",
+   "name_en": "Arab Co. for Asset Management And Development",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ACAP",
+   "name_ar": "اية كابيتال القابضة",
+   "name_en": "A Capital Holding",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ACFR",
+   "name_ar": "الإسكندرية للحراريات",
+   "name_en": "Alexandria Company For Refractories",
+   "sector_en": "Building Materials",
+   "sector_ar": "مواد البناء",
+   "sector_id": "334",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "ACGC",
+   "name_ar": "العربية لحليج الأقطان",
+   "name_en": "Arab Cotton Ginning",
+   "sector_en": "Textile & Durables",
+   "sector_ar": "منسوجات و سلع معمرة",
+   "sector_id": "333",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ACRO",
+   "name_ar": "اكرو مصر",
+   "name_en": "Acrow Misr",
+   "sector_en": "Contracting & Construction Engineering",
+   "sector_ar": "مقاولات و إنشاءات هندسية",
+   "sector_id": "332",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "ACTF",
+   "name_ar": "اكت فاينانشال للاستشارات",
+   "name_en": "Act Financial",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ADCI",
+   "name_ar": "العربية للادوية والصناعات الكيماوية",
+   "name_en": "Arab Pharmaceuticals",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ADIB",
+   "name_ar": "مصرف أبو ظبي الإسلامي",
+   "name_en": "Abu Dhabi Islamic Bank",
+   "sector_en": "Banks",
+   "sector_ar": "بنوك",
+   "sector_id": "318",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ADPC",
+   "name_ar": "آراب ديري",
+   "name_en": "Arab Dairy",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ADRI",
+   "name_ar": "أراب للتنمية والاستثمار العقاري",
+   "name_en": "Arab For Development and Real Estate Development",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "AFDI",
+   "name_ar": "الاهلي للتنمية والاستثمار",
+   "name_en": "Al Ahly for Development and Investment",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "AFMC",
+   "name_ar": "مطاحن ومخابز الإسكندرية",
+   "name_en": "Alexandria Flour Mills",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "AIDC",
+   "name_ar": "ارابيا للاستثمار والتنمية",
+   "name_en": "Arabia for Investment and Development",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "AIFI",
+   "name_ar": "أطلس",
+   "name_en": "Atlas",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "AIHC",
+   "name_ar": "ارابيا انفستمنتس هولدنج",
+   "name_en": "Arabia Investments Holding",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "AJWA",
+   "name_ar": "اجواء",
+   "name_en": "Ajwa",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ALCN",
+   "name_ar": "الاسكندرية لتداول الحاويات",
+   "name_en": "Alex Cont",
+   "sector_en": "Shipping & Transportation Services",
+   "sector_ar": "خدمات النقل والشحن",
+   "sector_id": "329",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ALEX",
+   "name_ar": "الإسكندرية للأسمنت",
+   "name_en": "Alexandria Cement",
+   "sector_en": "Other",
+   "sector_ar": "أخرى",
+   "sector_id": "353",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ALMF",
+   "name_ar": "صندوق الاستثمار العقاري العربي المباشر",
+   "name_en": "Arab Land Direct Mutual Fund",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ALUM",
+   "name_ar": "الالومنيوم العربية",
+   "name_en": "Arab Aluminum",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "AMER",
+   "name_ar": "عامر جروب",
+   "name_en": "Amer Group",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "AMES",
+   "name_ar": "المركز الطبي الجديد - الإسكندرية",
+   "name_en": "Alexandria New Medical Center",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "AMIA",
+   "name_ar": "الملتقى العربي للاستثمارات",
+   "name_en": "Arab Moltaqa Investments",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "AMII",
+   "name_ar": "العربية للصناعات المعدنية",
+   "name_en": "ARABIAN METAL",
+   "sector_en": "Building Materials",
+   "sector_ar": "مواد البناء",
+   "sector_id": "334",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "AMOC",
+   "name_ar": "أموك",
+   "name_en": "AMOC",
+   "sector_en": "Energy & Support Services",
+   "sector_ar": "طاقة وخدمات مساندة",
+   "sector_id": "327",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "AMPI",
+   "name_ar": "نوفيدا",
+   "name_en": "NOVIDA",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ANCC",
+   "name_ar": "النهضة للصناعات",
+   "name_en": "Alnahda Industrial Co",
+   "sector_en": "Building Materials",
+   "sector_ar": "مواد البناء",
+   "sector_id": "334",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "APPC",
+   "name_ar": "العبوات الدوائية المتطورة",
+   "name_en": "Advanced Pharmaceutical Packaging",
+   "sector_en": "Other",
+   "sector_ar": "أخرى",
+   "sector_id": "353",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "APSW",
+   "name_ar": "العربية وبولفارا",
+   "name_en": "Arab Polvara",
+   "sector_en": "Textile & Durables",
+   "sector_ar": "منسوجات و سلع معمرة",
+   "sector_id": "333",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ARAB",
+   "name_ar": "المطورون العرب",
+   "name_en": "Arab Developers",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ARCC",
+   "name_ar": "العربية للأسمنت",
+   "name_en": "ACC",
+   "sector_en": "Building Materials",
+   "sector_ar": "مواد البناء",
+   "sector_id": "334",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "AREH",
+   "name_ar": "المجموعة المصرية العقارية",
+   "name_en": "Real Estate Egyptian Consortium",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ASCM",
+   "name_ar": "اسيك للتعدين",
+   "name_en": "ASCOM",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ASPI",
+   "name_ar": "اسباير كابيتال القابضة للاستثمارات المالية",
+   "name_en": "Aspire Capital Holding For Financial Investments",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ATLC",
+   "name_ar": "ايه تي ليس",
+   "name_en": "AT Lease",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ATQA",
+   "name_ar": "عتاقة",
+   "name_en": "Ataqa",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "AXPH",
+   "name_ar": "الاسكندرية للادوية",
+   "name_en": "Alexandria Pharmaceuticals",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "BIDI",
+   "name_ar": "بي اي دي- البدر للاستثمار والتنمية",
+   "name_en": "El Badr Investment And Development BID",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "BIGP",
+   "name_ar": "بى اى جى للتجارة والاستثمار",
+   "name_en": "Barbary Investment Group",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "BINV",
+   "name_ar": "بي إنفستمنتس القابضة",
+   "name_en": "B Investments Holdings",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "BIOC",
+   "name_ar": "جلاكسو سميثكلاين",
+   "name_en": "Glaxo SmithKline",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "BONY",
+   "name_ar": "بنيان للتنمية والتجارة",
+   "name_en": "Bonyan for Development and Trade",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "BQDC",
+   "name_ar": "بنك القاهرة",
+   "name_en": "Banque Du Caire",
+   "sector_en": "Banks",
+   "sector_ar": "بنوك",
+   "sector_id": "318",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "BTFH",
+   "name_ar": "بلتون المالية القابضة",
+   "name_en": "Beltone Financial Holding",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CAED",
+   "name_ar": "القاهرة للخدمات التعليمية",
+   "name_en": "Cairo Educational Services",
+   "sector_en": "Education Services",
+   "sector_ar": "خدمات تعليمية",
+   "sector_id": "330",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CANA",
+   "name_ar": "بنك قناة السويس",
+   "name_en": "Suez Canal Bank",
+   "sector_en": "Banks",
+   "sector_ar": "بنوك",
+   "sector_id": "318",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CCAP",
+   "name_ar": "القلعة",
+   "name_en": "Qalaa Holdings",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CCAPP",
+   "name_ar": "القلعة",
+   "name_en": "Citadel Capital",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CCRS",
+   "name_ar": "الخليجية الكندية للاستثمار العقاري العربي",
+   "name_en": "Gulf Canadian Real Estate Investment",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CEFM",
+   "name_ar": "مطاحن مصر الوسطي",
+   "name_en": "Middle Egypt Flour Mills",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CERA",
+   "name_ar": "ريماس",
+   "name_en": "Remas",
+   "sector_en": "Building Materials",
+   "sector_ar": "مواد البناء",
+   "sector_id": "334",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CFGH",
+   "name_ar": "كونكريت فاشون جروب",
+   "name_en": "Concrete Fashion Group",
+   "sector_en": "Textile & Durables",
+   "sector_ar": "منسوجات و سلع معمرة",
+   "sector_id": "333",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CICH",
+   "name_ar": "سي اي كابيتال القابضة",
+   "name_en": "CI Capital Holding",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CIEB",
+   "name_ar": "كريدي أجريكول",
+   "name_en": "Credit Agricole",
+   "sector_en": "Banks",
+   "sector_ar": "بنوك",
+   "sector_id": "318",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CIRA",
+   "name_ar": "القاهرة للإستثمار والتنمية العقارية",
+   "name_en": "Cairo For Investment And Real Estate Development",
+   "sector_en": "Education Services",
+   "sector_ar": "خدمات تعليمية",
+   "sector_id": "330",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CLHO",
+   "name_ar": "مستشفي كليوباترا",
+   "name_en": "Cleopatra Hospital",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CNFN",
+   "name_ar": "كونتكت المالية القابضة",
+   "name_en": "Contact Financial Holding",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "COMI",
+   "name_ar": "البنك التجاري الدولي",
+   "name_en": "CIB",
+   "sector_en": "Banks",
+   "sector_ar": "بنوك",
+   "sector_id": "318",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "COPR",
+   "name_ar": "كوبر",
+   "name_en": "Copper",
+   "sector_en": "Contracting & Construction Engineering",
+   "sector_ar": "مقاولات و إنشاءات هندسية",
+   "sector_id": "332",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "COSG",
+   "name_ar": "القاهرة للزيوت والصابون",
+   "name_en": "Cairo Oils & Soap",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CPCI",
+   "name_ar": "القاهرة للادوية",
+   "name_en": "Kahira Pharmaceuticals",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CPME",
+   "name_ar": "كاتليست بارتنرز ميديل ايست",
+   "name_en": "Catalyst Partners Middle East",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CRST",
+   "name_ar": "كريستمارك",
+   "name_en": "Creast Mark",
+   "sector_en": "Contracting & Construction Engineering",
+   "sector_ar": "مقاولات و إنشاءات هندسية",
+   "sector_id": "332",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "CSAG",
+   "name_ar": "القناة للتوكيلات الملاحية",
+   "name_en": "Canal Shipping Agencies",
+   "sector_en": "Shipping & Transportation Services",
+   "sector_ar": "خدمات النقل والشحن",
+   "sector_id": "329",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "DAPH",
+   "name_ar": "التعمير والاستشارات الهندسية",
+   "name_en": "Development & Engineering Consultants",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "DCRC",
+   "name_ar": "دلتا للانشاء والتعمير",
+   "name_en": "Delta Construction & Rebuilding",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "DEIN",
+   "name_ar": "الدلتا للتامين",
+   "name_en": "Delta Insurance",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "DGTZ",
+   "name_ar": "ديجيتايز",
+   "name_en": "Digitize",
+   "sector_en": "IT , Media & Communication Services",
+   "sector_ar": "اتصالات و اعلام و تكنولوجيا المعلومات",
+   "sector_id": "325",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "DIFC",
+   "name_ar": "ديفكو",
+   "name_en": "DIFCO2",
+   "sector_en": "Other",
+   "sector_ar": "أخرى",
+   "sector_id": "353",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "DOMT",
+   "name_ar": "دومتي",
+   "name_en": "Domty",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "DSCW",
+   "name_ar": "دايس",
+   "name_en": "Dice",
+   "sector_en": "Textile & Durables",
+   "sector_ar": "منسوجات و سلع معمرة",
+   "sector_id": "333",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "DTPP",
+   "name_ar": "دلتا للطباعة والتغليف",
+   "name_en": "Delta for Printing & Packaging",
+   "sector_en": "Industrial Goods , Services and Automobiles",
+   "sector_ar": "خدمات و منتجات صناعية وسيارات",
+   "sector_id": "321",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EALR",
+   "name_ar": "العربية لاستصلاح الاراضي",
+   "name_en": "El Arabia for Land Reclamation",
+   "sector_en": "Contracting & Construction Engineering",
+   "sector_ar": "مقاولات و إنشاءات هندسية",
+   "sector_id": "332",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EASB",
+   "name_ar": "ثمار",
+   "name_en": "EAC",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EAST",
+   "name_ar": "ايسترن كومباني",
+   "name_en": "Eastern Co",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EBSC",
+   "name_ar": "أصول للوساطة",
+   "name_en": "Osool Brokerage",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ECAP",
+   "name_ar": "الجوهرة",
+   "name_en": "Gemma",
+   "sector_en": "Building Materials",
+   "sector_ar": "مواد البناء",
+   "sector_id": "334",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EDFM",
+   "name_ar": "مطاحن شرق الدلتا",
+   "name_en": "East Delta Flour Mills",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EEII",
+   "name_ar": "العربية للصناعات الهندسية",
+   "name_en": "Arab Engineering Industries",
+   "sector_en": "Industrial Goods , Services and Automobiles",
+   "sector_ar": "خدمات و منتجات صناعية وسيارات",
+   "sector_id": "321",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EFAC",
+   "name_ar": "الشركة المصرية للسبائك الحديدية",
+   "name_en": "Egyptian Ferroalloys Co.",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "EFIC",
+   "name_ar": "المالية والصناعية المصرية",
+   "name_en": "Egyptian Financial & Industrial",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EFID",
+   "name_ar": "ايديتا",
+   "name_en": "Edita",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EFIH",
+   "name_ar": "اي فاينانس للاستثمارات المالية والرقمية",
+   "name_en": "E-finance For Digital and Financial Investments",
+   "sector_en": "IT , Media & Communication Services",
+   "sector_ar": "اتصالات و اعلام و تكنولوجيا المعلومات",
+   "sector_id": "325",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EGAL",
+   "name_ar": "مصر للالومنيوم",
+   "name_en": "Egypt Aluminum",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EGAS",
+   "name_ar": "غاز مصر",
+   "name_en": "Egypt Gas",
+   "sector_en": "Utilities",
+   "sector_ar": "مرافق",
+   "sector_id": "324",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EGBE",
+   "name_ar": "البنك المصري الخليجي",
+   "name_en": "Egyptian Gulf Bank",
+   "sector_en": "Banks",
+   "sector_ar": "بنوك",
+   "sector_id": "318",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EGCH",
+   "name_ar": "كيما",
+   "name_en": "Kima",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EGREF",
+   "name_ar": "وثائق شركة صندوق استثمار المصريين للاستثمار العقارى",
+   "name_en": "Egyptians Real Estate Fund Certificates",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EGSA",
+   "name_ar": "نايل سات",
+   "name_en": "NileSat",
+   "sector_en": "IT , Media & Communication Services",
+   "sector_ar": "اتصالات و اعلام و تكنولوجيا المعلومات",
+   "sector_id": "325",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EGTS",
+   "name_ar": "المصرية للمنتجعات السياحية",
+   "name_en": "Egyptian Resorts",
+   "sector_en": "Travel & Leisure",
+   "sector_ar": "سياحة وترفيه",
+   "sector_id": "323",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EGWA",
+   "name_ar": "المستودعات المصرية العامة",
+   "name_en": "GENERAL WAREHOUSES OF EGYPT",
+   "sector_en": "Shipping & Transportation Services",
+   "sector_ar": "خدمات النقل والشحن",
+   "sector_id": "329",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "EHDR",
+   "name_ar": "المصريين للاسكان",
+   "name_en": "Egyptians for Housing",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EITP",
+   "name_ar": "المصرية للمشروعات السياحية العالمية",
+   "name_en": "Egyptian Company for International Touristic Projects",
+   "sector_en": "Other",
+   "sector_ar": "أخرى",
+   "sector_id": "353",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ELEC",
+   "name_ar": "الكابلات الكهربائية المصرية",
+   "name_en": "Electro Cable",
+   "sector_en": "Industrial Goods , Services and Automobiles",
+   "sector_ar": "خدمات و منتجات صناعية وسيارات",
+   "sector_id": "321",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ELKA",
+   "name_ar": "القاهرة للاسكان",
+   "name_en": "El Kahera Housing",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ELNA",
+   "name_ar": "النصر لتصنيع الحاصلات الزراعية",
+   "name_en": "El Nasr for Manufacturing Agricultural Crops",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ELSH",
+   "name_ar": "الشمس للاسكان",
+   "name_en": "Al Shams Housing",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ELWA",
+   "name_ar": "الوادي العالمية",
+   "name_en": "El Wadi International",
+   "sector_en": "Travel & Leisure",
+   "sector_ar": "سياحة وترفيه",
+   "sector_id": "323",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EMFD",
+   "name_ar": "إعمار مصر",
+   "name_en": "Emaar Misr",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ENGC",
+   "name_ar": "ايكون",
+   "name_en": "ICON",
+   "sector_en": "Contracting & Construction Engineering",
+   "sector_ar": "مقاولات و إنشاءات هندسية",
+   "sector_id": "332",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ENHD",
+   "name_ar": "النصر للاسكان والتعمير",
+   "name_en": "El Nasr Housing and Development",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "EOSB",
+   "name_ar": "العروبة للسمسرة في الأوراق المالية",
+   "name_en": "El Orouba Securities Brokerage",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EPCO",
+   "name_ar": "المصرية للدواجن",
+   "name_en": "Egypt for Poultry",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EPPK",
+   "name_ar": "الاهرام للطباعة والتغليف",
+   "name_en": "El Ahram for Packing",
+   "sector_en": "Paper & Packaging",
+   "sector_ar": "ورق ومواد تعبئة و تغليف",
+   "sector_id": "335",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ESAC",
+   "name_ar": "مصر جنوب افريقيا للاتصالات",
+   "name_en": "Egysacom",
+   "sector_en": "Other",
+   "sector_ar": "أخرى",
+   "sector_id": "353",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "ESRS",
+   "name_ar": "حديد عز",
+   "name_en": "Ezz Steel",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "ETEL",
+   "name_ar": "المصرية للاتصالات",
+   "name_en": "Telecom Egypt",
+   "sector_en": "IT , Media & Communication Services",
+   "sector_ar": "اتصالات و اعلام و تكنولوجيا المعلومات",
+   "sector_id": "325",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ETRS",
+   "name_ar": "ايجيترانس",
+   "name_en": "Egytrans",
+   "sector_en": "Shipping & Transportation Services",
+   "sector_ar": "خدمات النقل والشحن",
+   "sector_id": "329",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "EXPA",
+   "name_ar": "البنك المصري لتنمية الصادرات",
+   "name_en": "Export Development Bank of Egypt",
+   "sector_en": "Banks",
+   "sector_ar": "بنوك",
+   "sector_id": "318",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "FAIT",
+   "name_ar": "بنك فيصل الإسلامي المصري",
+   "name_en": "Faisal Islamic Bank of Egypt",
+   "sector_en": "Banks",
+   "sector_ar": "بنوك",
+   "sector_id": "318",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "FAITA",
+   "name_ar": "بنك فيصل الإسلامي المصري",
+   "name_en": "Faisal Islamic Bank of Egypt",
+   "sector_en": "Banks",
+   "sector_ar": "بنوك",
+   "sector_id": "318",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "FCMD",
+   "name_ar": "فيوتشر كير للصناعات الطبية",
+   "name_en": "Future Care for Medical Industries",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "FERC",
+   "name_ar": "فيركيم",
+   "name_en": "Ferchem",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "FIRE",
+   "name_ar": "الأولى للاستثمار",
+   "name_en": "First Investment",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "FNAR",
+   "name_ar": "الفنار للمقاولات",
+   "name_en": "Al Fanar Construction",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "FTNS",
+   "name_ar": "فتنس برايم للاندية الصحية",
+   "name_en": "Fitness Prime",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "FWRY",
+   "name_ar": "فوري",
+   "name_en": "Fawry",
+   "sector_en": "IT , Media & Communication Services",
+   "sector_ar": "اتصالات و اعلام و تكنولوجيا المعلومات",
+   "sector_id": "325",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "GBCO",
+   "name_ar": "جى بى كوربوريشن",
+   "name_en": "GB Corp",
+   "sector_en": "Industrial Goods , Services and Automobiles",
+   "sector_ar": "خدمات و منتجات صناعية وسيارات",
+   "sector_id": "321",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "GDWA",
+   "name_ar": "جدوى للتنمية الصناعية",
+   "name_en": "Gadwa For Industrial Development",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "GEOS",
+   "name_ar": "جيوس للتجارة والمقاولات",
+   "name_en": "Geos for trading and contracting",
+   "sector_en": "Contracting & Construction Engineering",
+   "sector_ar": "مقاولات و إنشاءات هندسية",
+   "sector_id": "332",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "GGCC",
+   "name_ar": "الجيزة العامة للمقاولات",
+   "name_en": "Giza General Contracting",
+   "sector_en": "Contracting & Construction Engineering",
+   "sector_ar": "مقاولات و إنشاءات هندسية",
+   "sector_id": "332",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "GGRN",
+   "name_ar": "جو جرين",
+   "name_en": "Gogreen",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "GIHD",
+   "name_ar": "الغربية الاسلامية للتنمية العمرانية",
+   "name_en": "Gharbia Islamic Housing Development",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "GMCI",
+   "name_ar": "جى إم سى",
+   "name_en": "GMC",
+   "sector_en": "Trade & Distributors",
+   "sector_ar": "تجارة و موزعون",
+   "sector_id": "328",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "GOUR",
+   "name_ar": "جورمية ايجيبت دوت كوم للاغذية",
+   "name_en": "Gourmet Egypt.Com Foods",
+   "sector_en": "Trade & Distributors",
+   "sector_ar": "تجارة و موزعون",
+   "sector_id": "328",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "GPIM",
+   "name_ar": "جى بى اى للنمو العمرانى",
+   "name_en": "GPI For Urban Growth",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "GPPL",
+   "name_ar": "جولدن بيراميدز بلازا",
+   "name_en": "Golden Pyramids Plaza",
+   "sector_en": "Travel & Leisure",
+   "sector_ar": "سياحة وترفيه",
+   "sector_id": "323",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "GRCA",
+   "name_ar": "جراند انفستمنت القابضة للاستثمارات المالية",
+   "name_en": "Grand Investment Capital",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "GSSC",
+   "name_ar": "العامة للصوامع والتخزين",
+   "name_en": "General Co for Silos & Storage",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "GTEX",
+   "name_ar": "جيتكس للاستثمارات التجارية والصناعية",
+   "name_en": "GTEX For Commercial And Industrial",
+   "sector_en": "Textile & Durables",
+   "sector_ar": "منسوجات و سلع معمرة",
+   "sector_id": "333",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "GTHE",
+   "name_ar": "جلوبال تليكوم",
+   "name_en": "Global Telecom Holding",
+   "sector_en": "Other",
+   "sector_ar": "أخرى",
+   "sector_id": "353",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "GTWL",
+   "name_ar": "جولدن تكس",
+   "name_en": "Goldentex",
+   "sector_en": "Textile & Durables",
+   "sector_ar": "منسوجات و سلع معمرة",
+   "sector_id": "333",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "HAVC",
+   "name_ar": "حسن علام للاستثمار ورأس مال المخاطر",
+   "name_en": "Hassan Allam Investment And Venture Capital",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "HBCO",
+   "name_ar": "هيبكو للاستثمارات التجارية والتنمية العقارية",
+   "name_en": "Hepco for Commercial Investments and Real Estate Development",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "HCFI",
+   "name_ar": "لكح جروب",
+   "name_en": "Lakah Group",
+   "sector_en": "Other",
+   "sector_ar": "أخرى",
+   "sector_id": "353",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "HDBK",
+   "name_ar": "بنك التعمير والاسكان",
+   "name_en": "Housing & Development Bank",
+   "sector_en": "Banks",
+   "sector_ar": "بنوك",
+   "sector_id": "318",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "HDST",
+   "name_ar": "هيدجستون للاستثمار",
+   "name_en": "HEDGESTONE Investment",
+   "sector_en": "Trade & Distributors",
+   "sector_ar": "تجارة و موزعون",
+   "sector_id": "328",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "HELI",
+   "name_ar": "مصر الجديدة للاسكان",
+   "name_en": "Heliopolis Housing",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "HRHO",
+   "name_ar": "إي اف جي القابضة",
+   "name_en": "EFG HOLDING",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "IBCT",
+   "name_ar": "انترناشيونال بزنيس كوربوريشن",
+   "name_en": "International Business Corp",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ICFC",
+   "name_ar": "الدولية للأسمدة",
+   "name_en": "El Dawlia Fertilizers",
+   "sector_en": "Trade & Distributors",
+   "sector_ar": "تجارة و موزعون",
+   "sector_id": "328",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ICID",
+   "name_ar": "العالمية للاستثمار والتنمية",
+   "name_en": "International Co for Investment & Development",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ICLE",
+   "name_ar": "إنكوليس",
+   "name_en": "Incolease",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "IDRE",
+   "name_ar": "الاسماعيلية الجديدة للتطوير",
+   "name_en": "New Ismailia Urban Development",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "IEEC",
+   "name_ar": "المشروعات الصناعية والهندسية",
+   "name_en": "Industrial and Engineering Enterprises",
+   "sector_en": "Contracting & Construction Engineering",
+   "sector_ar": "مقاولات و إنشاءات هندسية",
+   "sector_id": "332",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "IFAP",
+   "name_ar": "الدولية للمحاصيل الزراعية",
+   "name_en": "International Agricultural Products",
+   "sector_en": "Trade & Distributors",
+   "sector_ar": "تجارة و موزعون",
+   "sector_id": "328",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "INEG",
+   "name_ar": "المجموعة المتكاملة للاعمال الهندسية",
+   "name_en": "Integrated Engineering Group",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "INFI",
+   "name_ar": "فوديكو",
+   "name_en": "Foodico",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "IRAX",
+   "name_ar": "العز الدخيلة للصلب",
+   "name_en": "Al Ezz Dekheila Steel",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "IRON",
+   "name_ar": "الحديد والصلب المصرية",
+   "name_en": "Egyptian Iron & Steel",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ISMA",
+   "name_ar": "الاسماعيلية للدواجن",
+   "name_en": "Ismailia Poultry",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ISMQ",
+   "name_ar": "الحديد والصلب للمناجم والمحاجر",
+   "name_en": "Iron And Steel for Mines and Quarries",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ISPH",
+   "name_ar": "ابن سينا فارما",
+   "name_en": "Ibnsina Pharma",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "JUFO",
+   "name_ar": "جهينة",
+   "name_en": "Juhayna",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "KABO",
+   "name_ar": "كابو",
+   "name_en": "Kabo",
+   "sector_en": "Textile & Durables",
+   "sector_ar": "منسوجات و سلع معمرة",
+   "sector_id": "333",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "KASABF",
+   "name_ar": "وثائق صندوق استثمار أودن للاستثمار في الاسهم المصرية",
+   "name_en": "Certificates Of Odin Egyptian Equity Investment Fund",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "KNGC",
+   "name_ar": "النصر للزجاج والبلور",
+   "name_en": "EL- Nasr Glass And Crystal",
+   "sector_en": "Industrial Goods , Services and Automobiles",
+   "sector_ar": "خدمات و منتجات صناعية وسيارات",
+   "sector_id": "321",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "KORA",
+   "name_ar": "قرة لمشروعات الطاقة والاستثمار",
+   "name_en": "KORRA",
+   "sector_en": "Contracting & Construction Engineering",
+   "sector_ar": "مقاولات و إنشاءات هندسية",
+   "sector_id": "332",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "KRDI",
+   "name_ar": "نهر الخير للتنمية والأستثمار الزراعى والخدمات البيئية",
+   "name_en": "Al Khair River For Development Agricultural Investment&Envir",
+   "sector_en": "Industrial Goods , Services and Automobiles",
+   "sector_ar": "خدمات و منتجات صناعية وسيارات",
+   "sector_id": "321",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "KWIN",
+   "name_ar": "القاهرة الوطنية للاستثمار والاوراق المالية",
+   "name_en": "El Kahera El Watania Investment",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "KZPC",
+   "name_ar": "كفر الزيات للمبيدات والكيماويات",
+   "name_en": "Kafr El Zayat Pesticides",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "LCSW",
+   "name_ar": "ليسيكو مصر",
+   "name_en": "Lecico",
+   "sector_en": "Building Materials",
+   "sector_ar": "مواد البناء",
+   "sector_id": "334",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "LUTS",
+   "name_ar": "لوتس للاستثمارات الزراعية والتنمية",
+   "name_en": "LOTUS",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MAAL",
+   "name_ar": "مرسيليا",
+   "name_en": "Marseilia",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MASR",
+   "name_ar": "مدينة مصر للاسكان",
+   "name_en": "Madinet Masr Housing",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MBEG",
+   "name_ar": "ام بي",
+   "name_en": "MB",
+   "sector_en": "Industrial Goods , Services and Automobiles",
+   "sector_ar": "خدمات و منتجات صناعية وسيارات",
+   "sector_id": "321",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MBSC",
+   "name_ar": "مصر بنى سويف للاسمنت",
+   "name_en": "Misr Beni Suef Cement",
+   "sector_en": "Building Materials",
+   "sector_ar": "مواد البناء",
+   "sector_id": "334",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MCQE",
+   "name_ar": "مصر للأسمنت - قنا",
+   "name_en": "Misr Cement - Qena",
+   "sector_en": "Building Materials",
+   "sector_ar": "مواد البناء",
+   "sector_id": "334",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MCRO",
+   "name_ar": "ماكرو جروب",
+   "name_en": "Macro Group",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MEGM",
+   "name_ar": "الشرق الأوسط لصناعة الزجاج",
+   "name_en": "Middle East Glass",
+   "sector_en": "Paper & Packaging",
+   "sector_ar": "ورق ومواد تعبئة و تغليف",
+   "sector_id": "335",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MENA",
+   "name_ar": "مينا للاستثمار السياحي",
+   "name_en": "Mena Touristic Investment",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MEPA",
+   "name_ar": "العبوات الطبية",
+   "name_en": "Medical Packaging",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MFPC",
+   "name_ar": "موبكو",
+   "name_en": "MOPCO",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MFSC",
+   "name_ar": "مصر للأسواق الحرة",
+   "name_en": "Egypt Duty Free Shops",
+   "sector_en": "Trade & Distributors",
+   "sector_ar": "تجارة و موزعون",
+   "sector_id": "328",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MHOT",
+   "name_ar": "مصر للفنادق",
+   "name_en": "Misr Hotels",
+   "sector_en": "Travel & Leisure",
+   "sector_ar": "سياحة وترفيه",
+   "sector_id": "323",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MICH",
+   "name_ar": "مصر لصناعة الكيماويات",
+   "name_en": "Misr Chemical Industries",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MILS",
+   "name_ar": "مطاحن شمال القاهرة",
+   "name_en": "North Cairo Mills",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MIPH",
+   "name_ar": "مينا فارم للأدوية",
+   "name_en": "Minapharm Pharmaceuticals",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MISR",
+   "name_ar": "ايجى ستون",
+   "name_en": "EGYSTONE",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MKIT",
+   "name_ar": "المصرية الكويتية للأستثمار",
+   "name_en": "Meatello",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MLIC",
+   "name_ar": "مصر لتأمينات الحياة",
+   "name_en": "Misr Life Insurance",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "MMAT",
+   "name_ar": "مرسى مرسى علم",
+   "name_en": "Marsa Marsa Alam",
+   "sector_en": "Travel & Leisure",
+   "sector_ar": "سياحة وترفيه",
+   "sector_id": "323",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MOED",
+   "name_ar": "المصرية لنظم التعليم الحديثة",
+   "name_en": "Egyptian Modern Education Systems",
+   "sector_en": "Education Services",
+   "sector_ar": "خدمات تعليمية",
+   "sector_id": "330",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MOIL",
+   "name_ar": "ماريديف",
+   "name_en": "Maridive",
+   "sector_en": "Energy & Support Services",
+   "sector_ar": "طاقة وخدمات مساندة",
+   "sector_id": "327",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MOIN",
+   "name_ar": "المهندس للتأمين",
+   "name_en": "Mohandes Insurance",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MOSC",
+   "name_ar": "مصر للزيوت والصابون",
+   "name_en": "Misr Oils & Soap",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MPCI",
+   "name_ar": "ممفيس للادوية",
+   "name_en": "Memphis Pharmaceutical",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MPCO",
+   "name_ar": "المنصورة للدواجن",
+   "name_en": "Mansoura Poultry",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MPRC",
+   "name_ar": "مدينة الانتاج الاعلامى",
+   "name_en": "Media Production City",
+   "sector_en": "IT , Media & Communication Services",
+   "sector_ar": "اتصالات و اعلام و تكنولوجيا المعلومات",
+   "sector_id": "325",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "MTIE",
+   "name_ar": "ام.ام جروب",
+   "name_en": "MM GROUP",
+   "sector_en": "Trade & Distributors",
+   "sector_ar": "تجارة و موزعون",
+   "sector_id": "328",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "NAHO",
+   "name_ar": "النعيم القابضة",
+   "name_en": "Naeem Holding",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "NAPR",
+   "name_ar": "الوطنية للطباعة",
+   "name_en": "National Printing",
+   "sector_en": "Paper & Packaging",
+   "sector_ar": "ورق ومواد تعبئة و تغليف",
+   "sector_id": "335",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "NARE",
+   "name_ar": "مجموعة النعيم العقارية القابضة",
+   "name_en": "Naeem Real Estate Holding Group",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "NBKE",
+   "name_ar": "الوطني",
+   "name_en": "NBK",
+   "sector_en": "Banks",
+   "sector_ar": "بنوك",
+   "sector_id": "318",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "NCCW",
+   "name_ar": "النصر للأعمال المدنية",
+   "name_en": "Nasr Company for Civil Works",
+   "sector_en": "Contracting & Construction Engineering",
+   "sector_ar": "مقاولات و إنشاءات هندسية",
+   "sector_id": "332",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "NCGC",
+   "name_ar": "النيل لحليج الاقطان",
+   "name_en": "Nile Cotton Ginning",
+   "sector_en": "Textile & Durables",
+   "sector_ar": "منسوجات و سلع معمرة",
+   "sector_id": "333",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "NDRL",
+   "name_ar": "الحفر الوطنية",
+   "name_en": "National Drilling",
+   "sector_en": "Energy & Support Services",
+   "sector_ar": "طاقة وخدمات مساندة",
+   "sector_id": "327",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "NEDA",
+   "name_ar": "نيوداب",
+   "name_en": "NUDAP",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "NHPS",
+   "name_ar": "الوطنية للاسكان",
+   "name_en": "National Co for Housing",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "NINH",
+   "name_ar": "مستشفى النزهة",
+   "name_en": "Nozha International Hospital",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "NIPH",
+   "name_ar": "النيل للادوية",
+   "name_en": "Nile Pharmaceuticals",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "OBRI",
+   "name_ar": "العبور للاستثمار العقارى",
+   "name_en": "El Obour Real Estate Investment",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "OCDI",
+   "name_ar": "سوديك",
+   "name_en": "SODIC",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "OCPH",
+   "name_ar": "اكتوبر فارما",
+   "name_en": "October Pharma",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ODIN",
+   "name_ar": "أودن للاستثمارات المالية",
+   "name_en": "Odin Investments",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "OFH",
+   "name_ar": "او بي المالية القابضة",
+   "name_en": "O B Financial Holding",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "OIH",
+   "name_ar": "أوراسكوم للاستثمار القابضة",
+   "name_en": "Orascom Investment Holding",
+   "sector_en": "IT , Media & Communication Services",
+   "sector_ar": "اتصالات و اعلام و تكنولوجيا المعلومات",
+   "sector_id": "325",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "OLFI",
+   "name_ar": "عبور لاند للصناعات الغذائية",
+   "name_en": "Obour Land for Food Industries",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ORAS",
+   "name_ar": "أوراسكوم للإنشاء",
+   "name_en": "Orascom Construction",
+   "sector_en": "Contracting & Construction Engineering",
+   "sector_ar": "مقاولات و إنشاءات هندسية",
+   "sector_id": "332",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ORHD",
+   "name_ar": "اوراسكوم للتنمية مصر",
+   "name_en": "Orascom Development Egypt",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ORWE",
+   "name_ar": "النساجون الشرقيون",
+   "name_en": "Oriental Weavers",
+   "sector_en": "Textile & Durables",
+   "sector_ar": "منسوجات و سلع معمرة",
+   "sector_id": "333",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "PACH",
+   "name_ar": "باكين",
+   "name_en": "Pachin",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "PHAR",
+   "name_ar": "ايبكو",
+   "name_en": "EIPICO",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "PHDC",
+   "name_ar": "بالم هيلز",
+   "name_en": "Palm Hills",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "PHGC",
+   "name_ar": "بريميم هيلثكير جروب",
+   "name_en": "Premium HealthCare Group",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "PHTV",
+   "name_ar": "بيراميزا",
+   "name_en": "Pyramisa",
+   "sector_en": "Travel & Leisure",
+   "sector_ar": "سياحة وترفيه",
+   "sector_id": "323",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "POUL",
+   "name_ar": "القاهرة للدواجن",
+   "name_en": "Cairo Poultry",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "PRCL",
+   "name_ar": "شينى",
+   "name_en": "Sheeni",
+   "sector_en": "Building Materials",
+   "sector_ar": "مواد البناء",
+   "sector_id": "334",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "PRDC",
+   "name_ar": "بايونيرز بروبرتيز للتنمية العمرانية",
+   "name_en": "Pioneers Properties For Urban Development",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "PRMH",
+   "name_ar": "برايم القابضة",
+   "name_en": "Prime Holding",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "QNBA",
+   "name_ar": "بنك قطر الوطني الاهلي",
+   "name_en": "QNB Alahli",
+   "sector_en": "Banks",
+   "sector_ar": "بنوك",
+   "sector_id": "318",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "RACC",
+   "name_ar": "راية لخدمات مراكز الاتصالات",
+   "name_en": "Raya Contact Center",
+   "sector_en": "IT , Media & Communication Services",
+   "sector_ar": "اتصالات و اعلام و تكنولوجيا المعلومات",
+   "sector_id": "325",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "RAKT",
+   "name_ar": "راكتا",
+   "name_en": "Rakta",
+   "sector_en": "Paper & Packaging",
+   "sector_ar": "ورق ومواد تعبئة و تغليف",
+   "sector_id": "335",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "RAYA",
+   "name_ar": "راية",
+   "name_en": "Raya",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "RKAZ",
+   "name_ar": "ركاز القابضة للاستثمارات المالية",
+   "name_en": "REKAZ FINANCIAL HOLDING",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "RMDA",
+   "name_ar": "العاشر من رمضان للصناعات الدوائية",
+   "name_en": "Tenth Of Ramadan Pharmaceutical Industries",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "RMTV",
+   "name_ar": "رواد مصر",
+   "name_en": "Rowad Misr",
+   "sector_en": "Travel & Leisure",
+   "sector_ar": "سياحة وترفيه",
+   "sector_id": "323",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "ROTO",
+   "name_ar": "الرواد",
+   "name_en": "Al Rowad",
+   "sector_en": "Travel & Leisure",
+   "sector_ar": "سياحة وترفيه",
+   "sector_id": "323",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "RREI",
+   "name_ar": "اليكو",
+   "name_en": "ALICO",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "RTVC",
+   "name_ar": "رمكو",
+   "name_en": "Remco",
+   "sector_en": "Travel & Leisure",
+   "sector_ar": "سياحة وترفيه",
+   "sector_id": "323",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "RUBX",
+   "name_ar": "روبكس",
+   "name_en": "Rubex",
+   "sector_en": "Building Materials",
+   "sector_ar": "مواد البناء",
+   "sector_id": "334",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SAIB",
+   "name_ar": "بنك الشركة المصرفية العربية الدولية",
+   "name_en": "SAIB",
+   "sector_en": "Banks",
+   "sector_ar": "بنوك",
+   "sector_id": "318",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SAUD",
+   "name_ar": "بنك البركة",
+   "name_en": "Al Baraka Bank",
+   "sector_en": "Banks",
+   "sector_ar": "بنوك",
+   "sector_id": "318",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SCEM",
+   "name_ar": "اسمنت سيناء",
+   "name_en": "Sinai Cement",
+   "sector_en": "Building Materials",
+   "sector_ar": "مواد البناء",
+   "sector_id": "334",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SCFM",
+   "name_ar": "مطاحن جنوب القاهرة والجيزة",
+   "name_en": "South Cairo & Giza Flour Mills",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SCTS",
+   "name_ar": "قناة السويس لتوطين التكنولوجيا",
+   "name_en": "Suez Canal Co for Technology Settling",
+   "sector_en": "Education Services",
+   "sector_ar": "خدمات تعليمية",
+   "sector_id": "330",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SDTI",
+   "name_ar": "شارم دريمز",
+   "name_en": "Sharm Dreams",
+   "sector_en": "Travel & Leisure",
+   "sector_ar": "سياحة وترفيه",
+   "sector_id": "323",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SEIG",
+   "name_ar": "السعودية المصرية للاستثمار والتمويل",
+   "name_en": "Saudi Egyptian Investment and Finance",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SEIGA",
+   "name_ar": "السعودية المصرية للاستثمار والتمويل",
+   "name_en": "Saudi Egyptian Investment & Finance",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SFWA",
+   "name_ar": "مستشفي الصفوة الجديدة التخصصي",
+   "name_en": "Al Safwa Hospital",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "SIEG",
+   "name_ar": "المصريه للمواسير والمنتجات الاسمنتيه سيجوارت",
+   "name_en": "Egyptian Company for Pipes and Cement Products -Siegwart",
+   "sector_en": "Building Materials",
+   "sector_ar": "مواد البناء",
+   "sector_id": "334",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "SINA",
+   "name_ar": "سيناء للمنجنيز",
+   "name_en": "Sinai Manganese Company",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "SIPC",
+   "name_ar": "سبأ",
+   "name_en": "Sabaa",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SKPC",
+   "name_ar": "سيدى كرير للبتروكيماويات",
+   "name_en": "SIDI KERIR PETROCHEMICALS - SIDPEC",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SLAR",
+   "name_ar": "سولار سول للطاقة",
+   "name_en": "Solar Sol Energy",
+   "sector_en": "Energy & Support Services",
+   "sector_ar": "طاقة وخدمات مساندة",
+   "sector_id": "327",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "SMFR",
+   "name_ar": "ايجيفرت",
+   "name_en": "EGYFERT",
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية",
+   "sector_id": "319",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SMPP",
+   "name_ar": "الشروق الحديثة للطباعة والتغليف",
+   "name_en": "Modern Shorouk Printing & Packaging",
+   "sector_en": "Industrial Goods , Services and Automobiles",
+   "sector_ar": "خدمات و منتجات صناعية وسيارات",
+   "sector_id": "321",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SNFC",
+   "name_ar": "الشرقية الوطنية للامن الغذائي",
+   "name_en": "Sharkia National Food",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SNFI",
+   "name_ar": "سوهاج الوطنية",
+   "name_en": "Sohag National",
+   "sector_en": "Other",
+   "sector_ar": "أخرى",
+   "sector_id": "353",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SPHT",
+   "name_ar": "الشمس بيراميدز",
+   "name_en": "El Shams Pyramids",
+   "sector_en": "Travel & Leisure",
+   "sector_ar": "سياحة وترفيه",
+   "sector_id": "323",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SPIN",
+   "name_ar": "سبينالكس",
+   "name_en": "SPINALEX",
+   "sector_en": "Textile & Durables",
+   "sector_ar": "منسوجات و سلع معمرة",
+   "sector_id": "333",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SPMD",
+   "name_ar": "سبيد ميديكال",
+   "name_en": "Speed Medical",
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية",
+   "sector_id": "320",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SUCE",
+   "name_ar": "السويس للاسمنت",
+   "name_en": "Suez Cement",
+   "sector_en": "Building Materials",
+   "sector_ar": "مواد البناء",
+   "sector_id": "334",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SUGR",
+   "name_ar": "الدلتا للسكر",
+   "name_en": "Delta Sugar",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SVCE",
+   "name_ar": "جنوب الوادى للاسمنت",
+   "name_en": "South Valley Cement",
+   "sector_en": "Building Materials",
+   "sector_ar": "مواد البناء",
+   "sector_id": "334",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "SWDY",
+   "name_ar": "السويدى اليكتريك",
+   "name_en": "Elsewedy Electric",
+   "sector_en": "Industrial Goods , Services and Automobiles",
+   "sector_ar": "خدمات و منتجات صناعية وسيارات",
+   "sector_id": "321",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "TALM",
+   "name_ar": "تعليم لخدمات الإدارة",
+   "name_en": "Taaleem Management Services",
+   "sector_en": "Education Services",
+   "sector_ar": "خدمات تعليمية",
+   "sector_id": "330",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "TANM",
+   "name_ar": "تنمية للاستثمار العقاري",
+   "name_en": "Tanmiya for Real Estate Investment",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "TAQA",
+   "name_ar": "طاقة عربية",
+   "name_en": "Taqa Arabia",
+   "sector_en": "Utilities",
+   "sector_ar": "مرافق",
+   "sector_id": "324",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "TMGH",
+   "name_ar": "طلعت مصطفى",
+   "name_en": "TMG Holding",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "TORA",
+   "name_ar": "اسمنت طرة",
+   "name_en": "Tourah Cement",
+   "sector_en": "Other",
+   "sector_ar": "أخرى",
+   "sector_id": "353",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "TRTO",
+   "name_ar": "عبر المحيطات للسياحة",
+   "name_en": "Trans Oceans Tours",
+   "sector_en": "Travel & Leisure",
+   "sector_ar": "سياحة وترفيه",
+   "sector_id": "323",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "TWSA",
+   "name_ar": "توسع للتخصيم",
+   "name_en": "TAWASOA For Factoring",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "TYCN",
+   "name_ar": "تايكون انفستمنتس هولدنج",
+   "name_en": "Tycoon Holding Company For Financial Investments",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "UASG",
+   "name_ar": "العربية المتحدة للشحن والتفريغ",
+   "name_en": "United Arab Stevedoring",
+   "sector_en": "Shipping & Transportation Services",
+   "sector_ar": "خدمات النقل والشحن",
+   "sector_id": "329",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "UBEE",
+   "name_ar": "المصرف المتحد",
+   "name_en": "The United Bank",
+   "sector_en": "Banks",
+   "sector_ar": "بنوك",
+   "sector_id": "318",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "UEFM",
+   "name_ar": "مطاحن مصر العليا",
+   "name_en": "Upper Egypt Flour Mills",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "UEGC",
+   "name_ar": "الصعيد العامة للمقاولات",
+   "name_en": "Elsaeed Contracting",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "UNIP",
+   "name_ar": "يونيفرسال",
+   "name_en": "Unipack",
+   "sector_en": "Paper & Packaging",
+   "sector_ar": "ورق ومواد تعبئة و تغليف",
+   "sector_id": "335",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "UNIT",
+   "name_ar": "المتحدة للاسكان",
+   "name_en": "United Co for Housing",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "UPMS",
+   "name_ar": "الاتحاد الصيدلي",
+   "name_en": "Union Pharmacist",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "UTOP",
+   "name_ar": "يوتوبيا",
+   "name_en": "Utopia",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "VALU",
+   "name_ar": "يو للتمويل الاستهلاكى",
+   "name_en": "U Consumer Finance",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "VERT",
+   "name_ar": "فرتيكا",
+   "name_en": "Vertika",
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة",
+   "sector_id": "352",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "VLMR",
+   "name_ar": "فالمور القابضة للاستثمار",
+   "name_en": "Valmore Holding",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "VLMRA",
+   "name_ar": "فالمور القابضة للاستثماربالجنية",
+   "name_en": "Valmore Holding-EGP",
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية",
+   "sector_id": "331",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "WATP",
+   "name_ar": "بيتومود",
+   "name_en": "Bitumode",
+   "sector_en": "Other",
+   "sector_ar": "أخرى",
+   "sector_id": "353",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "WCDF",
+   "name_ar": "مطاحن وسط وغرب الدلتا",
+   "name_en": "Middle & West Delta Flour Mills",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "WKOL",
+   "name_ar": "وادي كوم إمبو",
+   "name_en": "Wadi Kom Ombo",
+   "sector_en": "Contracting & Construction Engineering",
+   "sector_ar": "مقاولات و إنشاءات هندسية",
+   "sector_id": "332",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "YAYT",
+   "name_ar": "شركة صناعة اليايات ومهمات وسائل النقل",
+   "name_en": "Spring And Transportation Needs Manufacturing Co",
+   "sector_en": "Industrial Goods , Services and Automobiles",
+   "sector_ar": "خدمات و منتجات صناعية وسيارات",
+   "sector_id": "321",
+   "has_prices": false,
+   "scanned": false
+  },
+  {
+   "ticker": "ZEOT",
+   "name_ar": "الزيوت المستخلصة",
+   "name_en": "Extracted Oils",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "sector_id": "326",
+   "has_prices": true,
+   "scanned": true
+  },
+  {
+   "ticker": "ZMID",
+   "name_ar": "زهراء المعادي",
+   "name_en": "Zahraa Maadi",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "sector_id": "322",
+   "has_prices": true,
+   "scanned": true
+  }
+ ]
+}
