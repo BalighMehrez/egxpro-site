@@ -1,0 +1,4597 @@
+{
+ "edition": "2026-10-15",
+ "as_of": "2026-10-15",
+ "generated_at": "2026-10-17T18:01:03+03:00",
+ "editions": [
+  "2026-10-05",
+  "2026-10-06",
+  "2026-10-07",
+  "2026-10-11",
+  "2026-10-12",
+  "2026-10-13",
+  "2026-10-14",
+  "2026-10-15"
+ ],
+ "rules": {
+  "expiry_sessions": {
+   "breakout": 5,
+   "ep": 3
+  },
+  "parabolic_sessions": 10,
+  "breakeven_after_sessions": 3,
+  "trail_sma": 10,
+  "elliott_horizon_sessions": {
+   "D": 10,
+   "W": 10,
+   "M": 44,
+   "Q": 130,
+   "Y": 500
+  },
+  "stats_min_closed": 30
+ },
+ "minutes": {
+  "sessions_needed": 18,
+  "sessions_missing": 1
+ },
+ "stats": {
+  "min_closed": 30,
+  "momentum": {
+   "all": {
+    "n": 1,
+    "wins": 0,
+    "win_rate": 0.0,
+    "avg_r": -0.88,
+    "median_r": -0.88,
+    "total_r": -0.88
+   },
+   "breakout": {
+    "n": 1,
+    "wins": 0,
+    "win_rate": 0.0,
+    "avg_r": -0.88,
+    "median_r": -0.88,
+    "total_r": -0.88
+   },
+   "ep": {
+    "n": 0,
+    "wins": 0,
+    "win_rate": null,
+    "avg_r": null,
+    "median_r": null,
+    "total_r": 0
+   },
+   "by_state": {
+    "cancelled": 12,
+    "stopped": 1,
+    "waiting": 5
+   }
+  },
+  "elliott": {
+   "D": {
+    "published": 30,
+    "open": 29,
+    "closed": 1,
+    "target": 0,
+    "invalidated": 1,
+    "expired": 0,
+    "hit_rate": 0.0
+   },
+   "W": {
+    "published": 22,
+    "open": 21,
+    "closed": 1,
+    "target": 0,
+    "invalidated": 1,
+    "expired": 0,
+    "hit_rate": 0.0
+   },
+   "M": {
+    "published": 20,
+    "open": 20,
+    "closed": 0,
+    "target": 0,
+    "invalidated": 0,
+    "expired": 0,
+    "hit_rate": null
+   },
+   "Q": {
+    "published": 9,
+    "open": 9,
+    "closed": 0,
+    "target": 0,
+    "invalidated": 0,
+    "expired": 0,
+    "hit_rate": null
+   },
+   "Y": {
+    "published": 9,
+    "open": 9,
+    "closed": 0,
+    "target": 0,
+    "invalidated": 0,
+    "expired": 0,
+    "hit_rate": null
+   }
+  },
+  "parabolic": {
+   "published": 0,
+   "closed": 0,
+   "cracked": 0,
+   "median_change_pct": null
+  }
+ },
+ "events": [
+  {
+   "id": "D:BONY:2026-10-15",
+   "family": "elliott",
+   "idea_kind": "D",
+   "ticker": "BONY",
+   "name_ar": "بنيان للتنمية والتجارة",
+   "date": "2026-10-15",
+   "kind": "zone_reached",
+   "published": true
+  },
+  {
+   "id": "D:AMOC:2026-10-15",
+   "family": "elliott",
+   "idea_kind": "D",
+   "ticker": "AMOC",
+   "name_ar": "أموك",
+   "date": "2026-10-15",
+   "kind": "zone_reached",
+   "published": true
+  },
+  {
+   "id": "breakout:SDTI:2026-10-14",
+   "family": "momentum",
+   "idea_kind": "breakout",
+   "ticker": "SDTI",
+   "name_ar": "شارم دريمز",
+   "date": "2026-10-15",
+   "kind": "cancelled",
+   "time": "10:03",
+   "price": 86.151
+  },
+  {
+   "id": "breakout:GPIM:2026-10-14",
+   "family": "momentum",
+   "idea_kind": "breakout",
+   "ticker": "GPIM",
+   "name_ar": "جى بى اى للنمو العمرانى",
+   "date": "2026-10-15",
+   "kind": "cancelled",
+   "time": "10:00",
+   "price": 1.881
+  },
+  {
+   "id": "D:LCSW:2026-10-14",
+   "family": "elliott",
+   "idea_kind": "D",
+   "ticker": "LCSW",
+   "name_ar": "ليسيكو مصر",
+   "date": "2026-10-15",
+   "kind": "zone_reached"
+  },
+  {
+   "id": "D:BTFH:2026-10-07",
+   "family": "elliott",
+   "idea_kind": "D",
+   "ticker": "BTFH",
+   "name_ar": "بلتون المالية القابضة",
+   "date": "2026-10-15",
+   "kind": "zone_reached"
+  }
+ ],
+ "ideas": [
+  {
+   "id": "ep:UEGC:2026-10-15",
+   "family": "momentum",
+   "kind": "ep",
+   "ticker": "UEGC",
+   "name_ar": "الصعيد العامة للمقاولات",
+   "published": "2026-10-15",
+   "last_listed": "2026-10-15",
+   "listings": 1,
+   "published_close": 1.67,
+   "levels": {
+    "trigger": 1.71,
+    "stop": 1.43
+   },
+   "scale": 1.0,
+   "status": "waiting",
+   "outcome": null,
+   "events": [],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-10-15",
+    "high": 1.71,
+    "low": 1.43
+   },
+   "last_close": 1.67,
+   "sessions_left": 3
+  },
+  {
+   "id": "breakout:SDTI:2026-10-15",
+   "family": "momentum",
+   "kind": "breakout",
+   "ticker": "SDTI",
+   "name_ar": "شارم دريمز",
+   "published": "2026-10-15",
+   "last_listed": "2026-10-15",
+   "listings": 1,
+   "published_close": 86.0,
+   "levels": {
+    "trigger": 90.85,
+    "stop": 86.041
+   },
+   "scale": 1.0,
+   "status": "waiting",
+   "outcome": null,
+   "events": [],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-09-28",
+    "high": 94.9,
+    "low": 81.35
+   },
+   "last_close": 86.0,
+   "sessions_left": 5
+  },
+  {
+   "id": "breakout:GPIM:2026-10-15",
+   "family": "momentum",
+   "kind": "breakout",
+   "ticker": "GPIM",
+   "name_ar": "جى بى اى للنمو العمرانى",
+   "published": "2026-10-15",
+   "last_listed": "2026-10-15",
+   "listings": 1,
+   "published_close": 1.9,
+   "levels": {
+    "trigger": 1.99,
+    "stop": 1.88
+   },
+   "scale": 1.0,
+   "status": "waiting",
+   "outcome": null,
+   "events": [],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-10-04",
+    "high": 2.15,
+    "low": 1.82
+   },
+   "last_close": 1.9,
+   "sessions_left": 5
+  },
+  {
+   "id": "breakout:ETEL:2026-10-15",
+   "family": "momentum",
+   "kind": "breakout",
+   "ticker": "ETEL",
+   "name_ar": "المصرية للاتصالات",
+   "published": "2026-10-15",
+   "last_listed": "2026-10-15",
+   "listings": 1,
+   "published_close": 145.4,
+   "levels": {
+    "trigger": 148.98,
+    "stop": 143.02
+   },
+   "scale": 1.0,
+   "status": "waiting",
+   "outcome": null,
+   "events": [],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-10-05",
+    "high": 156.0,
+    "low": 142.0
+   },
+   "last_close": 145.4,
+   "sessions_left": 5
+  },
+  {
+   "id": "breakout:AMIA:2026-10-15",
+   "family": "momentum",
+   "kind": "breakout",
+   "ticker": "AMIA",
+   "name_ar": "الملتقى العربي للاستثمارات",
+   "published": "2026-10-15",
+   "last_listed": "2026-10-15",
+   "listings": 1,
+   "published_close": 19.0,
+   "levels": {
+    "trigger": 19.4,
+    "stop": 18.646
+   },
+   "scale": 1.0,
+   "status": "waiting",
+   "outcome": null,
+   "events": [],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-08-24",
+    "high": 22.4,
+    "low": 17.12
+   },
+   "last_close": 19.0,
+   "sessions_left": 5
+  },
+  {
+   "id": "D:GBCO:2026-10-15",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "GBCO",
+   "name_ar": "جى بى كوربوريشن",
+   "published": "2026-10-15",
+   "last_listed": "2026-10-15",
+   "listings": 1,
+   "published_close": 30.8,
+   "levels": {
+    "invalidation": 27.0,
+    "targets": [
+     35.04,
+     38.729,
+     44.699
+    ],
+    "entry_zone": [
+     29.281,
+     30.689
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 4,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "last_close": 30.8,
+   "best_pct": 0.0,
+   "worst_pct": 0.0,
+   "days": 0
+  },
+  {
+   "id": "D:EFIH:2026-10-15",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "EFIH",
+   "name_ar": "اي فاينانس للاستثمارات المالية والرقمية",
+   "published": "2026-10-15",
+   "last_listed": "2026-10-15",
+   "listings": 1,
+   "published_close": 24.34,
+   "levels": {
+    "invalidation": 20.2,
+    "targets": [
+     28.05,
+     31.245,
+     36.415
+    ],
+    "entry_zone": [
+     22.175,
+     23.395
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 1,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "last_close": 24.34,
+   "best_pct": 0.0,
+   "worst_pct": 0.0,
+   "days": 0
+  },
+  {
+   "id": "D:BONY:2026-10-15",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "BONY",
+   "name_ar": "بنيان للتنمية والتجارة",
+   "published": "2026-10-15",
+   "last_listed": "2026-10-15",
+   "listings": 1,
+   "published_close": 4.18,
+   "levels": {
+    "invalidation": 3.79,
+    "targets": [
+     4.72,
+     5.159,
+     5.869
+    ],
+    "entry_zone": [
+     4.061,
+     4.229
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-15",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 6,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-15",
+   "last_close": 4.18,
+   "best_pct": 0.0,
+   "worst_pct": 0.0,
+   "days": 0
+  },
+  {
+   "id": "D:AMOC:2026-10-15",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "AMOC",
+   "name_ar": "أموك",
+   "published": "2026-10-15",
+   "last_listed": "2026-10-15",
+   "listings": 1,
+   "published_close": 13.48,
+   "levels": {
+    "invalidation": 12.18,
+    "targets": [
+     15.61,
+     17.192,
+     19.752
+    ],
+    "entry_zone": [
+     13.158,
+     13.762
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-15",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 2,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-15",
+   "last_close": 13.48,
+   "best_pct": 0.0,
+   "worst_pct": 0.0,
+   "days": 0
+  },
+  {
+   "id": "breakout:SDTI:2026-10-14",
+   "family": "momentum",
+   "kind": "breakout",
+   "ticker": "SDTI",
+   "name_ar": "شارم دريمز",
+   "published": "2026-10-14",
+   "last_listed": "2026-10-14",
+   "listings": 1,
+   "published_close": 85.01,
+   "levels": {
+    "trigger": 90.85,
+    "stop": 86.151
+   },
+   "scale": 1.0,
+   "status": "closed",
+   "outcome": "cancelled",
+   "events": [
+    {
+     "date": "2026-10-15",
+     "kind": "cancelled",
+     "time": "10:03",
+     "price": 86.151
+    }
+   ],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-09-28",
+    "high": 94.9,
+    "low": 81.35
+   },
+   "last_close": 86.0
+  },
+  {
+   "id": "breakout:GPIM:2026-10-14",
+   "family": "momentum",
+   "kind": "breakout",
+   "ticker": "GPIM",
+   "name_ar": "جى بى اى للنمو العمرانى",
+   "published": "2026-10-14",
+   "last_listed": "2026-10-14",
+   "listings": 1,
+   "published_close": 1.87,
+   "levels": {
+    "trigger": 1.99,
+    "stop": 1.881
+   },
+   "scale": 1.0,
+   "status": "closed",
+   "outcome": "cancelled",
+   "events": [
+    {
+     "date": "2026-10-15",
+     "kind": "cancelled",
+     "time": "10:00",
+     "price": 1.881
+    }
+   ],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-10-04",
+    "high": 2.15,
+    "low": 1.82
+   },
+   "last_close": 1.9
+  },
+  {
+   "id": "W:AIFI:2026-10-14",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "AIFI",
+   "name_ar": "أطلس",
+   "published": "2026-10-14",
+   "last_listed": "2026-10-14",
+   "listings": 1,
+   "published_close": 2.07,
+   "levels": {
+    "invalidation": 1.45,
+    "targets": [
+     3.38,
+     4.276,
+     5.726
+    ],
+    "entry_zone": [
+     2.004,
+     2.346
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-14",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 13,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-14",
+   "last_close": 2.2,
+   "best_pct": 6.28,
+   "worst_pct": -1.93,
+   "days": 1
+  },
+  {
+   "id": "D:LCSW:2026-10-14",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "LCSW",
+   "name_ar": "ليسيكو مصر",
+   "published": "2026-10-14",
+   "last_listed": "2026-10-14",
+   "listings": 1,
+   "published_close": 33.88,
+   "levels": {
+    "invalidation": 28.86,
+    "targets": [
+     37.84,
+     42.005,
+     48.745
+    ],
+    "entry_zone": [
+     31.435,
+     33.025
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-15",
+     "kind": "zone_reached"
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 7,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-15",
+   "last_close": 34.0,
+   "best_pct": 0.35,
+   "worst_pct": -4.04,
+   "days": 1
+  },
+  {
+   "id": "D:HRHO:2026-10-14",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "HRHO",
+   "name_ar": "إي اف جي القابضة",
+   "published": "2026-10-14",
+   "last_listed": "2026-10-14",
+   "listings": 1,
+   "published_close": 25.36,
+   "levels": {
+    "invalidation": 22.81,
+    "targets": [
+     29.02,
+     31.616,
+     35.816
+    ],
+    "entry_zone": [
+     24.414,
+     25.406
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-14",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 4,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-14",
+   "last_close": 25.79,
+   "best_pct": 1.74,
+   "worst_pct": -0.39,
+   "days": 1
+  },
+  {
+   "id": "breakout:GPIM:2026-10-13",
+   "family": "momentum",
+   "kind": "breakout",
+   "ticker": "GPIM",
+   "name_ar": "جى بى اى للنمو العمرانى",
+   "published": "2026-10-13",
+   "last_listed": "2026-10-13",
+   "listings": 1,
+   "published_close": 1.86,
+   "levels": {
+    "trigger": 1.99,
+    "stop": 1.88
+   },
+   "scale": 1.0,
+   "status": "closed",
+   "outcome": "cancelled",
+   "events": [
+    {
+     "date": "2026-10-14",
+     "kind": "cancelled",
+     "price": 1.88
+    }
+   ],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-10-04",
+    "high": 2.15,
+    "low": 1.82
+   },
+   "last_close": 1.9
+  },
+  {
+   "id": "W:TALM:2026-10-13",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "TALM",
+   "name_ar": "تعليم لخدمات الإدارة",
+   "published": "2026-10-13",
+   "last_listed": "2026-10-15",
+   "listings": 3,
+   "published_close": 21.14,
+   "levels": {
+    "invalidation": 15.27,
+    "targets": [
+     29.14,
+     35.586,
+     46.016
+    ],
+    "entry_zone": [
+     19.254,
+     21.716
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-13",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 8,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-13",
+   "last_close": 21.05,
+   "best_pct": 1.7,
+   "worst_pct": -1.56,
+   "days": 2
+  },
+  {
+   "id": "Q:ORWE:2026-10-13",
+   "family": "elliott",
+   "kind": "Q",
+   "ticker": "ORWE",
+   "name_ar": "النساجون الشرقيون",
+   "published": "2026-10-13",
+   "last_listed": "2026-10-13",
+   "listings": 1,
+   "published_close": 26.7,
+   "levels": {
+    "invalidation": 35.12,
+    "targets": [
+     13.95,
+     4.396
+    ],
+    "entry_zone": [
+     25.566,
+     29.214
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-13",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "down",
+   "bucket": "top_correction",
+   "rank": 3,
+   "posture": "impulse_down_pullback",
+   "posture_ar": "اتجاه هابط، والسهم بيرتد دلوقتي (موجة 2 أو 4) قبل النزلة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-13",
+   "last_close": 27.71,
+   "best_pct": 0.71,
+   "worst_pct": -4.83,
+   "days": 2
+  },
+  {
+   "id": "Q:CNFN:2026-10-13",
+   "family": "elliott",
+   "kind": "Q",
+   "ticker": "CNFN",
+   "name_ar": "كونتكت المالية القابضة",
+   "published": "2026-10-13",
+   "last_listed": "2026-10-15",
+   "listings": 2,
+   "published_close": 3.92,
+   "levels": {
+    "invalidation": 6.5,
+    "targets": [
+     2.49,
+     0.766
+    ],
+    "entry_zone": [
+     4.776,
+     5.434
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "down",
+   "bucket": "top_correction",
+   "rank": 2,
+   "posture": "impulse_down_pullback",
+   "posture_ar": "اتجاه هابط، والسهم بيرتد دلوقتي (موجة 2 أو 4) قبل النزلة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "last_close": 4.17,
+   "best_pct": -0.0,
+   "worst_pct": -6.38,
+   "days": 2
+  },
+  {
+   "id": "breakout:SDTI:2026-10-12",
+   "family": "momentum",
+   "kind": "breakout",
+   "ticker": "SDTI",
+   "name_ar": "شارم دريمز",
+   "published": "2026-10-12",
+   "last_listed": "2026-10-12",
+   "listings": 1,
+   "published_close": 85.25,
+   "levels": {
+    "trigger": 90.85,
+    "stop": 86.127
+   },
+   "scale": 1.0,
+   "status": "closed",
+   "outcome": "cancelled",
+   "events": [
+    {
+     "date": "2026-10-13",
+     "kind": "cancelled",
+     "time": "10:00",
+     "price": 86.127
+    }
+   ],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-09-28",
+    "high": 94.9,
+    "low": 81.35
+   },
+   "last_close": 86.0
+  },
+  {
+   "id": "breakout:GPIM:2026-10-12",
+   "family": "momentum",
+   "kind": "breakout",
+   "ticker": "GPIM",
+   "name_ar": "جى بى اى للنمو العمرانى",
+   "published": "2026-10-12",
+   "last_listed": "2026-10-12",
+   "listings": 1,
+   "published_close": 1.9,
+   "levels": {
+    "trigger": 1.99,
+    "stop": 1.88
+   },
+   "scale": 1.0,
+   "status": "closed",
+   "outcome": "cancelled",
+   "events": [
+    {
+     "date": "2026-10-13",
+     "kind": "cancelled",
+     "time": "10:57",
+     "price": 1.88
+    }
+   ],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-10-04",
+    "high": 2.15,
+    "low": 1.82
+   },
+   "last_close": 1.9
+  },
+  {
+   "id": "W:TANM:2026-10-12",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "TANM",
+   "name_ar": "تنمية للاستثمار العقاري",
+   "published": "2026-10-12",
+   "last_listed": "2026-10-12",
+   "listings": 1,
+   "published_close": 5.99,
+   "levels": {
+    "invalidation": 4.94,
+    "targets": [
+     9.38,
+     11.58,
+     15.14
+    ],
+    "entry_zone": [
+     6.3,
+     7.14
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 9,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "last_close": 5.78,
+   "best_pct": 2.34,
+   "worst_pct": -9.02,
+   "days": 3
+  },
+  {
+   "id": "W:SIPC:2026-10-12",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "SIPC",
+   "name_ar": "سبأ",
+   "published": "2026-10-12",
+   "last_listed": "2026-10-15",
+   "listings": 3,
+   "published_close": 5.34,
+   "levels": {
+    "invalidation": 3.25,
+    "targets": [
+     8.25,
+     10.741,
+     14.771
+    ],
+    "entry_zone": [
+     4.789,
+     5.741
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-12",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 7,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-12",
+   "last_close": 5.66,
+   "best_pct": 13.86,
+   "worst_pct": -6.74,
+   "days": 3
+  },
+  {
+   "id": "W:KASABF:2026-10-12",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "KASABF",
+   "name_ar": "وثائق صندوق استثمار أودن للاستثمار في الاسهم المصرية",
+   "published": "2026-10-12",
+   "last_listed": "2026-10-15",
+   "listings": 4,
+   "published_close": 7.91,
+   "levels": {
+    "invalidation": 3.62,
+    "targets": [
+     17.08,
+     22.864,
+     32.224
+    ],
+    "entry_zone": [
+     7.196,
+     9.404
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-12",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 2,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-12",
+   "last_close": 8.03,
+   "best_pct": 5.44,
+   "worst_pct": -10.62,
+   "days": 3
+  },
+  {
+   "id": "M:GBCO:2026-10-12",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "GBCO",
+   "name_ar": "جى بى كوربوريشن",
+   "published": "2026-10-12",
+   "last_listed": "2026-10-14",
+   "listings": 3,
+   "published_close": 29.77,
+   "levels": {
+    "invalidation": 23.92,
+    "targets": [
+     37.28,
+     43.633,
+     53.913
+    ],
+    "entry_zone": [
+     27.847,
+     30.273
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-12",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 11,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-12",
+   "last_close": 30.8,
+   "best_pct": 3.63,
+   "worst_pct": -2.35,
+   "days": 3
+  },
+  {
+   "id": "D:GPIM:2026-10-12",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "GPIM",
+   "name_ar": "جى بى اى للنمو العمرانى",
+   "published": "2026-10-12",
+   "last_listed": "2026-10-15",
+   "listings": 4,
+   "published_close": 1.9,
+   "levels": {
+    "invalidation": 1.52,
+    "targets": [
+     2.49,
+     2.879,
+     3.509
+    ],
+    "entry_zone": [
+     1.761,
+     1.909
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-12",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 4,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-12",
+   "last_close": 1.9,
+   "best_pct": 2.11,
+   "worst_pct": -3.16,
+   "days": 3
+  },
+  {
+   "id": "D:ARCC:2026-10-12",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "ARCC",
+   "name_ar": "العربية للأسمنت",
+   "published": "2026-10-12",
+   "last_listed": "2026-10-12",
+   "listings": 1,
+   "published_close": 67.43,
+   "levels": {
+    "invalidation": 60.01,
+    "targets": [
+     81.39,
+     90.19,
+     104.43
+    ],
+    "entry_zone": [
+     65.45,
+     68.81
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-12",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 3,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-12",
+   "last_close": 66.92,
+   "best_pct": 1.59,
+   "worst_pct": -5.09,
+   "days": 3
+  },
+  {
+   "id": "breakout:MAAL:2026-10-11",
+   "family": "momentum",
+   "kind": "breakout",
+   "ticker": "MAAL",
+   "name_ar": "مرسيليا",
+   "published": "2026-10-11",
+   "last_listed": "2026-10-11",
+   "listings": 1,
+   "published_close": 10.37,
+   "levels": {
+    "trigger": 11.5,
+    "stop": 10.52
+   },
+   "scale": 1.0,
+   "status": "closed",
+   "outcome": "cancelled",
+   "events": [
+    {
+     "date": "2026-10-12",
+     "kind": "cancelled",
+     "time": "10:00",
+     "price": 10.52
+    }
+   ],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-09-27",
+    "high": 12.25,
+    "low": 9.77
+   },
+   "last_close": 8.61
+  },
+  {
+   "id": "breakout:AMIA:2026-10-11",
+   "family": "momentum",
+   "kind": "breakout",
+   "ticker": "AMIA",
+   "name_ar": "الملتقى العربي للاستثمارات",
+   "published": "2026-10-11",
+   "last_listed": "2026-10-11",
+   "listings": 1,
+   "published_close": 19.01,
+   "levels": {
+    "trigger": 19.96,
+    "stop": 19.141
+   },
+   "scale": 1.0,
+   "status": "closed",
+   "outcome": "cancelled",
+   "events": [
+    {
+     "date": "2026-10-12",
+     "kind": "cancelled",
+     "time": "10:00",
+     "price": 19.141
+    }
+   ],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-08-24",
+    "high": 22.4,
+    "low": 17.12
+   },
+   "last_close": 19.0
+  },
+  {
+   "id": "W:TAQA:2026-10-11",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "TAQA",
+   "name_ar": "طاقة عربية",
+   "published": "2026-10-11",
+   "last_listed": "2026-10-15",
+   "listings": 5,
+   "published_close": 16.41,
+   "levels": {
+    "invalidation": 11.6,
+    "targets": [
+     21.56,
+     25.701,
+     32.401
+    ],
+    "entry_zone": [
+     14.159,
+     15.741
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-13",
+     "kind": "zone_reached"
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 7,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-13",
+   "last_close": 15.8,
+   "best_pct": 0.3,
+   "worst_pct": -5.24,
+   "days": 4
+  },
+  {
+   "id": "W:NCCW:2026-10-11",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "NCCW",
+   "name_ar": "النصر للأعمال المدنية",
+   "published": "2026-10-11",
+   "last_listed": "2026-10-15",
+   "listings": 5,
+   "published_close": 6.84,
+   "levels": {
+    "invalidation": 3.483,
+    "targets": [
+     11.807,
+     15.123,
+     20.49
+    ],
+    "entry_zone": [
+     5.533,
+     6.8
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-12",
+     "kind": "zone_reached"
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 5,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-12",
+   "last_close": 5.95,
+   "best_pct": 0.44,
+   "worst_pct": -22.51,
+   "days": 4
+  },
+  {
+   "id": "W:LUTS:2026-10-11",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "LUTS",
+   "name_ar": "لوتس للاستثمارات الزراعية والتنمية",
+   "published": "2026-10-11",
+   "last_listed": "2026-10-15",
+   "listings": 5,
+   "published_close": 0.856,
+   "levels": {
+    "invalidation": 0.232,
+    "targets": [
+     1.753,
+     2.392,
+     3.425
+    ],
+    "entry_zone": [
+     0.626,
+     0.87
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-11",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 3,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-11",
+   "last_close": 0.736,
+   "best_pct": 5.49,
+   "worst_pct": -23.71,
+   "days": 4
+  },
+  {
+   "id": "W:AFMC:2026-10-11",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "AFMC",
+   "name_ar": "مطاحن ومخابز الإسكندرية",
+   "published": "2026-10-11",
+   "last_listed": "2026-10-14",
+   "listings": 3,
+   "published_close": 146.42,
+   "levels": {
+    "invalidation": 66.0,
+    "targets": [
+     365.0,
+     509.612,
+     743.612
+    ],
+    "entry_zone": [
+     155.388,
+     210.612
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 11,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "last_close": 132.75,
+   "best_pct": 0.84,
+   "worst_pct": -16.68,
+   "days": 4
+  },
+  {
+   "id": "W:AFDI:2026-10-11",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "AFDI",
+   "name_ar": "الاهلي للتنمية والاستثمار",
+   "published": "2026-10-11",
+   "last_listed": "2026-10-14",
+   "listings": 3,
+   "published_close": 53.0,
+   "levels": {
+    "invalidation": 29.72,
+    "targets": [
+     87.87,
+     112.695,
+     152.865
+    ],
+    "entry_zone": [
+     45.065,
+     54.545
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-11",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 10,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-11",
+   "last_close": 50.01,
+   "best_pct": 0.43,
+   "worst_pct": -12.98,
+   "days": 4
+  },
+  {
+   "id": "M:ACAMD:2026-10-11",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "ACAMD",
+   "name_ar": "الشركة العربية لادارة وتطوير الاصول",
+   "published": "2026-10-11",
+   "last_listed": "2026-10-13",
+   "listings": 3,
+   "published_close": 2.01,
+   "levels": {
+    "invalidation": 1.14,
+    "targets": [
+     2.204,
+     2.41,
+     2.744,
+     3.64,
+     5.858
+    ],
+    "entry_zone": [
+     1.715,
+     2.182
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-11",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 9,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "4 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-11",
+   "last_close": 2.14,
+   "best_pct": 7.46,
+   "worst_pct": -5.47,
+   "days": 4
+  },
+  {
+   "id": "D:KABO:2026-10-11",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "KABO",
+   "name_ar": "كابو",
+   "published": "2026-10-11",
+   "last_listed": "2026-10-11",
+   "listings": 1,
+   "published_close": 8.66,
+   "levels": {
+    "invalidation": 7.97,
+    "targets": [
+     10.18,
+     11.156,
+     12.736
+    ],
+    "entry_zone": [
+     8.574,
+     8.946
+    ]
+   },
+   "scale": 1.0,
+   "status": "closed",
+   "outcome": "invalidated",
+   "events": [
+    {
+     "date": "2026-10-11",
+     "kind": "zone_reached",
+     "published": true
+    },
+    {
+     "date": "2026-10-12",
+     "kind": "invalidated",
+     "time": "11:53",
+     "price": 7.97,
+     "order": "minutes"
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 6,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-11",
+   "invalidated": "2026-10-12",
+   "closed": "2026-10-12",
+   "days": 1,
+   "last_close": 7.55,
+   "best_pct": 0.12,
+   "worst_pct": -15.7
+  },
+  {
+   "id": "D:CIEB:2026-10-11",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "CIEB",
+   "name_ar": "كريدي أجريكول",
+   "published": "2026-10-11",
+   "last_listed": "2026-10-11",
+   "listings": 1,
+   "published_close": 23.69,
+   "levels": {
+    "invalidation": 25.6,
+    "targets": [
+     22.16,
+     20.553,
+     17.953
+    ],
+    "entry_zone": [
+     23.993,
+     24.607
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "down",
+   "bucket": "top_correction",
+   "rank": 6,
+   "posture": "impulse_down_pullback",
+   "posture_ar": "اتجاه هابط، والسهم بيرتد دلوقتي (موجة 2 أو 4) قبل النزلة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "last_close": 22.99,
+   "best_pct": 4.77,
+   "worst_pct": -0.04,
+   "days": 4
+  },
+  {
+   "id": "D:BIOC:2026-10-11",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "BIOC",
+   "name_ar": "جلاكسو سميثكلاين",
+   "published": "2026-10-11",
+   "last_listed": "2026-10-15",
+   "listings": 5,
+   "published_close": 306.0,
+   "levels": {
+    "invalidation": 225.21,
+    "targets": [
+     458.29,
+     553.95,
+     708.74
+    ],
+    "entry_zone": [
+     284.34,
+     320.87
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-11",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 5,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-11",
+   "last_close": 295.5,
+   "best_pct": 9.15,
+   "worst_pct": -10.75,
+   "days": 4
+  },
+  {
+   "id": "D:ADRI:2026-10-11",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "ADRI",
+   "name_ar": "أراب للتنمية والاستثمار العقاري",
+   "published": "2026-10-11",
+   "last_listed": "2026-10-14",
+   "listings": 2,
+   "published_close": 13.4,
+   "levels": {
+    "invalidation": 8.91,
+    "targets": [
+     14.622,
+     18.152
+    ],
+    "entry_zone": [
+     8.91,
+     10.98
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-13",
+     "kind": "target",
+     "time": "14:14",
+     "price": 14.622,
+     "n": 1
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 4,
+   "posture": "impulse_up_motive",
+   "posture_ar": "اتجاه صاعد، والسهم في موجة دافعة (1 أو 3 أو 5) لسه بتتكون",
+   "current_wave": "3 (لسه بتتكون)",
+   "targets_hit": 1,
+   "last_close": 13.62,
+   "best_pct": 9.7,
+   "worst_pct": -3.73,
+   "days": 4
+  },
+  {
+   "id": "ep:MBSC:2026-10-07",
+   "family": "momentum",
+   "kind": "ep",
+   "ticker": "MBSC",
+   "name_ar": "مصر بنى سويف للاسمنت",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-07",
+   "listings": 1,
+   "published_close": 377.0,
+   "levels": {
+    "trigger": 414.99,
+    "stop": 350.04
+   },
+   "scale": 1.0,
+   "status": "closed",
+   "outcome": "cancelled",
+   "events": [
+    {
+     "date": "2026-10-12",
+     "kind": "cancelled",
+     "time": "13:59",
+     "price": 350.04
+    }
+   ],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-10-05",
+    "high": 414.99,
+    "low": 350.04
+   },
+   "last_close": 346.0
+  },
+  {
+   "id": "ep:DAPH:2026-10-07",
+   "family": "momentum",
+   "kind": "ep",
+   "ticker": "DAPH",
+   "name_ar": "التعمير والاستشارات الهندسية",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-11",
+   "listings": 2,
+   "published_close": 106.63,
+   "levels": {
+    "trigger": 114.34,
+    "stop": 94.21
+   },
+   "scale": 1.0,
+   "status": "closed",
+   "outcome": "cancelled",
+   "events": [
+    {
+     "date": "2026-10-12",
+     "kind": "cancelled",
+     "time": "14:07",
+     "price": 94.21
+    }
+   ],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-10-06",
+    "high": 114.34,
+    "low": 94.21
+   },
+   "last_close": 94.5
+  },
+  {
+   "id": "breakout:SDTI:2026-10-07",
+   "family": "momentum",
+   "kind": "breakout",
+   "ticker": "SDTI",
+   "name_ar": "شارم دريمز",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-11",
+   "listings": 2,
+   "published_close": 87.0,
+   "levels": {
+    "trigger": 90.0,
+    "stop": 85.432
+   },
+   "scale": 1.0,
+   "status": "closed",
+   "outcome": "stopped",
+   "events": [
+    {
+     "date": "2026-10-11",
+     "kind": "activated",
+     "time": "11:08",
+     "price": 90.0,
+     "how": "trigger"
+    },
+    {
+     "date": "2026-10-11",
+     "kind": "stop_moved",
+     "price": 86.0,
+     "why": "entry_low"
+    },
+    {
+     "date": "2026-10-12",
+     "kind": "stopped",
+     "time": "10:10",
+     "price": 86.0,
+     "order": "minutes",
+     "r": -0.88
+    }
+   ],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-09-28",
+    "high": 94.9,
+    "low": 81.35
+   },
+   "entry": {
+    "date": "2026-10-11",
+    "time": "11:08",
+    "price": 90.0,
+    "how": "trigger"
+   },
+   "initial_stop": 85.432,
+   "exit": {
+    "date": "2026-10-12",
+    "time": "10:10",
+    "price": 86.0,
+    "why": "stopped"
+   },
+   "r": -0.88,
+   "days": 1,
+   "best_r": 0.0,
+   "worst_r": -0.88,
+   "last_close": 86.0
+  },
+  {
+   "id": "breakout:MAAL:2026-10-07",
+   "family": "momentum",
+   "kind": "breakout",
+   "ticker": "MAAL",
+   "name_ar": "مرسيليا",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-07",
+   "listings": 1,
+   "published_close": 10.9,
+   "levels": {
+    "trigger": 11.5,
+    "stop": 10.522
+   },
+   "scale": 1.0,
+   "status": "closed",
+   "outcome": "cancelled",
+   "events": [
+    {
+     "date": "2026-10-11",
+     "kind": "cancelled",
+     "time": "12:54",
+     "price": 10.522
+    }
+   ],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-09-27",
+    "high": 12.25,
+    "low": 9.77
+   },
+   "last_close": 8.61
+  },
+  {
+   "id": "breakout:CIRA:2026-10-07",
+   "family": "momentum",
+   "kind": "breakout",
+   "ticker": "CIRA",
+   "name_ar": "القاهرة للإستثمار والتنمية العقارية",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-07",
+   "listings": 1,
+   "published_close": 39.42,
+   "levels": {
+    "trigger": 41.5,
+    "stop": 39.585
+   },
+   "scale": 1.0,
+   "status": "closed",
+   "outcome": "cancelled",
+   "events": [
+    {
+     "date": "2026-10-11",
+     "kind": "cancelled",
+     "time": "10:00",
+     "price": 39.585
+    }
+   ],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-09-14",
+    "high": 41.74,
+    "low": 37.0
+   },
+   "last_close": 37.77
+  },
+  {
+   "id": "breakout:CANA:2026-10-07",
+   "family": "momentum",
+   "kind": "breakout",
+   "ticker": "CANA",
+   "name_ar": "بنك قناة السويس",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-07",
+   "listings": 1,
+   "published_close": 44.93,
+   "levels": {
+    "trigger": 46.99,
+    "stop": 44.85
+   },
+   "scale": 1.0,
+   "status": "closed",
+   "outcome": "cancelled",
+   "events": [
+    {
+     "date": "2026-10-11",
+     "kind": "cancelled",
+     "time": "10:10",
+     "price": 44.85
+    }
+   ],
+   "listed_status": "watch",
+   "zone": {
+    "from": "2026-09-20",
+    "high": 52.0,
+    "low": 44.0
+   },
+   "last_close": 43.95
+  },
+  {
+   "id": "D:ETEL:2026-10-07",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "ETEL",
+   "name_ar": "المصرية للاتصالات",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-07",
+   "listings": 1,
+   "published_close": 148.0,
+   "levels": {
+    "invalidation": 129.0,
+    "targets": [
+     156.5,
+     160.533
+    ],
+    "entry_zone": null
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_correction",
+   "rank": 1,
+   "posture": "impulse_up_motive",
+   "posture_ar": "اتجاه صاعد، والسهم في موجة دافعة (1 أو 3 أو 5) لسه بتتكون",
+   "current_wave": "5 (لسه بتتكون)",
+   "targets_hit": 0,
+   "last_close": 145.4,
+   "best_pct": 0.66,
+   "worst_pct": -4.05,
+   "days": 5
+  },
+  {
+   "id": "D:CCRS:2026-10-07",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "CCRS",
+   "name_ar": "الخليجية الكندية للاستثمار العقاري العربي",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-07",
+   "listings": 1,
+   "published_close": 2.32,
+   "levels": {
+    "invalidation": 2.89,
+    "targets": [
+     1.82,
+     1.4,
+     0.72
+    ],
+    "entry_zone": [
+     2.47,
+     2.63
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "down",
+   "bucket": "top_correction",
+   "rank": 10,
+   "posture": "impulse_down_pullback",
+   "posture_ar": "اتجاه هابط، والسهم بيرتد دلوقتي (موجة 2 أو 4) قبل النزلة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "last_close": 2.05,
+   "best_pct": 19.4,
+   "worst_pct": -0.43,
+   "days": 5
+  },
+  {
+   "id": "D:CANA:2026-10-07",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "CANA",
+   "name_ar": "بنك قناة السويس",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-07",
+   "listings": 1,
+   "published_close": 44.93,
+   "levels": {
+    "invalidation": 52.0,
+    "targets": [
+     40.5,
+     35.865,
+     28.365
+    ],
+    "entry_zone": [
+     47.365,
+     49.135
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "down",
+   "bucket": "top_correction",
+   "rank": 9,
+   "posture": "impulse_down_pullback",
+   "posture_ar": "اتجاه هابط، والسهم بيرتد دلوقتي (موجة 2 أو 4) قبل النزلة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "last_close": 43.95,
+   "best_pct": 6.34,
+   "worst_pct": -2.38,
+   "days": 5
+  },
+  {
+   "id": "D:CAED:2026-10-07",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "CAED",
+   "name_ar": "القاهرة للخدمات التعليمية",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-11",
+   "listings": 2,
+   "published_close": 117.28,
+   "levels": {
+    "invalidation": 150.99,
+    "targets": [
+     82.11,
+     52.514,
+     4.624
+    ],
+    "entry_zone": [
+     121.394,
+     132.696
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "down",
+   "bucket": "top_correction",
+   "rank": 8,
+   "posture": "impulse_down_pullback",
+   "posture_ar": "اتجاه هابط، والسهم بيرتد دلوقتي (موجة 2 أو 4) قبل النزلة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "last_close": 104.41,
+   "best_pct": 19.0,
+   "worst_pct": -1.0,
+   "days": 5
+  },
+  {
+   "id": "D:BTFH:2026-10-07",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "BTFH",
+   "name_ar": "بلتون المالية القابضة",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-11",
+   "listings": 2,
+   "published_close": 2.77,
+   "levels": {
+    "invalidation": 3.07,
+    "targets": [
+     2.46,
+     2.2,
+     1.78
+    ],
+    "entry_zone": [
+     2.81,
+     2.91
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-15",
+     "kind": "zone_reached"
+    }
+   ],
+   "side": "down",
+   "bucket": "top_correction",
+   "rank": 7,
+   "posture": "impulse_down_pullback",
+   "posture_ar": "اتجاه هابط، والسهم بيرتد دلوقتي (موجة 2 أو 4) قبل النزلة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-15",
+   "last_close": 2.75,
+   "best_pct": 7.94,
+   "worst_pct": -2.53,
+   "days": 5
+  },
+  {
+   "id": "D:BONY:2026-10-07",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "BONY",
+   "name_ar": "بنيان للتنمية والتجارة",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-11",
+   "listings": 2,
+   "published_close": 4.36,
+   "levels": {
+    "invalidation": 4.8,
+    "targets": [
+     3.49,
+     2.866,
+     1.856
+    ],
+    "entry_zone": [
+     4.176,
+     4.414
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-07",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "down",
+   "bucket": "top_correction",
+   "rank": 6,
+   "posture": "impulse_down_pullback",
+   "posture_ar": "اتجاه هابط، والسهم بيرتد دلوقتي (موجة 2 أو 4) قبل النزلة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-07",
+   "last_close": 4.18,
+   "best_pct": 8.03,
+   "worst_pct": -3.21,
+   "days": 5
+  },
+  {
+   "id": "D:BIOC:2026-10-07",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "BIOC",
+   "name_ar": "جلاكسو سميثكلاين",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-07",
+   "listings": 1,
+   "published_close": 330.0,
+   "levels": {
+    "invalidation": 609.0,
+    "targets": [],
+    "entry_zone": [
+     371.818,
+     462.392
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "down",
+   "bucket": "top_correction",
+   "rank": 5,
+   "posture": "impulse_down_pullback",
+   "posture_ar": "اتجاه هابط، والسهم بيرتد دلوقتي (موجة 2 أو 4) قبل النزلة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "last_close": 295.5,
+   "best_pct": 17.24,
+   "worst_pct": -1.52,
+   "days": 5
+  },
+  {
+   "id": "D:BINV:2026-10-07",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "BINV",
+   "name_ar": "بي إنفستمنتس القابضة",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-15",
+   "listings": 6,
+   "published_close": 58.26,
+   "levels": {
+    "invalidation": 52.11,
+    "targets": [
+     71.28,
+     79.858,
+     93.738
+    ],
+    "entry_zone": [
+     57.412,
+     60.688
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-07",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 2,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-07",
+   "last_close": 58.89,
+   "best_pct": 7.28,
+   "worst_pct": -3.86,
+   "days": 5
+  },
+  {
+   "id": "D:AREH:2026-10-07",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "AREH",
+   "name_ar": "المجموعة المصرية العقارية",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-11",
+   "listings": 2,
+   "published_close": 1.29,
+   "levels": {
+    "invalidation": 1.54,
+    "targets": [
+     0.97,
+     0.723,
+     0.323
+    ],
+    "entry_zone": [
+     1.293,
+     1.387
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "down",
+   "bucket": "top_correction",
+   "rank": 4,
+   "posture": "impulse_down_pullback",
+   "posture_ar": "اتجاه هابط، والسهم بيرتد دلوقتي (موجة 2 أو 4) قبل النزلة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "last_close": 1.19,
+   "best_pct": 13.95,
+   "worst_pct": -0.0,
+   "days": 5
+  },
+  {
+   "id": "D:AIFI:2026-10-07",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "AIFI",
+   "name_ar": "أطلس",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-07",
+   "listings": 1,
+   "published_close": 2.21,
+   "levels": {
+    "invalidation": 2.9,
+    "targets": [
+     1.37,
+     0.771
+    ],
+    "entry_zone": [
+     2.301,
+     2.529
+    ]
+   },
+   "scale": 1.0045,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "down",
+   "bucket": "top_correction",
+   "rank": 3,
+   "posture": "impulse_down_pullback",
+   "posture_ar": "اتجاه هابط، والسهم بيرتد دلوقتي (موجة 2 أو 4) قبل النزلة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "last_close": 2.2,
+   "best_pct": 9.91,
+   "worst_pct": -0.0,
+   "days": 5
+  },
+  {
+   "id": "D:AIDC:2026-10-07",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "AIDC",
+   "name_ar": "ارابيا للاستثمار والتنمية",
+   "published": "2026-10-07",
+   "last_listed": "2026-10-12",
+   "listings": 3,
+   "published_close": 0.682,
+   "levels": {
+    "invalidation": 0.75,
+    "targets": [
+     0.573,
+     0.49,
+     0.355
+    ],
+    "entry_zone": [
+     0.667,
+     0.698
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-07",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "down",
+   "bucket": "top_correction",
+   "rank": 2,
+   "posture": "impulse_down_pullback",
+   "posture_ar": "اتجاه هابط، والسهم بيرتد دلوقتي (موجة 2 أو 4) قبل النزلة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-07",
+   "last_close": 0.602,
+   "best_pct": 13.49,
+   "worst_pct": -3.81,
+   "days": 5
+  },
+  {
+   "id": "W:ADIB:2026-10-06",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "ADIB",
+   "name_ar": "مصرف أبو ظبي الإسلامي",
+   "published": "2026-10-06",
+   "last_listed": "2026-10-11",
+   "listings": 2,
+   "published_close": 48.11,
+   "levels": {
+    "invalidation": 44.01,
+    "targets": [
+     59.66,
+     66.854,
+     78.494
+    ],
+    "entry_zone": [
+     48.456,
+     51.204
+    ]
+   },
+   "scale": 1.0,
+   "status": "closed",
+   "outcome": "invalidated",
+   "events": [
+    {
+     "date": "2026-10-13",
+     "kind": "invalidated",
+     "time": "12:15",
+     "price": 44.01,
+     "order": "minutes"
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 11,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "invalidated": "2026-10-13",
+   "closed": "2026-10-13",
+   "days": 4,
+   "last_close": 47.02,
+   "best_pct": 0.39,
+   "worst_pct": -9.58
+  },
+  {
+   "id": "M:ORAS:2026-10-06",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "ORAS",
+   "name_ar": "أوراسكوم للإنشاء",
+   "published": "2026-10-06",
+   "last_listed": "2026-10-15",
+   "listings": 7,
+   "published_close": 842.99,
+   "levels": {
+    "invalidation": 395.0,
+    "targets": [],
+    "entry_zone": null
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_correction",
+   "rank": 4,
+   "posture": "impulse_up_motive",
+   "posture_ar": "اتجاه صاعد، والسهم في موجة دافعة (1 أو 3 أو 5) لسه بتتكون",
+   "current_wave": "5 (لسه بتتكون)",
+   "targets_hit": 0,
+   "last_close": 895.0,
+   "best_pct": 9.73,
+   "worst_pct": -0.47,
+   "days": 6
+  },
+  {
+   "id": "M:ELSH:2026-10-06",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "ELSH",
+   "name_ar": "الشمس للاسكان",
+   "published": "2026-10-06",
+   "last_listed": "2026-10-15",
+   "listings": 6,
+   "published_close": 11.8,
+   "levels": {
+    "invalidation": 6.32,
+    "targets": [
+     20.07,
+     25.799,
+     35.069
+    ],
+    "entry_zone": [
+     9.861,
+     12.049
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-06",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 5,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-06",
+   "last_close": 11.2,
+   "best_pct": 6.78,
+   "worst_pct": -8.81,
+   "days": 6
+  },
+  {
+   "id": "M:ASCM:2026-10-06",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "ASCM",
+   "name_ar": "اسيك للتعدين",
+   "published": "2026-10-06",
+   "last_listed": "2026-10-15",
+   "listings": 6,
+   "published_close": 57.4,
+   "levels": {
+    "invalidation": 37.0,
+    "targets": [
+     90.53,
+     113.229,
+     149.959
+    ],
+    "entry_zone": [
+     51.031,
+     59.699
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-06",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 2,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "اتجاه صاعد، والسهم بيصحح دلوقتي (موجة 2 أو 4) قبل الطلعة الجاية",
+   "current_wave": "2 (لسه بتتكون)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-06",
+   "last_close": 50.59,
+   "best_pct": 1.39,
+   "worst_pct": -16.38,
+   "days": 6
+  },
+  {
+   "id": "Y:SUGR:2026-10-05",
+   "family": "elliott",
+   "kind": "Y",
+   "ticker": "SUGR",
+   "name_ar": "الدلتا للسكر",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 54.14,
+   "levels": {
+    "invalidation": 5.12,
+    "targets": [
+     138.28,
+     196.854,
+     291.634
+    ],
+    "entry_zone": [
+     41.326,
+     63.694
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 5,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 58.5,
+   "best_pct": 8.05,
+   "worst_pct": -4.88,
+   "days": 7
+  },
+  {
+   "id": "Y:SKPC:2026-10-05",
+   "family": "elliott",
+   "kind": "Y",
+   "ticker": "SKPC",
+   "name_ar": "سيدى كرير للبتروكيماويات",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 16.4,
+   "levels": {
+    "invalidation": 2.056,
+    "targets": [
+     42.559,
+     60.649,
+     89.92
+    ],
+    "entry_zone": [
+     13.237,
+     20.145
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 4,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 15.26,
+   "best_pct": 1.28,
+   "worst_pct": -8.66,
+   "days": 7
+  },
+  {
+   "id": "Y:MFPC:2026-10-05",
+   "family": "elliott",
+   "kind": "Y",
+   "ticker": "MFPC",
+   "name_ar": "موبكو",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 46.4,
+   "levels": {
+    "invalidation": 1.976,
+    "targets": [
+     85.933,
+     124.703,
+     187.439
+    ],
+    "entry_zone": [
+     25.941,
+     40.746
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 3,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "last_close": 43.91,
+   "best_pct": 1.29,
+   "worst_pct": -9.48,
+   "days": 7
+  },
+  {
+   "id": "Y:MEPA:2026-10-05",
+   "family": "elliott",
+   "kind": "Y",
+   "ticker": "MEPA",
+   "name_ar": "العبوات الطبية",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 1.77,
+   "levels": {
+    "invalidation": 0.019,
+    "targets": [
+     3.921,
+     5.689,
+     8.55
+    ],
+    "entry_zone": [
+     1.112,
+     1.787
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 8,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 1.65,
+   "best_pct": 0.56,
+   "worst_pct": -13.56,
+   "days": 7
+  },
+  {
+   "id": "Y:ELEC:2026-10-05",
+   "family": "elliott",
+   "kind": "Y",
+   "ticker": "ELEC",
+   "name_ar": "الكابلات الكهربائية المصرية",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 1.91,
+   "levels": {
+    "invalidation": 0.122,
+    "targets": [
+     6.438,
+     9.354,
+     14.072
+    ],
+    "entry_zone": [
+     1.924,
+     3.038
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 7,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "last_close": 1.73,
+   "best_pct": 0.0,
+   "worst_pct": -13.61,
+   "days": 7
+  },
+  {
+   "id": "Y:CNFN:2026-10-05",
+   "family": "elliott",
+   "kind": "Y",
+   "ticker": "CNFN",
+   "name_ar": "كونتكت المالية القابضة",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 4.18,
+   "levels": {
+    "invalidation": 2.36,
+    "targets": [
+     7.85,
+     10.409,
+     14.549
+    ],
+    "entry_zone": [
+     3.941,
+     4.919
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 2,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 4.17,
+   "best_pct": 4.07,
+   "worst_pct": -9.09,
+   "days": 7
+  },
+  {
+   "id": "Y:BTFH:2026-10-05",
+   "family": "elliott",
+   "kind": "Y",
+   "ticker": "BTFH",
+   "name_ar": "بلتون المالية القابضة",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 2.81,
+   "levels": {
+    "invalidation": 0.322,
+    "targets": [
+     6.515,
+     9.337,
+     13.902
+    ],
+    "entry_zone": [
+     2.065,
+     3.143
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 1,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 2.75,
+   "best_pct": 1.07,
+   "worst_pct": -9.25,
+   "days": 7
+  },
+  {
+   "id": "Y:AREH:2026-10-05",
+   "family": "elliott",
+   "kind": "Y",
+   "ticker": "AREH",
+   "name_ar": "المجموعة المصرية العقارية",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 1.32,
+   "levels": {
+    "invalidation": 0.093,
+    "targets": [
+     9.972,
+     15.786,
+     25.193
+    ],
+    "entry_zone": [
+     3.686,
+     5.907
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 9,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "last_close": 1.19,
+   "best_pct": 0.76,
+   "worst_pct": -15.91,
+   "days": 7
+  },
+  {
+   "id": "Y:ABUK:2026-10-05",
+   "family": "elliott",
+   "kind": "Y",
+   "ticker": "ABUK",
+   "name_ar": "ابوقير للاسمدة",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 86.88,
+   "levels": {
+    "invalidation": 10.85,
+    "targets": [
+     142.66,
+     203.008,
+     300.658
+    ],
+    "entry_zone": [
+     48.152,
+     71.198
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 6,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "last_close": 87.68,
+   "best_pct": 5.32,
+   "worst_pct": -4.47,
+   "days": 7
+  },
+  {
+   "id": "W:SUGR:2026-10-05",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "SUGR",
+   "name_ar": "الدلتا للسكر",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 54.14,
+   "levels": {
+    "invalidation": 45.31,
+    "targets": [
+     69.63,
+     81.452,
+     100.582
+    ],
+    "entry_zone": [
+     52.618,
+     57.132
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 11,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 58.5,
+   "best_pct": 8.05,
+   "worst_pct": -4.88,
+   "days": 7
+  },
+  {
+   "id": "W:ORWE:2026-10-05",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "ORWE",
+   "name_ar": "النساجون الشرقيون",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 27.44,
+   "levels": {
+    "invalidation": 24.3,
+    "targets": [
+     28.043,
+     29.3,
+     31.333,
+     33.47,
+     34.85
+    ],
+    "entry_zone": [
+     25.68,
+     27.649
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 2,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "4 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 27.71,
+   "best_pct": 2.0,
+   "worst_pct": -3.83,
+   "days": 7
+  },
+  {
+   "id": "W:OFH:2026-10-05",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "OFH",
+   "name_ar": "او بي المالية القابضة",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-07",
+   "listings": 3,
+   "published_close": 0.91,
+   "levels": {
+    "invalidation": 0.573,
+    "targets": [
+     1.437,
+     1.812,
+     2.419
+    ],
+    "entry_zone": [
+     0.805,
+     0.948
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 10,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 0.804,
+   "best_pct": 1.54,
+   "worst_pct": -16.37,
+   "days": 7
+  },
+  {
+   "id": "W:MPCI:2026-10-05",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "MPCI",
+   "name_ar": "ممفيس للادوية",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 356.7,
+   "levels": {
+    "invalidation": 232.95,
+    "targets": [
+     407.995,
+     471.38,
+     573.925,
+     666.31,
+     1153.332
+    ],
+    "entry_zone": [
+     310.43,
+     405.697
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 1,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "4 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 317.03,
+   "best_pct": 1.15,
+   "worst_pct": -17.52,
+   "days": 7
+  },
+  {
+   "id": "W:MBSC:2026-10-05",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "MBSC",
+   "name_ar": "مصر بنى سويف للاسمنت",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 7,
+   "published_close": 404.75,
+   "levels": {
+    "invalidation": 222.66,
+    "targets": [
+     535.34,
+     688.196,
+     935.536
+    ],
+    "entry_zone": [
+     317.144,
+     375.516
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-07",
+     "kind": "zone_reached"
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 9,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-07",
+   "last_close": 346.0,
+   "best_pct": 0.0,
+   "worst_pct": -21.63,
+   "days": 7
+  },
+  {
+   "id": "W:KZPC:2026-10-05",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "KZPC",
+   "name_ar": "كفر الزيات للمبيدات والكيماويات",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-14",
+   "listings": 7,
+   "published_close": 12.89,
+   "levels": {
+    "invalidation": 8.26,
+    "targets": [
+     20.63,
+     25.871,
+     34.351
+    ],
+    "entry_zone": [
+     11.499,
+     13.501
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 8,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 13.5,
+   "best_pct": 4.89,
+   "worst_pct": -3.8,
+   "days": 7
+  },
+  {
+   "id": "W:KRDI:2026-10-05",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "KRDI",
+   "name_ar": "نهر الخير للتنمية والأستثمار الزراعى والخدمات البيئية",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-07",
+   "listings": 3,
+   "published_close": 0.425,
+   "levels": {
+    "invalidation": 0.335,
+    "targets": [
+     0.544,
+     0.645,
+     0.809
+    ],
+    "entry_zone": [
+     0.398,
+     0.436
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 7,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 0.4,
+   "best_pct": 0.94,
+   "worst_pct": -12.94,
+   "days": 7
+  },
+  {
+   "id": "W:GTWL:2026-10-05",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "GTWL",
+   "name_ar": "جولدن تكس",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-07",
+   "listings": 3,
+   "published_close": 166.51,
+   "levels": {
+    "invalidation": 45.47,
+    "targets": [
+     327.87,
+     453.553,
+     656.923
+    ],
+    "entry_zone": [
+     123.157,
+     171.153
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 6,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 130.15,
+   "best_pct": 3.29,
+   "worst_pct": -30.24,
+   "days": 7
+  },
+  {
+   "id": "W:EGAL:2026-10-05",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "EGAL",
+   "name_ar": "مصر للالومنيوم",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-05",
+   "listings": 1,
+   "published_close": 345.99,
+   "levels": {
+    "invalidation": 272.28,
+    "targets": [
+     454.22,
+     530.061,
+     652.781
+    ],
+    "entry_zone": [
+     319.159,
+     348.121
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 5,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 305.03,
+   "best_pct": 0.8,
+   "worst_pct": -13.58,
+   "days": 7
+  },
+  {
+   "id": "W:CERA:2026-10-05",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "CERA",
+   "name_ar": "ريماس",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-07",
+   "listings": 3,
+   "published_close": 1.47,
+   "levels": {
+    "invalidation": 0.93,
+    "targets": [
+     2.33,
+     3.041,
+     4.191
+    ],
+    "entry_zone": [
+     1.369,
+     1.641
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 4,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 1.27,
+   "best_pct": 1.36,
+   "worst_pct": -17.69,
+   "days": 7
+  },
+  {
+   "id": "W:BIOC:2026-10-05",
+   "family": "elliott",
+   "kind": "W",
+   "ticker": "BIOC",
+   "name_ar": "جلاكسو سميثكلاين",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-07",
+   "listings": 3,
+   "published_close": 339.0,
+   "levels": {
+    "invalidation": 66.75,
+    "targets": [
+     767.46,
+     1102.571,
+     1644.821
+    ],
+    "entry_zone": [
+     273.889,
+     401.861
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 3,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 295.5,
+   "best_pct": 6.05,
+   "worst_pct": -19.44,
+   "days": 7
+  },
+  {
+   "id": "Q:OBRI:2026-10-05",
+   "family": "elliott",
+   "kind": "Q",
+   "ticker": "OBRI",
+   "name_ar": "العبور للاستثمار العقارى",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 28.99,
+   "levels": {
+    "invalidation": 3.703,
+    "targets": [
+     64.847,
+     90.832,
+     132.879
+    ],
+    "entry_zone": [
+     19.765,
+     29.688
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 5,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 27.05,
+   "best_pct": 13.83,
+   "worst_pct": -17.21,
+   "days": 7
+  },
+  {
+   "id": "Q:MOED:2026-10-05",
+   "family": "elliott",
+   "kind": "Q",
+   "ticker": "MOED",
+   "name_ar": "المصرية لنظم التعليم الحديثة",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-11",
+   "listings": 4,
+   "published_close": 0.704,
+   "levels": {
+    "invalidation": 0.247,
+    "targets": [
+     0.709,
+     0.783,
+     0.904,
+     1.477,
+     5.815
+    ],
+    "entry_zone": [
+     0.544,
+     0.779
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    },
+    {
+     "date": "2026-10-06",
+     "kind": "target",
+     "time": "10:00",
+     "price": 0.709,
+     "n": 1
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 6,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "4 (قيد التكوين)",
+   "targets_hit": 1,
+   "zone_reached": "2026-10-05",
+   "last_close": 0.614,
+   "best_pct": 1.28,
+   "worst_pct": -19.18,
+   "days": 7
+  },
+  {
+   "id": "Q:MEPA:2026-10-05",
+   "family": "elliott",
+   "kind": "Q",
+   "ticker": "MEPA",
+   "name_ar": "العبوات الطبية",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 1.77,
+   "levels": {
+    "invalidation": 0.197,
+    "targets": [
+     3.584,
+     5.243,
+     7.926
+    ],
+    "entry_zone": [
+     1.222,
+     1.855
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 4,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 1.65,
+   "best_pct": 0.56,
+   "worst_pct": -13.56,
+   "days": 7
+  },
+  {
+   "id": "Q:ELEC:2026-10-05",
+   "family": "elliott",
+   "kind": "Q",
+   "ticker": "ELEC",
+   "name_ar": "الكابلات الكهربائية المصرية",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 1.91,
+   "levels": {
+    "invalidation": 0.27,
+    "targets": [
+     6.15,
+     8.974,
+     13.544
+    ],
+    "entry_zone": [
+     2.016,
+     3.094
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 3,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "last_close": 1.73,
+   "best_pct": 0.0,
+   "worst_pct": -13.61,
+   "days": 7
+  },
+  {
+   "id": "Q:EAST:2026-10-05",
+   "family": "elliott",
+   "kind": "Q",
+   "ticker": "EAST",
+   "name_ar": "ايسترن كومباني",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 29.02,
+   "levels": {
+    "invalidation": 7.084,
+    "targets": [
+     70.816,
+     97.332,
+     140.238
+    ],
+    "entry_zone": [
+     23.474,
+     33.6
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 2,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 29.3,
+   "best_pct": 2.31,
+   "worst_pct": -6.93,
+   "days": 7
+  },
+  {
+   "id": "Q:COPR:2026-10-05",
+   "family": "elliott",
+   "kind": "Q",
+   "ticker": "COPR",
+   "name_ar": "كوبر",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 0.498,
+   "levels": {
+    "invalidation": 0.151,
+    "targets": [
+     0.742,
+     1.032,
+     1.5
+    ],
+    "entry_zone": [
+     0.329,
+     0.44
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 1,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "last_close": 0.466,
+   "best_pct": 0.8,
+   "worst_pct": -10.44,
+   "days": 7
+  },
+  {
+   "id": "Q:AIFI:2026-10-05",
+   "family": "elliott",
+   "kind": "Q",
+   "ticker": "AIFI",
+   "name_ar": "أطلس",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 2.23,
+   "levels": {
+    "invalidation": 0.105,
+    "targets": [],
+    "entry_zone": null
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_correction",
+   "rank": 1,
+   "posture": "impulse_up_motive",
+   "posture_ar": "دفعة صاعدة — موجة دافعة (1/3/5) قيد التكوين",
+   "current_wave": "5 (قيد التكوين)",
+   "targets_hit": 0,
+   "last_close": 2.2,
+   "best_pct": 0.0,
+   "worst_pct": -10.31,
+   "days": 7
+  },
+  {
+   "id": "M:TYCN:2026-10-05",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "TYCN",
+   "name_ar": "تايكون انفستمنتس هولدنج",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 12.84,
+   "levels": {
+    "invalidation": 1.777,
+    "targets": [
+     50.733,
+     75.22,
+     114.843
+    ],
+    "entry_zone": [
+     16.913,
+     26.264
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 7,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "last_close": 11.38,
+   "best_pct": 1.25,
+   "worst_pct": -13.16,
+   "days": 7
+  },
+  {
+   "id": "M:TMGH:2026-10-05",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "TMGH",
+   "name_ar": "طلعت مصطفى",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-06",
+   "listings": 2,
+   "published_close": 88.9,
+   "levels": {
+    "invalidation": 73.73,
+    "targets": [
+     114.54,
+     133.167,
+     163.307
+    ],
+    "entry_zone": [
+     85.243,
+     92.357
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 6,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 84.75,
+   "best_pct": 0.66,
+   "worst_pct": -8.64,
+   "days": 7
+  },
+  {
+   "id": "M:TALM:2026-10-05",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "TALM",
+   "name_ar": "تعليم لخدمات الإدارة",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 21.91,
+   "levels": {
+    "invalidation": 13.61,
+    "targets": [
+     27.664,
+     28.981
+    ],
+    "entry_zone": null
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_correction",
+   "rank": 1,
+   "posture": "impulse_up_motive",
+   "posture_ar": "دفعة صاعدة — موجة دافعة (1/3/5) قيد التكوين",
+   "current_wave": "5 (قيد التكوين)",
+   "targets_hit": 0,
+   "last_close": 21.05,
+   "best_pct": 2.51,
+   "worst_pct": -8.72,
+   "days": 7
+  },
+  {
+   "id": "M:PRDC:2026-10-05",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "PRDC",
+   "name_ar": "بايونيرز بروبرتيز للتنمية العمرانية",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 7.35,
+   "levels": {
+    "invalidation": 3.7,
+    "targets": [
+     13.51,
+     17.651,
+     24.351
+    ],
+    "entry_zone": [
+     6.259,
+     7.841
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 5,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 6.45,
+   "best_pct": 0.95,
+   "worst_pct": -17.41,
+   "days": 7
+  },
+  {
+   "id": "M:PRCL:2026-10-05",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "PRCL",
+   "name_ar": "شينى",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 26.08,
+   "levels": {
+    "invalidation": 8.84,
+    "targets": [
+     52.21,
+     70.385,
+     99.795
+    ],
+    "entry_zone": [
+     20.075,
+     27.015
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 4,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 22.59,
+   "best_pct": 1.11,
+   "worst_pct": -19.48,
+   "days": 7
+  },
+  {
+   "id": "M:POUL:2026-10-05",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "POUL",
+   "name_ar": "القاهرة للدواجن",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 4,
+   "published_close": 10.09,
+   "levels": {
+    "invalidation": 1.627,
+    "targets": [],
+    "entry_zone": null
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_correction",
+   "rank": 6,
+   "posture": "impulse_up_motive",
+   "posture_ar": "دفعة صاعدة — موجة دافعة (1/3/5) قيد التكوين",
+   "current_wave": "5 (قيد التكوين)",
+   "targets_hit": 0,
+   "last_close": 9.94,
+   "best_pct": 1.09,
+   "worst_pct": -6.64,
+   "days": 7
+  },
+  {
+   "id": "M:OIH:2026-10-05",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "OIH",
+   "name_ar": "أوراسكوم للاستثمار القابضة",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 1.89,
+   "levels": {
+    "invalidation": 0.98,
+    "targets": [
+     4.356
+    ],
+    "entry_zone": null
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_correction",
+   "rank": 2,
+   "posture": "impulse_up_motive",
+   "posture_ar": "دفعة صاعدة — موجة دافعة (1/3/5) قيد التكوين",
+   "current_wave": "5 (قيد التكوين)",
+   "targets_hit": 0,
+   "last_close": 1.79,
+   "best_pct": 0.53,
+   "worst_pct": -9.52,
+   "days": 7
+  },
+  {
+   "id": "M:MOED:2026-10-05",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "MOED",
+   "name_ar": "المصرية لنظم التعليم الحديثة",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 5,
+   "published_close": 0.704,
+   "levels": {
+    "invalidation": 0.205,
+    "targets": [
+     1.372,
+     1.857,
+     2.641
+    ],
+    "entry_zone": [
+     0.504,
+     0.69
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-06",
+     "kind": "zone_reached"
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 9,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-06",
+   "last_close": 0.614,
+   "best_pct": 1.28,
+   "worst_pct": -19.18,
+   "days": 7
+  },
+  {
+   "id": "M:ICFC:2026-10-05",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "ICFC",
+   "name_ar": "الدولية للأسمدة",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 23.19,
+   "levels": {
+    "invalidation": 13.5,
+    "targets": [
+     27.868,
+     53.72
+    ],
+    "entry_zone": null
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_correction",
+   "rank": 3,
+   "posture": "impulse_up_motive",
+   "posture_ar": "دفعة صاعدة — موجة دافعة (1/3/5) قيد التكوين",
+   "current_wave": "5 (قيد التكوين)",
+   "targets_hit": 0,
+   "last_close": 21.85,
+   "best_pct": 2.03,
+   "worst_pct": -13.28,
+   "days": 7
+  },
+  {
+   "id": "M:ETEL:2026-10-05",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "ETEL",
+   "name_ar": "المصرية للاتصالات",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 151.0,
+   "levels": {
+    "invalidation": 28.76,
+    "targets": [],
+    "entry_zone": null
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_correction",
+   "rank": 4,
+   "posture": "impulse_up_motive",
+   "posture_ar": "دفعة صاعدة — موجة دافعة (1/3/5) قيد التكوين",
+   "current_wave": "5 (قيد التكوين)",
+   "targets_hit": 0,
+   "last_close": 145.4,
+   "best_pct": 0.0,
+   "worst_pct": -5.96,
+   "days": 7
+  },
+  {
+   "id": "M:ELKA:2026-10-05",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "ELKA",
+   "name_ar": "القاهرة للاسكان",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 1.62,
+   "levels": {
+    "invalidation": 0.96,
+    "targets": [
+     2.72,
+     3.517,
+     4.807
+    ],
+    "entry_zone": [
+     1.453,
+     1.757
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 3,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 1.58,
+   "best_pct": 1.23,
+   "worst_pct": -14.81,
+   "days": 7
+  },
+  {
+   "id": "M:EGCH:2026-10-05",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "EGCH",
+   "name_ar": "كيما",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 13.4,
+   "levels": {
+    "invalidation": 9.77,
+    "targets": [
+     17.8,
+     21.261,
+     26.861
+    ],
+    "entry_zone": [
+     11.909,
+     13.231
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-11",
+     "kind": "zone_reached"
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 2,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-11",
+   "last_close": 12.05,
+   "best_pct": 0.6,
+   "worst_pct": -11.49,
+   "days": 7
+  },
+  {
+   "id": "M:CIEB:2026-10-05",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "CIEB",
+   "name_ar": "كريدي أجريكول",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 24.5,
+   "levels": {
+    "invalidation": 16.0,
+    "targets": [
+     35.49,
+     43.209,
+     55.699
+    ],
+    "entry_zone": [
+     20.771,
+     23.719
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-11",
+     "kind": "zone_reached"
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 8,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-11",
+   "last_close": 22.99,
+   "best_pct": 0.2,
+   "worst_pct": -7.92,
+   "days": 7
+  },
+  {
+   "id": "M:CERA:2026-10-05",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "CERA",
+   "name_ar": "ريماس",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-05",
+   "listings": 1,
+   "published_close": 1.47,
+   "levels": {
+    "invalidation": 0.93,
+    "targets": [
+     3.117
+    ],
+    "entry_zone": null
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [],
+   "side": "up",
+   "bucket": "top_correction",
+   "rank": 5,
+   "posture": "impulse_up_motive",
+   "posture_ar": "دفعة صاعدة — موجة دافعة (1/3/5) قيد التكوين",
+   "current_wave": "5 (قيد التكوين)",
+   "targets_hit": 0,
+   "last_close": 1.27,
+   "best_pct": 1.36,
+   "worst_pct": -17.69,
+   "days": 7
+  },
+  {
+   "id": "M:AREH:2026-10-05",
+   "family": "elliott",
+   "kind": "M",
+   "ticker": "AREH",
+   "name_ar": "المجموعة المصرية العقارية",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 8,
+   "published_close": 1.32,
+   "levels": {
+    "invalidation": 0.88,
+    "targets": [
+     2.02,
+     2.564,
+     3.444
+    ],
+    "entry_zone": [
+     1.216,
+     1.424
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 1,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 1.19,
+   "best_pct": 0.76,
+   "worst_pct": -15.91,
+   "days": 7
+  },
+  {
+   "id": "D:SDTI:2026-10-05",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "SDTI",
+   "name_ar": "شارم دريمز",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-15",
+   "listings": 7,
+   "published_close": 83.76,
+   "levels": {
+    "invalidation": 67.0,
+    "targets": [
+     109.25,
+     126.492,
+     154.392
+    ],
+    "entry_zone": [
+     77.658,
+     84.242
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 3,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 86.0,
+   "best_pct": 8.46,
+   "worst_pct": -1.15,
+   "days": 7
+  },
+  {
+   "id": "D:RUBX:2026-10-05",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "RUBX",
+   "name_ar": "روبكس",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-05",
+   "listings": 1,
+   "published_close": 16.57,
+   "levels": {
+    "invalidation": 12.36,
+    "targets": [
+     20.13,
+     23.98,
+     30.21
+    ],
+    "entry_zone": [
+     14.74,
+     16.21
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-13",
+     "kind": "zone_reached"
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 2,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-13",
+   "last_close": 16.49,
+   "best_pct": 18.89,
+   "worst_pct": -15.45,
+   "days": 7
+  },
+  {
+   "id": "D:MBSC:2026-10-05",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "MBSC",
+   "name_ar": "مصر بنى سويف للاسمنت",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-14",
+   "listings": 4,
+   "published_close": 404.75,
+   "levels": {
+    "invalidation": 249.0,
+    "targets": [
+     517.98,
+     563.953
+    ],
+    "entry_zone": [
+     355.01,
+     415.725
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 5,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "4 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 346.0,
+   "best_pct": 0.0,
+   "worst_pct": -21.63,
+   "days": 7
+  },
+  {
+   "id": "D:MAAL:2026-10-05",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "MAAL",
+   "name_ar": "مرسيليا",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-12",
+   "listings": 5,
+   "published_close": 10.74,
+   "levels": {
+    "invalidation": 8.18,
+    "targets": [
+     13.84,
+     16.355,
+     20.425
+    ],
+    "entry_zone": [
+     9.735,
+     10.695
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-06",
+     "kind": "zone_reached"
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 1,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-06",
+   "last_close": 8.61,
+   "best_pct": 5.21,
+   "worst_pct": -20.2,
+   "days": 7
+  },
+  {
+   "id": "D:KASABF:2026-10-05",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "KASABF",
+   "name_ar": "وثائق صندوق استثمار أودن للاستثمار في الاسهم المصرية",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-11",
+   "listings": 4,
+   "published_close": 8.38,
+   "levels": {
+    "invalidation": 3.78,
+    "targets": [
+     16.92,
+     22.606,
+     31.806
+    ],
+    "entry_zone": [
+     7.294,
+     9.466
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 7,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 8.03,
+   "best_pct": 9.07,
+   "worst_pct": -15.63,
+   "days": 7
+  },
+  {
+   "id": "D:CCAP:2026-10-05",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "CCAP",
+   "name_ar": "القلعة",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-06",
+   "listings": 2,
+   "published_close": 6.77,
+   "levels": {
+    "invalidation": 5.69,
+    "targets": [
+     7.083,
+     7.48,
+     8.123,
+     8.63,
+     9.189
+    ],
+    "entry_zone": [
+     6.225,
+     6.803
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 4,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "4 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 6.06,
+   "best_pct": 0.3,
+   "worst_pct": -10.78,
+   "days": 7
+  },
+  {
+   "id": "D:AMER:2026-10-05",
+   "family": "elliott",
+   "kind": "D",
+   "ticker": "AMER",
+   "name_ar": "عامر جروب",
+   "published": "2026-10-05",
+   "last_listed": "2026-10-06",
+   "listings": 2,
+   "published_close": 4.75,
+   "levels": {
+    "invalidation": 2.28,
+    "targets": [
+     10.24,
+     14.065,
+     20.255
+    ],
+    "entry_zone": [
+     4.645,
+     6.105
+    ]
+   },
+   "scale": 1.0,
+   "status": "open",
+   "outcome": null,
+   "events": [
+    {
+     "date": "2026-10-05",
+     "kind": "zone_reached",
+     "published": true
+    }
+   ],
+   "side": "up",
+   "bucket": "top_impulse",
+   "rank": 6,
+   "posture": "impulse_up_pullback",
+   "posture_ar": "دفعة صاعدة — تصحيح داخلي (موجة 2/4) قيد التكوين، تمهيد للساق الصاعدة التالية",
+   "current_wave": "2 (قيد التكوين)",
+   "targets_hit": 0,
+   "zone_reached": "2026-10-05",
+   "last_close": 4.61,
+   "best_pct": 13.05,
+   "worst_pct": -7.79,
+   "days": 7
+  }
+ ]
+}

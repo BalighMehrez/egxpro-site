@@ -1,0 +1,876 @@
+{
+ "edition": "2026-10-15",
+ "basis_id": "tv-8fa2173aa433",
+ "date": "2026-10-15",
+ "window": 60,
+ "market": {
+  "n_stocks": 228,
+  "market_median_ret": 0.0,
+  "n_event_sectors": 0,
+  "n_sectors": 19,
+  "verdict": "quiet",
+  "verdict_ar": "السوق هادي، ومفيش قطاع عامل حركة لوحده"
+ },
+ "thresholds": {
+  "event_ret": 0.03,
+  "breadth_min": 0.6,
+  "strong_move": 0.05,
+  "cluster_n": 3,
+  "index_event_ret": 0.025,
+  "index_min_strong": 2,
+  "limit_warn": 0.095,
+  "broad_frac": 0.4,
+  "broad_mkt_ret": 0.02,
+  "conc_mkt_ret": 0.015
+ },
+ "event_sectors": [],
+ "sectors": [
+  {
+   "sector": "SME",
+   "n": 15,
+   "median_ret": -0.0135,
+   "breadth": 0.4,
+   "direction": -1,
+   "median_vol_z": -0.48,
+   "n_at_limit": 0,
+   "strong_net": 1,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.54,
+   "top_movers": [
+    {
+     "t": "UPMS",
+     "ret": 0.065,
+     "vol_z": 4.5,
+     "name_ar": "الاتحاد الصيدلي"
+    },
+    {
+     "t": "MAAL",
+     "ret": -0.0465,
+     "vol_z": -0.3,
+     "name_ar": "مرسيليا"
+    },
+    {
+     "t": "FIRE",
+     "ret": -0.0364,
+     "vol_z": -0.8,
+     "name_ar": "الأولى للاستثمار"
+    },
+    {
+     "t": "FNAR",
+     "ret": -0.0305,
+     "vol_z": -0.5,
+     "name_ar": "الفنار للمقاولات"
+    },
+    {
+     "t": "FTNS",
+     "ret": 0.027,
+     "vol_z": -0.4,
+     "name_ar": "فتنس برايم للاندية الصحية"
+    }
+   ],
+   "sector_en": "SME",
+   "sector_ar": "سوق الشركات الصغيرة و المتوسطة"
+  },
+  {
+   "sector": "Shipping & Transportation Services",
+   "n": 3,
+   "median_ret": 0.0114,
+   "breadth": 0.33,
+   "direction": 1,
+   "median_vol_z": -0.91,
+   "n_at_limit": 0,
+   "strong_net": 0,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.38,
+   "top_movers": [
+    {
+     "t": "ALCN",
+     "ret": 0.0227,
+     "vol_z": -0.9,
+     "name_ar": "الاسكندرية لتداول الحاويات"
+    },
+    {
+     "t": "ETRS",
+     "ret": 0.0114,
+     "vol_z": -0.9,
+     "name_ar": "ايجيترانس"
+    },
+    {
+     "t": "CSAG",
+     "ret": 0.0086,
+     "vol_z": -0.6,
+     "name_ar": "القناة للتوكيلات الملاحية"
+    }
+   ],
+   "sector_en": "Shipping & Transportation Services",
+   "sector_ar": "خدمات النقل والشحن"
+  },
+  {
+   "sector": "Contracting & Construction Engineering",
+   "n": 10,
+   "median_ret": -0.011,
+   "breadth": 0.3,
+   "direction": -1,
+   "median_vol_z": -0.6,
+   "n_at_limit": 0,
+   "strong_net": 0,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.33,
+   "top_movers": [
+    {
+     "t": "GGCC",
+     "ret": 0.0943,
+     "vol_z": 3.0,
+     "name_ar": "الجيزة العامة للمقاولات"
+    },
+    {
+     "t": "KORA",
+     "ret": -0.0514,
+     "vol_z": -0.2,
+     "name_ar": "قرة لمشروعات الطاقة والاستثمار"
+    },
+    {
+     "t": "CRST",
+     "ret": -0.0323,
+     "vol_z": -1.2,
+     "name_ar": "كريستمارك"
+    },
+    {
+     "t": "IEEC",
+     "ret": -0.0272,
+     "vol_z": -0.8,
+     "name_ar": "المشروعات الصناعية والهندسية"
+    },
+    {
+     "t": "WKOL",
+     "ret": -0.0155,
+     "vol_z": -0.6,
+     "name_ar": "وادي كوم إمبو"
+    }
+   ],
+   "sector_en": "Contracting & Construction Engineering",
+   "sector_ar": "مقاولات و إنشاءات هندسية"
+  },
+  {
+   "sector": "Textile & Durables",
+   "n": 9,
+   "median_ret": -0.0079,
+   "breadth": 0.33,
+   "direction": -1,
+   "median_vol_z": -0.55,
+   "n_at_limit": 0,
+   "strong_net": -1,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.26,
+   "top_movers": [
+    {
+     "t": "GTWL",
+     "ret": -0.0569,
+     "vol_z": -0.3,
+     "name_ar": "جولدن تكس"
+    },
+    {
+     "t": "ACGC",
+     "ret": 0.0353,
+     "vol_z": -0.7,
+     "name_ar": "العربية لحليج الأقطان"
+    },
+    {
+     "t": "APSW",
+     "ret": -0.0306,
+     "vol_z": -0.9,
+     "name_ar": "العربية وبولفارا"
+    },
+    {
+     "t": "GTEX",
+     "ret": -0.025,
+     "vol_z": 1.0,
+     "name_ar": "جيتكس للاستثمارات التجارية والصناعية"
+    },
+    {
+     "t": "ORWE",
+     "ret": 0.0165,
+     "vol_z": -0.0,
+     "name_ar": "النساجون الشرقيون"
+    }
+   ],
+   "sector_en": "Textile & Durables",
+   "sector_ar": "منسوجات و سلع معمرة"
+  },
+  {
+   "sector": "Real Estate",
+   "n": 33,
+   "median_ret": 0.0087,
+   "breadth": 0.24,
+   "direction": 1,
+   "median_vol_z": -0.58,
+   "n_at_limit": 1,
+   "strong_net": 1,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.21,
+   "top_movers": [
+    {
+     "t": "UEGC",
+     "ret": 0.1678,
+     "vol_z": 8.7,
+     "name_ar": "الصعيد العامة للمقاولات"
+    },
+    {
+     "t": "AIFI",
+     "ret": 0.0628,
+     "vol_z": -0.5,
+     "name_ar": "أطلس"
+    },
+    {
+     "t": "MENA",
+     "ret": -0.0523,
+     "vol_z": -0.1,
+     "name_ar": "مينا للاستثمار السياحي"
+    },
+    {
+     "t": "ELKA",
+     "ret": 0.0464,
+     "vol_z": 0.1,
+     "name_ar": "القاهرة للاسكان"
+    },
+    {
+     "t": "NARE",
+     "ret": -0.0445,
+     "vol_z": -0.7,
+     "name_ar": "مجموعة النعيم العقارية القابضة"
+    }
+   ],
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات"
+  },
+  {
+   "sector": "Industrial Goods , Services and Automobiles",
+   "n": 6,
+   "median_ret": 0.0118,
+   "breadth": 0.17,
+   "direction": 1,
+   "median_vol_z": -0.17,
+   "n_at_limit": 1,
+   "strong_net": 1,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.2,
+   "top_movers": [
+    {
+     "t": "DTPP",
+     "ret": 0.1504,
+     "vol_z": 0.4,
+     "name_ar": "دلتا للطباعة والتغليف"
+    },
+    {
+     "t": "GBCO",
+     "ret": 0.0182,
+     "vol_z": 0.8,
+     "name_ar": "جى بى كوربوريشن"
+    },
+    {
+     "t": "KRDI",
+     "ret": 0.0178,
+     "vol_z": -0.9,
+     "name_ar": "نهر الخير للتنمية والأستثمار الزراعى والخدمات البيئية"
+    },
+    {
+     "t": "MBEG",
+     "ret": -0.0115,
+     "vol_z": 0.2,
+     "name_ar": "ام بي"
+    },
+    {
+     "t": "ELEC",
+     "ret": 0.0058,
+     "vol_z": -0.5,
+     "name_ar": "الكابلات الكهربائية المصرية"
+    }
+   ],
+   "sector_en": "Industrial Goods , Services and Automobiles",
+   "sector_ar": "خدمات و منتجات صناعية وسيارات"
+  },
+  {
+   "sector": "Food, Beverages and Tobacco",
+   "n": 29,
+   "median_ret": 0.0066,
+   "breadth": 0.24,
+   "direction": 1,
+   "median_vol_z": -0.58,
+   "n_at_limit": 0,
+   "strong_net": 2,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.16,
+   "top_movers": [
+    {
+     "t": "INFI",
+     "ret": 0.0914,
+     "vol_z": 0.3,
+     "name_ar": "فوديكو"
+    },
+    {
+     "t": "SUGR",
+     "ret": 0.0704,
+     "vol_z": -0.2,
+     "name_ar": "الدلتا للسكر"
+    },
+    {
+     "t": "EAST",
+     "ret": 0.0551,
+     "vol_z": 0.3,
+     "name_ar": "ايسترن كومباني"
+    },
+    {
+     "t": "LUTS",
+     "ret": -0.0503,
+     "vol_z": -0.7,
+     "name_ar": "لوتس للاستثمارات الزراعية والتنمية"
+    },
+    {
+     "t": "ELNA",
+     "ret": 0.0368,
+     "vol_z": -0.2,
+     "name_ar": "النصر لتصنيع الحاصلات الزراعية"
+    }
+   ],
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ"
+  },
+  {
+   "sector": "Health Care & Pharmaceuticals",
+   "n": 19,
+   "median_ret": -0.0089,
+   "breadth": 0.16,
+   "direction": -1,
+   "median_vol_z": -0.53,
+   "n_at_limit": 0,
+   "strong_net": -1,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.14,
+   "top_movers": [
+    {
+     "t": "SIPC",
+     "ret": -0.0691,
+     "vol_z": 0.3,
+     "name_ar": "سبأ"
+    },
+    {
+     "t": "SPMD",
+     "ret": 0.0341,
+     "vol_z": 0.2,
+     "name_ar": "سبيد ميديكال"
+    },
+    {
+     "t": "AXPH",
+     "ret": -0.0301,
+     "vol_z": -0.5,
+     "name_ar": "الاسكندرية للادوية"
+    },
+    {
+     "t": "BIOC",
+     "ret": -0.0218,
+     "vol_z": -0.8,
+     "name_ar": "جلاكسو سميثكلاين"
+    },
+    {
+     "t": "AMES",
+     "ret": -0.0188,
+     "vol_z": -0.4,
+     "name_ar": "المركز الطبي الجديد - الإسكندرية"
+    }
+   ],
+   "sector_en": "Health Care & Pharmaceuticals",
+   "sector_ar": "رعاية صحية و ادوية"
+  },
+  {
+   "sector": "IT , Media & Communication Services",
+   "n": 8,
+   "median_ret": -0.005,
+   "breadth": 0.25,
+   "direction": 1,
+   "median_vol_z": -0.7,
+   "n_at_limit": 0,
+   "strong_net": 0,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.12,
+   "top_movers": [
+    {
+     "t": "EGSA",
+     "ret": -0.0319,
+     "vol_z": -0.3,
+     "name_ar": "نايل سات"
+    },
+    {
+     "t": "MPRC",
+     "ret": -0.0315,
+     "vol_z": -1.0,
+     "name_ar": "مدينة الانتاج الاعلامى"
+    },
+    {
+     "t": "FWRY",
+     "ret": 0.0212,
+     "vol_z": -0.3,
+     "name_ar": "فوري"
+    },
+    {
+     "t": "EFIH",
+     "ret": 0.021,
+     "vol_z": -0.9,
+     "name_ar": "اي فاينانس للاستثمارات المالية والرقمية"
+    },
+    {
+     "t": "DGTZ",
+     "ret": -0.0145,
+     "vol_z": -1.1,
+     "name_ar": "ديجيتايز"
+    }
+   ],
+   "sector_en": "IT , Media & Communication Services",
+   "sector_ar": "اتصالات و اعلام و تكنولوجيا المعلومات"
+  },
+  {
+   "sector": "Trade & Distributors",
+   "n": 6,
+   "median_ret": -0.0054,
+   "breadth": 0.17,
+   "direction": 1,
+   "median_vol_z": -0.55,
+   "n_at_limit": 0,
+   "strong_net": 0,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.09,
+   "top_movers": [
+    {
+     "t": "GOUR",
+     "ret": 0.0477,
+     "vol_z": -0.1,
+     "name_ar": "جورمية ايجيبت دوت كوم للاغذية"
+    },
+    {
+     "t": "MTIE",
+     "ret": -0.0205,
+     "vol_z": -0.7,
+     "name_ar": "ام.ام جروب"
+    },
+    {
+     "t": "MFSC",
+     "ret": -0.0136,
+     "vol_z": -0.6,
+     "name_ar": "مصر للأسواق الحرة"
+    },
+    {
+     "t": "GMCI",
+     "ret": -0.0126,
+     "vol_z": -0.3,
+     "name_ar": "جى إم سى"
+    },
+    {
+     "t": "IFAP",
+     "ret": 0.0099,
+     "vol_z": -0.6,
+     "name_ar": "الدولية للمحاصيل الزراعية"
+    }
+   ],
+   "sector_en": "Trade & Distributors",
+   "sector_ar": "تجارة و موزعون"
+  },
+  {
+   "sector": "Basic Resources",
+   "n": 14,
+   "median_ret": -0.0018,
+   "breadth": 0.14,
+   "direction": 1,
+   "median_vol_z": -0.59,
+   "n_at_limit": 0,
+   "strong_net": 0,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.03,
+   "top_movers": [
+    {
+     "t": "ABUK",
+     "ret": 0.0396,
+     "vol_z": -0.6,
+     "name_ar": "ابوقير للاسمدة"
+    },
+    {
+     "t": "EGAL",
+     "ret": -0.0347,
+     "vol_z": 1.2,
+     "name_ar": "مصر للالومنيوم"
+    },
+    {
+     "t": "KZPC",
+     "ret": 0.029,
+     "vol_z": -0.6,
+     "name_ar": "كفر الزيات للمبيدات والكيماويات"
+    },
+    {
+     "t": "EFIC",
+     "ret": -0.0191,
+     "vol_z": -0.2,
+     "name_ar": "المالية والصناعية المصرية"
+    },
+    {
+     "t": "MICH",
+     "ret": -0.0138,
+     "vol_z": -0.7,
+     "name_ar": "مصر لصناعة الكيماويات"
+    }
+   ],
+   "sector_en": "Basic Resources",
+   "sector_ar": "موارد أساسية"
+  },
+  {
+   "sector": "Non-bank financial services",
+   "n": 34,
+   "median_ret": 0.0014,
+   "breadth": 0.24,
+   "direction": 1,
+   "median_vol_z": -0.55,
+   "n_at_limit": 0,
+   "strong_net": 0,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.03,
+   "top_movers": [
+    {
+     "t": "CNFN",
+     "ret": 0.0399,
+     "vol_z": -0.2,
+     "name_ar": "كونتكت المالية القابضة"
+    },
+    {
+     "t": "ASPI",
+     "ret": 0.0367,
+     "vol_z": -0.8,
+     "name_ar": "اسباير كابيتال القابضة للاستثمارات المالية"
+    },
+    {
+     "t": "CPME",
+     "ret": -0.0335,
+     "vol_z": -0.4,
+     "name_ar": "كاتليست بارتنرز ميديل ايست"
+    },
+    {
+     "t": "AMIA",
+     "ret": 0.0304,
+     "vol_z": -0.6,
+     "name_ar": "الملتقى العربي للاستثمارات"
+    },
+    {
+     "t": "SEIG",
+     "ret": -0.0284,
+     "vol_z": -0.4,
+     "name_ar": "السعودية المصرية للاستثمار والتمويل"
+    }
+   ],
+   "sector_en": "Non-bank financial services",
+   "sector_ar": "خدمات مالية غير مصرفية"
+  },
+  {
+   "sector": "Travel & Leisure",
+   "n": 9,
+   "median_ret": 0.0029,
+   "breadth": 0.11,
+   "direction": -1,
+   "median_vol_z": -0.86,
+   "n_at_limit": 0,
+   "strong_net": 0,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.03,
+   "top_movers": [
+    {
+     "t": "TRTO",
+     "ret": -0.0435,
+     "vol_z": -0.5,
+     "name_ar": "عبر المحيطات للسياحة"
+    },
+    {
+     "t": "PHTV",
+     "ret": 0.0149,
+     "vol_z": -1.0,
+     "name_ar": "بيراميزا"
+    },
+    {
+     "t": "MHOT",
+     "ret": -0.0125,
+     "vol_z": -0.6,
+     "name_ar": "مصر للفنادق"
+    },
+    {
+     "t": "SDTI",
+     "ret": 0.0116,
+     "vol_z": -0.5,
+     "name_ar": "شارم دريمز"
+    },
+    {
+     "t": "MMAT",
+     "ret": 0.011,
+     "vol_z": 0.4,
+     "name_ar": "مرسى مرسى علم"
+    }
+   ],
+   "sector_en": "Travel & Leisure",
+   "sector_ar": "سياحة وترفيه"
+  },
+  {
+   "sector": "Paper & Packaging",
+   "n": 2,
+   "median_ret": 0.0005,
+   "breadth": 0.5,
+   "direction": 1,
+   "median_vol_z": -0.2,
+   "n_at_limit": 0,
+   "strong_net": 0,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.03,
+   "top_movers": [
+    {
+     "t": "UNIP",
+     "ret": 0.0377,
+     "vol_z": -0.5,
+     "name_ar": "يونيفرسال"
+    },
+    {
+     "t": "RAKT",
+     "ret": -0.0367,
+     "vol_z": 0.1,
+     "name_ar": "راكتا"
+    }
+   ],
+   "sector_en": "Paper & Packaging",
+   "sector_ar": "ورق ومواد تعبئة و تغليف"
+  },
+  {
+   "sector": "Banks",
+   "n": 11,
+   "median_ret": 0.0004,
+   "breadth": 0.18,
+   "direction": -1,
+   "median_vol_z": -0.39,
+   "n_at_limit": 0,
+   "strong_net": 0,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.01,
+   "top_movers": [
+    {
+     "t": "COMI",
+     "ret": 0.0246,
+     "vol_z": 0.8,
+     "name_ar": "البنك التجاري الدولي"
+    },
+    {
+     "t": "EGBE",
+     "ret": -0.0234,
+     "vol_z": 0.2,
+     "name_ar": "البنك المصري الخليجي"
+    },
+    {
+     "t": "UBEE",
+     "ret": -0.0202,
+     "vol_z": -0.6,
+     "name_ar": "المصرف المتحد"
+    },
+    {
+     "t": "FAIT",
+     "ret": 0.0156,
+     "vol_z": -0.4,
+     "name_ar": "بنك فيصل الإسلامي المصري"
+    },
+    {
+     "t": "HDBK",
+     "ret": -0.0083,
+     "vol_z": -0.6,
+     "name_ar": "بنك التعمير والاسكان"
+    }
+   ],
+   "sector_en": "Banks",
+   "sector_ar": "بنوك"
+  },
+  {
+   "sector": "Building Materials",
+   "n": 11,
+   "median_ret": -0.0004,
+   "breadth": 0.27,
+   "direction": 1,
+   "median_vol_z": -0.52,
+   "n_at_limit": 0,
+   "strong_net": 0,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.01,
+   "top_movers": [
+    {
+     "t": "SCEM",
+     "ret": 0.0388,
+     "vol_z": -0.6,
+     "name_ar": "اسمنت سيناء"
+    },
+    {
+     "t": "AMII",
+     "ret": -0.0269,
+     "vol_z": -0.9,
+     "name_ar": "العربية للصناعات المعدنية"
+    },
+    {
+     "t": "CERA",
+     "ret": -0.0231,
+     "vol_z": 1.2,
+     "name_ar": "ريماس"
+    },
+    {
+     "t": "ECAP",
+     "ret": 0.0227,
+     "vol_z": -0.6,
+     "name_ar": "الجوهرة"
+    },
+    {
+     "t": "MBSC",
+     "ret": 0.0203,
+     "vol_z": -0.3,
+     "name_ar": "مصر بنى سويف للاسمنت"
+    }
+   ],
+   "sector_en": "Building Materials",
+   "sector_ar": "مواد البناء"
+  },
+  {
+   "sector": "Energy & Support Services",
+   "n": 2,
+   "median_ret": -0.0059,
+   "breadth": 0.0,
+   "direction": 1,
+   "median_vol_z": -0.88,
+   "n_at_limit": 0,
+   "strong_net": 0,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.0,
+   "top_movers": [
+    {
+     "t": "AMOC",
+     "ret": -0.0059,
+     "vol_z": -0.9,
+     "name_ar": "أموك"
+    },
+    {
+     "t": "MOIL",
+     "ret": -0.0059,
+     "vol_z": -0.8,
+     "name_ar": "ماريديف"
+    }
+   ],
+   "sector_en": "Energy & Support Services",
+   "sector_ar": "طاقة وخدمات مساندة"
+  },
+  {
+   "sector": "Education Services",
+   "n": 5,
+   "median_ret": -0.0047,
+   "breadth": 0.0,
+   "direction": 1,
+   "median_vol_z": -0.69,
+   "n_at_limit": 0,
+   "strong_net": 0,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.0,
+   "top_movers": [
+    {
+     "t": "CAED",
+     "ret": -0.0177,
+     "vol_z": -0.7,
+     "name_ar": "القاهرة للخدمات التعليمية"
+    },
+    {
+     "t": "CIRA",
+     "ret": -0.011,
+     "vol_z": -0.7,
+     "name_ar": "القاهرة للإستثمار والتنمية العقارية"
+    },
+    {
+     "t": "MOED",
+     "ret": 0.0082,
+     "vol_z": -0.8,
+     "name_ar": "المصرية لنظم التعليم الحديثة"
+    },
+    {
+     "t": "SCTS",
+     "ret": 0.0061,
+     "vol_z": -0.4,
+     "name_ar": "قناة السويس لتوطين التكنولوجيا"
+    },
+    {
+     "t": "TALM",
+     "ret": -0.0047,
+     "vol_z": -0.7,
+     "name_ar": "تعليم لخدمات الإدارة"
+    }
+   ],
+   "sector_en": "Education Services",
+   "sector_ar": "خدمات تعليمية"
+  },
+  {
+   "sector": "Utilities",
+   "n": 2,
+   "median_ret": 0.009,
+   "breadth": 0.0,
+   "direction": 1,
+   "median_vol_z": -0.34,
+   "n_at_limit": 0,
+   "strong_net": 0,
+   "index_ret": null,
+   "event": false,
+   "event_trigger": [],
+   "event_score": 0.0,
+   "top_movers": [
+    {
+     "t": "EGAS",
+     "ret": 0.0181,
+     "vol_z": -0.5,
+     "name_ar": "غاز مصر"
+    },
+    {
+     "t": "TAQA",
+     "ret": 0.0,
+     "vol_z": -0.1,
+     "name_ar": "طاقة عربية"
+    }
+   ],
+   "sector_en": "Utilities",
+   "sector_ar": "مرافق"
+  }
+ ],
+ "index_ret_note_ar": "مؤشرات القطاعات مش موجودة في مصدر الأسعار، فبنعتمد على حركة أسهم القطاع مع بعض بدل حركة المؤشر"
+}
