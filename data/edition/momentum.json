@@ -1,0 +1,552 @@
+{
+ "edition": "2026-10-22",
+ "basis_id": "tv-aa9820e9ad84",
+ "as_of": "2026-10-22",
+ "params": {
+  "min_price_egp": 1.0,
+  "min_adr_pct": 2.5,
+  "min_bars": 150,
+  "lookback_bars": 130,
+  "max_bar_move": 0.4,
+  "bo_min_rs": 70,
+  "bo_prior_gain": 0.3,
+  "bo_base_min": 5,
+  "bo_base_max": 45,
+  "bo_max_depth": 0.25,
+  "bo_max_retrace": 0.5,
+  "bo_tight_days": 5,
+  "bo_tight_adr_mult": 2.2,
+  "bo_max_dist_adr": 1.5,
+  "bo_min_breakout_vol": 1.3,
+  "ep_min_move": 0.1,
+  "ep_min_vol_mult": 4.0,
+  "ep_max_age": 3,
+  "ps_lookback": 20,
+  "ps_min_gain": 0.5,
+  "ps_min_ext_adr": 5.0,
+  "ps_min_up_days": 3,
+  "min_turnover_egp": 5000000.0
+ },
+ "regime": {
+  "index": "EGX30",
+  "state": "unfavorable",
+  "text_ar": "EGX30 تحت متوسط 10 و20 جلسة. في سوق زي ده الاختراقات تاريخياً بتفشل أكتر.",
+  "close": 51052.3,
+  "sma10": 51684.32,
+  "sma20": 52369.75,
+  "as_of": "2026-10-22"
+ },
+ "scanned": 143,
+ "counts": {
+  "breakout": 1,
+  "ep": 0,
+  "parabolic": 0,
+  "triggered": 0,
+  "watch": 1
+ },
+ "excluded_counts": {
+  "stale": 29,
+  "feed_disagreement": 0,
+  "illiquid": 67,
+  "penny": 15,
+  "short_history": 1,
+  "price_break": 1
+ },
+ "excluded": {
+  "stale": [
+   {
+    "ticker": "ALEX",
+    "last_date": "2026-10-21"
+   },
+   {
+    "ticker": "ALMF",
+    "last_date": "2022-01-20"
+   },
+   {
+    "ticker": "APPC",
+    "last_date": "2026-10-21"
+   },
+   {
+    "ticker": "BIDI",
+    "last_date": "2026-07-20"
+   },
+   {
+    "ticker": "CCAPP",
+    "last_date": "2022-01-20"
+   },
+   {
+    "ticker": "DCRC",
+    "last_date": "2026-10-21"
+   },
+   {
+    "ticker": "DEIN",
+    "last_date": "2026-10-07"
+   },
+   {
+    "ticker": "EITP",
+    "last_date": "2026-10-19"
+   },
+   {
+    "ticker": "EOSB",
+    "last_date": "2026-10-21"
+   },
+   {
+    "ticker": "EPPK",
+    "last_date": "2026-09-09"
+   },
+   {
+    "ticker": "GPPL",
+    "last_date": "2026-09-08"
+   },
+   {
+    "ticker": "GTHE",
+    "last_date": "2026-10-21"
+   },
+   {
+    "ticker": "ICLE",
+    "last_date": "2026-09-08"
+   },
+   {
+    "ticker": "IRAX",
+    "last_date": "2026-10-21"
+   },
+   {
+    "ticker": "MEGM",
+    "last_date": "2022-04-28"
+   },
+   {
+    "ticker": "MISR",
+    "last_date": "2026-09-03"
+   },
+   {
+    "ticker": "MKIT",
+    "last_date": "2026-10-21"
+   },
+   {
+    "ticker": "NBKE",
+    "last_date": "2026-10-21"
+   },
+   {
+    "ticker": "NCGC",
+    "last_date": "2026-10-21"
+   },
+   {
+    "ticker": "NDRL",
+    "last_date": "2026-10-07"
+   },
+   {
+    "ticker": "PACH",
+    "last_date": "2026-10-21"
+   },
+   {
+    "ticker": "SAIB",
+    "last_date": "2026-09-15"
+   },
+   {
+    "ticker": "SEIGA",
+    "last_date": "2022-01-20"
+   },
+   {
+    "ticker": "SMPP",
+    "last_date": "2026-10-19"
+   },
+   {
+    "ticker": "SNFI",
+    "last_date": "2026-10-21"
+   },
+   {
+    "ticker": "SPHT",
+    "last_date": "2026-10-04"
+   },
+   {
+    "ticker": "SUCE",
+    "last_date": "2026-10-21"
+   },
+   {
+    "ticker": "TORA",
+    "last_date": "2026-10-21"
+   },
+   {
+    "ticker": "WATP",
+    "last_date": "2026-10-21"
+   }
+  ],
+  "feed_disagreement": [],
+  "illiquid": [
+   {
+    "ticker": "ACAP",
+    "turnover_med": 3014328.7199999997
+   },
+   {
+    "ticker": "ADCI",
+    "turnover_med": 1626293.8399999999
+   },
+   {
+    "ticker": "AFDI",
+    "turnover_med": 3841962.005
+   },
+   {
+    "ticker": "ALUM",
+    "turnover_med": 3639668.225
+   },
+   {
+    "ticker": "AMPI",
+    "turnover_med": 263566.01
+   },
+   {
+    "ticker": "APSW",
+    "turnover_med": 490035.41500000004
+   },
+   {
+    "ticker": "BIGP",
+    "turnover_med": 1056788.406
+   },
+   {
+    "ticker": "CEFM",
+    "turnover_med": 1620655.9000000001
+   },
+   {
+    "ticker": "CFGH",
+    "turnover_med": 4744.2015
+   },
+   {
+    "ticker": "CICH",
+    "turnover_med": 1732836.31
+   },
+   {
+    "ticker": "CPCI",
+    "turnover_med": 3593393.7299999995
+   },
+   {
+    "ticker": "CPME",
+    "turnover_med": 3122429.6849999996
+   },
+   {
+    "ticker": "DGTZ",
+    "turnover_med": 1130516.19
+   },
+   {
+    "ticker": "DOMT",
+    "turnover_med": 3322341.635
+   },
+   {
+    "ticker": "EALR",
+    "turnover_med": 2550060.985
+   },
+   {
+    "ticker": "EASB",
+    "turnover_med": 3474475.2
+   },
+   {
+    "ticker": "EBSC",
+    "turnover_med": 1694455.995
+   },
+   {
+    "ticker": "ECAP",
+    "turnover_med": 2879149.675
+   },
+   {
+    "ticker": "EDFM",
+    "turnover_med": 699525.5
+   },
+   {
+    "ticker": "EGBE",
+    "turnover_med": 93806.09
+   },
+   {
+    "ticker": "EGREF",
+    "turnover_med": 4914445.365
+   },
+   {
+    "ticker": "EGSA",
+    "turnover_med": 2605.545
+   },
+   {
+    "ticker": "ELNA",
+    "turnover_med": 138409.845
+   },
+   {
+    "ticker": "ELWA",
+    "turnover_med": 292956.895
+   },
+   {
+    "ticker": "EPCO",
+    "turnover_med": 3341776.3899999997
+   },
+   {
+    "ticker": "FAIT",
+    "turnover_med": 2892246.05
+   },
+   {
+    "ticker": "FAITA",
+    "turnover_med": 25255.442499999997
+   },
+   {
+    "ticker": "FERC",
+    "turnover_med": 2792255.97
+   },
+   {
+    "ticker": "FIRE",
+    "turnover_med": 279949.78500000003
+   },
+   {
+    "ticker": "FNAR",
+    "turnover_med": 2786784.7800000003
+   },
+   {
+    "ticker": "FTNS",
+    "turnover_med": 298679.675
+   },
+   {
+    "ticker": "GMCI",
+    "turnover_med": 314696.16500000004
+   },
+   {
+    "ticker": "GRCA",
+    "turnover_med": 4217084.63
+   },
+   {
+    "ticker": "GSSC",
+    "turnover_med": 1060922.775
+   },
+   {
+    "ticker": "GTEX",
+    "turnover_med": 5291.253
+   },
+   {
+    "ticker": "IBCT",
+    "turnover_med": 682234.55
+   },
+   {
+    "ticker": "KWIN",
+    "turnover_med": 4843607.779999999
+   },
+   {
+    "ticker": "MENA",
+    "turnover_med": 935654.005
+   },
+   {
+    "ticker": "MFSC",
+    "turnover_med": 1762951.165
+   },
+   {
+    "ticker": "MIPH",
+    "turnover_med": 1863642.8399999999
+   },
+   {
+    "ticker": "MMAT",
+    "turnover_med": 1364159.3599999999
+   },
+   {
+    "ticker": "MOIL",
+    "turnover_med": 171650.02399999998
+   },
+   {
+    "ticker": "MOSC",
+    "turnover_med": 2157007.925
+   },
+   {
+    "ticker": "NAHO",
+    "turnover_med": 10730.4855
+   },
+   {
+    "ticker": "NARE",
+    "turnover_med": 4294906.71
+   },
+   {
+    "ticker": "NEDA",
+    "turnover_med": 187753.915
+   },
+   {
+    "ticker": "OCPH",
+    "turnover_med": 2680196.0
+   },
+   {
+    "ticker": "PHTV",
+    "turnover_med": 759998.6000000001
+   },
+   {
+    "ticker": "PRMH",
+    "turnover_med": 2745714.0149999997
+   },
+   {
+    "ticker": "RAKT",
+    "turnover_med": 271847.55000000005
+   },
+   {
+    "ticker": "RKAZ",
+    "turnover_med": 717512.52
+   },
+   {
+    "ticker": "RTVC",
+    "turnover_med": 2629354.63
+   },
+   {
+    "ticker": "SCFM",
+    "turnover_med": 1271923.65
+   },
+   {
+    "ticker": "SCTS",
+    "turnover_med": 942332.6
+   },
+   {
+    "ticker": "SEIG",
+    "turnover_med": 1258985.0
+   },
+   {
+    "ticker": "SMFR",
+    "turnover_med": 2376608.1149999998
+   },
+   {
+    "ticker": "SPIN",
+    "turnover_med": 4793699.43
+   },
+   {
+    "ticker": "TRTO",
+    "turnover_med": 4368.7725
+   },
+   {
+    "ticker": "TYCN",
+    "turnover_med": 3174244.0100000002
+   },
+   {
+    "ticker": "UBEE",
+    "turnover_med": 1070266.5899999999
+   },
+   {
+    "ticker": "UEFM",
+    "turnover_med": 1754825.25
+   },
+   {
+    "ticker": "UNIT",
+    "turnover_med": 1860293.08
+   },
+   {
+    "ticker": "UPMS",
+    "turnover_med": 166173.425
+   },
+   {
+    "ticker": "UTOP",
+    "turnover_med": 380662.33999999997
+   },
+   {
+    "ticker": "VERT",
+    "turnover_med": 1099955.26
+   },
+   {
+    "ticker": "VLMR",
+    "turnover_med": 71058.49900000001
+   },
+   {
+    "ticker": "WCDF",
+    "turnover_med": 2015954.6099999999
+   }
+  ],
+  "penny": [
+   {
+    "ticker": "AIDC",
+    "close": 0.522
+   },
+   {
+    "ticker": "ARAB",
+    "close": 0.248
+   },
+   {
+    "ticker": "ASPI",
+    "close": 0.309
+   },
+   {
+    "ticker": "COPR",
+    "close": 0.409
+   },
+   {
+    "ticker": "GDWA",
+    "close": 0.58
+   },
+   {
+    "ticker": "GGCC",
+    "close": 0.584
+   },
+   {
+    "ticker": "IEEC",
+    "close": 0.643
+   },
+   {
+    "ticker": "INEG",
+    "close": 0.517
+   },
+   {
+    "ticker": "KRDI",
+    "close": 0.367
+   },
+   {
+    "ticker": "LUTS",
+    "close": 0.635
+   },
+   {
+    "ticker": "MOED",
+    "close": 0.53
+   },
+   {
+    "ticker": "OFH",
+    "close": 0.72
+   },
+   {
+    "ticker": "PHGC",
+    "close": 0.081
+   },
+   {
+    "ticker": "SPMD",
+    "close": 0.351
+   },
+   {
+    "ticker": "UNIP",
+    "close": 0.3
+   }
+  ],
+  "short_history": [
+   {
+    "ticker": "KORA",
+    "bars": 91
+   }
+  ],
+  "price_break": [
+   {
+    "ticker": "HBCO",
+    "date": "2026-09-21"
+   }
+  ]
+ },
+ "setups": [
+  {
+   "ticker": "GPIM",
+   "name_ar": "جى بى اى للنمو العمرانى",
+   "name_en": "GPI For Urban Growth",
+   "sector_en": "Real Estate",
+   "sector_ar": "عقارات",
+   "type": "breakout",
+   "status": "watch",
+   "trigger": 1.9,
+   "stop": 1.794,
+   "notes_ar": [
+    "طلعة قبلها +99%",
+    "قاعدة 13 جلسة، عمقها 20%",
+    "آخر 5 جلسات في مدى 11.1% بس",
+    "الفوليوم 0.66x متوسط 50 جلسة",
+    "نقطة الاختراق تحت قمة القاعدة (2.15)"
+   ],
+   "zone": {
+    "from": "2026-10-04",
+    "high": 2.15,
+    "low": 1.71
+   },
+   "close": 1.79,
+   "dist_pct": 6.15,
+   "risk_pct": 5.55,
+   "risk_adr": 1.0,
+   "adr": 5.55,
+   "rs": 96,
+   "turnover_med": 18396759.259999998
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /data/
+
+Host: https://egxpro.ai
+Sitemap: https://egxpro.ai/sitemap.xml
