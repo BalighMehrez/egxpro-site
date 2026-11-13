@@ -1,0 +1,756 @@
+{
+ "as_of": "2026-11-12",
+ "generated_at": "2026-11-13T12:05:50+00:00",
+ "models": [
+  {
+   "card": {
+    "schema": 1,
+    "id": "risk_momentum",
+    "name_ar": "الزخم المعدل لمستوى المخاطرة",
+    "name_en": "Risk-adjusted momentum",
+    "status": "live",
+    "kind": "weekly_portfolio",
+    "family_ar": "نموذج تعلم آلي (LightGBM)",
+    "about_ar": "أسهم الموديل شايف إنها ممكن تحقق أعلى صعود مقارنة بأعمق نزول تحت سعر الشراء الأسبوع الجاي: زخم بمخاطرة محسوبة.",
+    "how_ar": [
+     "كل خميس بعد الإقفال الموديل بيدي درجة لكل سهم سايل في البورصة (حوالي 130 سهم) من 34 مؤشر أسبوعي: الاتجاه والزخم والفوليوم والتذبذب وترتيب السهم وسط السوق.",
+     "اتدرب يتوقع الأسهم اللي هتبقى في أعلى 20% الأسبوع الجاي بمقياس واحد: الطلعة من سعر مزاد الأحد لإقفال الخميس، مقسومة على أعمق نزول تحت سعر الشراء.",
+     "بيرشح أعلى 5% في الترتيب، بنفس الوزن، والشراء بأمر سوق في مزاد ما قبل الفتح يوم الأحد.",
+     "السهم اللي لسه في الترشيحات الأسبوع اللي بعده بيفضل، واللي خرج منها بيتباع في مزاد الأحد.",
+     "فلتر السوق: لو مؤشر الأسهم السايلة قفل تحت متوسطه في آخر 40 أسبوع، المحفظة بتقعد كاش لحد ما يرجع فوقه.",
+     "الموديل بيتدرب تاني لوحده كل 4 أسابيع على البيانات الجديدة."
+    ],
+    "horizon_ar": "أسبوع",
+    "live_since": "2026-10-04",
+    "site_since": "2026-10-18",
+    "retired_on": null,
+    "rules": {
+     "cost_per_side": 0.0017,
+     "min_coverage": 0.8
+    },
+    "checkpoints": [
+     {
+      "week": 13,
+      "date_ar": "حوالي 14 يناير 2027",
+      "rule_ar": "لو متأخر عن السوق بأكتر من 16.9 نقطة: وقفة مراجعة.",
+      "bands": [
+       {
+        "max": -16.9,
+        "verdict": "pause"
+       },
+       {
+        "verdict": "continue"
+       }
+      ]
+     },
+     {
+      "week": 26,
+      "date_ar": "حوالي 15 أبريل 2027",
+      "rule_ar": "سابق السوق: الشرط اتحقق. متأخر لحد 13.4 نقطة: يكمل. أكتر من كده: يتوقف.",
+      "bands": [
+       {
+        "max": -13.4,
+        "verdict": "stop"
+       },
+       {
+        "max": 0,
+        "verdict": "continue"
+       },
+       {
+        "verdict": "met"
+       }
+      ]
+     },
+     {
+      "week": 52,
+      "date_ar": "حوالي 14 أكتوبر 2027",
+      "rule_ar": "سابق السوق بـ 5.7 نقطة أو أكتر: اتأكد. بين صفر و5.7: مراجعة. مش سابق: يتوقف.",
+      "bands": [
+       {
+        "max": 0,
+        "verdict": "stop"
+       },
+       {
+        "max": 5.7,
+        "verdict": "review"
+       },
+       {
+        "verdict": "confirmed"
+       }
+      ]
+     }
+    ],
+    "max_drawdown_pct": -31.3,
+    "criteria_ar": "الحكم على السجل الحي اتحدد من قبل أول أسبوع ومش بيتغير: 3 محطات عند الأسبوع 13 و26 و52، ولو المحفظة نزلت من أعلى قيمة ليها أكتر من 31.3% في أي وقت بتتوقف للمراجعة.",
+    "links": {
+     "telegram": "https://t.me/Stock_Talking"
+    }
+   },
+   "summary": {
+    "weeks": 4,
+    "model_pct": -4.7,
+    "passive_pct": -11.05,
+    "excess_pts": 6.35,
+    "drawdown_pct": -9.48,
+    "drawdown_breached": false,
+    "checkpoints": [
+     {
+      "week": 13,
+      "date_ar": "حوالي 14 يناير 2027",
+      "rule_ar": "لو متأخر عن السوق بأكتر من 16.9 نقطة: وقفة مراجعة.",
+      "bands": [
+       {
+        "max": -16.9,
+        "verdict": "pause"
+       },
+       {
+        "verdict": "continue"
+       }
+      ],
+      "status": "pending",
+      "weeks_left": 9
+     },
+     {
+      "week": 26,
+      "date_ar": "حوالي 15 أبريل 2027",
+      "rule_ar": "سابق السوق: الشرط اتحقق. متأخر لحد 13.4 نقطة: يكمل. أكتر من كده: يتوقف.",
+      "bands": [
+       {
+        "max": -13.4,
+        "verdict": "stop"
+       },
+       {
+        "max": 0,
+        "verdict": "continue"
+       },
+       {
+        "verdict": "met"
+       }
+      ],
+      "status": "pending",
+      "weeks_left": 22
+     },
+     {
+      "week": 52,
+      "date_ar": "حوالي 14 أكتوبر 2027",
+      "rule_ar": "سابق السوق بـ 5.7 نقطة أو أكتر: اتأكد. بين صفر و5.7: مراجعة. مش سابق: يتوقف.",
+      "bands": [
+       {
+        "max": 0,
+        "verdict": "stop"
+       },
+       {
+        "max": 5.7,
+        "verdict": "review"
+       },
+       {
+        "verdict": "confirmed"
+       }
+      ],
+      "status": "pending",
+      "weeks_left": 48
+     }
+    ],
+    "path": [
+     {
+      "week": "2026-10-04",
+      "exit": "2026-10-18",
+      "model": -0.024021,
+      "passive": -0.061312
+     },
+     {
+      "week": "2026-10-11",
+      "exit": "2026-10-25",
+      "model": -0.092949,
+      "passive": -0.124724
+     },
+     {
+      "week": "2026-10-18",
+      "exit": "2026-11-01",
+      "model": -0.094828,
+      "passive": -0.139908
+     },
+     {
+      "week": "2026-10-25",
+      "exit": "2026-11-08",
+      "model": -0.047037,
+      "passive": -0.110502
+     }
+    ]
+   },
+   "weeks": [
+    {
+     "week": "2026-10-04",
+     "entry": "2026-10-11",
+     "exit": "2026-10-18",
+     "published": true,
+     "version": "risk_momentum-lightgbm-20260927-202610101657",
+     "in_cash": false,
+     "picks": [
+      {
+       "ticker": "ADRI",
+       "r": 0.0,
+       "fill": "auction"
+      },
+      {
+       "ticker": "ARAB",
+       "r": -0.022059,
+       "fill": "auction"
+      },
+      {
+       "ticker": "EFIH",
+       "r": -0.048751,
+       "fill": "auction"
+      },
+      {
+       "ticker": "AIH",
+       "r": -0.009547,
+       "fill": "auction"
+      },
+      {
+       "ticker": "ETEL",
+       "r": -0.018985,
+       "fill": "auction"
+      },
+      {
+       "ticker": "MOIL",
+       "r": -0.034582,
+       "fill": "auction"
+      }
+     ],
+     "gross": -0.022321,
+     "cost": 0.0017,
+     "net": -0.024021,
+     "passive": -0.061312,
+     "scored": 126
+    },
+    {
+     "week": "2026-10-11",
+     "entry": "2026-10-18",
+     "exit": "2026-10-25",
+     "published": true,
+     "version": "risk_momentum-lightgbm-20260927-202610102229",
+     "in_cash": false,
+     "picks": [
+      {
+       "ticker": "ORAS",
+       "r": -0.059417,
+       "fill": "auction"
+      },
+      {
+       "ticker": "VALU",
+       "r": -0.114768,
+       "fill": "auction"
+      },
+      {
+       "ticker": "ORWE",
+       "r": -0.07554,
+       "fill": "auction"
+      },
+      {
+       "ticker": "MOIL",
+       "r": -0.019403,
+       "fill": "held"
+      },
+      {
+       "ticker": "EFIH",
+       "r": -0.110417,
+       "fill": "held"
+      },
+      {
+       "ticker": "ETEL",
+       "r": -0.087534,
+       "fill": "held"
+      },
+      {
+       "ticker": "ALCN",
+       "r": -0.031398,
+       "fill": "auction"
+      },
+      {
+       "ticker": "ICID",
+       "r": -0.051224,
+       "fill": "auction"
+      }
+     ],
+     "gross": -0.068713,
+     "cost": 0.001912,
+     "net": -0.070625,
+     "passive": -0.067554,
+     "scored": 157
+    },
+    {
+     "week": "2026-10-18",
+     "entry": "2026-10-25",
+     "exit": "2026-11-01",
+     "published": true,
+     "version": "risk_momentum-lightgbm-20260927-202610102229",
+     "in_cash": false,
+     "picks": [
+      {
+       "ticker": "ABUK",
+       "r": -0.055334,
+       "fill": "auction"
+      },
+      {
+       "ticker": "AIH",
+       "r": -0.079903,
+       "fill": "auction"
+      },
+      {
+       "ticker": "NAHO",
+       "r": -0.015385,
+       "fill": "auction"
+      },
+      {
+       "ticker": "AMOC",
+       "r": 0.065574,
+       "fill": "auction"
+      },
+      {
+       "ticker": "SDTI",
+       "r": 0.01853,
+       "fill": "auction"
+      },
+      {
+       "ticker": "MOIL",
+       "r": -0.010654,
+       "fill": "held"
+      },
+      {
+       "ticker": "ICFC",
+       "r": 0.053333,
+       "fill": "auction"
+      },
+      {
+       "ticker": "NCCW",
+       "r": 0.031068,
+       "fill": "auction"
+      }
+     ],
+     "gross": 0.000904,
+     "cost": 0.002975,
+     "net": -0.002071,
+     "passive": -0.017348,
+     "scored": 158
+    },
+    {
+     "week": "2026-10-25",
+     "entry": "2026-11-01",
+     "exit": "2026-11-08",
+     "published": true,
+     "version": "risk_momentum-lightgbm-20260927-202610102229",
+     "in_cash": false,
+     "picks": [
+      {
+       "ticker": "LCSW",
+       "r": -0.012887,
+       "fill": "auction"
+      },
+      {
+       "ticker": "RREI",
+       "r": 0.056604,
+       "fill": "auction"
+      },
+      {
+       "ticker": "HBCO",
+       "r": 0.115288,
+       "fill": "auction"
+      },
+      {
+       "ticker": "CCRS",
+       "r": 0.208333,
+       "fill": "auction"
+      },
+      {
+       "ticker": "AMOC",
+       "r": -0.072028,
+       "fill": "held"
+      },
+      {
+       "ticker": "ICFC",
+       "r": 0.137058,
+       "fill": "held"
+      },
+      {
+       "ticker": "CANA",
+       "r": 0.011548,
+       "fill": "auction"
+      },
+      {
+       "ticker": "ICID",
+       "r": -0.001135,
+       "fill": "auction"
+      }
+     ],
+     "gross": 0.055348,
+     "cost": 0.00255,
+     "net": 0.052798,
+     "passive": 0.034189,
+     "scored": 158
+    }
+   ],
+   "pending": [
+    {
+     "week": "2026-11-01",
+     "entry": "2026-11-08",
+     "measured_after": "2026-11-15",
+     "version": "risk_momentum-lightgbm-20261025-202611052319",
+     "in_cash": false,
+     "market": {
+      "in_cash": false,
+      "filter_weeks": 40,
+      "vs_average": 0.03713832178553167
+     },
+     "picks": [
+      {
+       "ticker": "ICFC",
+       "rank": 1,
+       "score": 0.6256,
+       "close": 26.35
+      },
+      {
+       "ticker": "ICMI",
+       "rank": 2,
+       "score": 0.6243,
+       "close": 8.51
+      },
+      {
+       "ticker": "SCEM",
+       "rank": 3,
+       "score": 0.5937,
+       "close": 94.5
+      },
+      {
+       "ticker": "RREI",
+       "rank": 4,
+       "score": 0.5884,
+       "close": 2.85
+      },
+      {
+       "ticker": "ICID",
+       "rank": 5,
+       "score": 0.5846,
+       "close": 17.98
+      },
+      {
+       "ticker": "VERT",
+       "rank": 6,
+       "score": 0.5757,
+       "close": 4.31
+      },
+      {
+       "ticker": "LCSW",
+       "rank": 7,
+       "score": 0.5749,
+       "close": 36.39
+      },
+      {
+       "ticker": "AIH",
+       "rank": 8,
+       "score": 0.5718,
+       "close": 0.82
+      }
+     ],
+     "published": "2026-11-05T23:19+02:00",
+     "where": "site"
+    },
+    {
+     "week": "2026-11-08",
+     "entry": "2026-11-15",
+     "measured_after": "2026-11-22",
+     "version": "risk_momentum-lightgbm-20261025-202611052319",
+     "in_cash": false,
+     "market": {
+      "in_cash": false,
+      "filter_weeks": 40,
+      "vs_average": 0.08047945222896336
+     },
+     "picks": [
+      {
+       "ticker": "LCSW",
+       "rank": 1,
+       "score": 0.6124,
+       "close": 41.35
+      },
+      {
+       "ticker": "DGTZ",
+       "rank": 2,
+       "score": 0.5964,
+       "close": 2.14
+      },
+      {
+       "ticker": "EFIH",
+       "rank": 3,
+       "score": 0.5675,
+       "close": 24.97
+      },
+      {
+       "ticker": "ICMI",
+       "rank": 4,
+       "score": 0.5655,
+       "close": 9.34
+      },
+      {
+       "ticker": "NIPH",
+       "rank": 5,
+       "score": 0.5649,
+       "close": 335.0
+      },
+      {
+       "ticker": "ICFC",
+       "rank": 6,
+       "score": 0.5645,
+       "close": 28.0
+      },
+      {
+       "ticker": "AIH",
+       "rank": 7,
+       "score": 0.563,
+       "close": 0.871
+      },
+      {
+       "ticker": "AIFI",
+       "rank": 8,
+       "score": 0.5577,
+       "close": 2.42
+      }
+     ],
+     "published": "2026-11-12T23:24+02:00",
+     "where": "site"
+    }
+   ],
+   "stopped": "the next week has not traded yet",
+   "late": [],
+   "edited": [],
+   "refused": [],
+   "versions": [
+    "risk_momentum-lightgbm-20260927-202610101657",
+    "risk_momentum-lightgbm-20260927-202610102229",
+    "risk_momentum-lightgbm-20261025-202611052319"
+   ]
+  },
+  {
+   "card": {
+    "schema": 1,
+    "id": "momentum",
+    "name_ar": "محفظة الزخم",
+    "name_en": "Momentum",
+    "status": "retired",
+    "kind": "weekly_portfolio",
+    "family_ar": "نموذج تعلم آلي (LightGBM)",
+    "about_ar": "أسهم الموديل شايف إنها ممكن تبقى من أقوى 20% في السوق الأسبوع الجاي: غالبا أسهم لسه طالعة جامد، ومخاطرتها أعلى.",
+    "how_ar": [
+     "كان بيرشح أعلى 5% في الترتيب، بنفس الوزن.",
+     "الشراء بأمر محدد عند إقفال الخميس زائد 2% في مزاد الأحد. السهم اللي ما اتنفذش يوم الأحد بيتشال الأسبوع ده."
+    ],
+    "horizon_ar": "أسبوع",
+    "live_since": "2026-09-27",
+    "site_since": "2026-10-18",
+    "retired_on": "2026-10-10",
+    "retired_ar": "اتدمج في نموذج الزخم المعدل لمستوى المخاطرة يوم 10 أكتوبر 2026، وترشيحاته لأسبوع 11 أكتوبر اتلغت قبل المزاد.",
+    "rules": {
+     "cost_per_side": 0.0017,
+     "min_coverage": 0.8
+    },
+    "checkpoints": [],
+    "links": {
+     "telegram": "https://t.me/Stock_Talking"
+    }
+   },
+   "summary": {
+    "weeks": 1,
+    "model_pct": -1.05,
+    "passive_pct": -0.01,
+    "excess_pts": -1.04,
+    "drawdown_pct": -1.05,
+    "drawdown_breached": false,
+    "checkpoints": [],
+    "path": [
+     {
+      "week": "2026-09-27",
+      "exit": "2026-10-11",
+      "model": -0.010521,
+      "passive": -0.000148
+     }
+    ]
+   },
+   "weeks": [
+    {
+     "week": "2026-09-27",
+     "entry": "2026-10-04",
+     "exit": "2026-10-11",
+     "published": true,
+     "version": "momentum-lightgbm-20260906-202609280102",
+     "in_cash": false,
+     "picks": [
+      {
+       "ticker": "ICID",
+       "r": -0.022593,
+       "fill": "auction",
+       "price": 18.59
+      },
+      {
+       "ticker": "INEG",
+       "r": null,
+       "fill": "not_filled",
+       "limit": 0.7497
+      },
+      {
+       "ticker": "LUTS",
+       "r": -0.051337,
+       "fill": "auction",
+       "price": 0.935
+      },
+      {
+       "ticker": "AMOC",
+       "r": 0.032555,
+       "fill": "auction",
+       "price": 14.13
+      },
+      {
+       "ticker": "ETEL",
+       "r": null,
+       "fill": "not_filled",
+       "limit": 141.4842
+      },
+      {
+       "ticker": "ALCN",
+       "r": -0.014952,
+       "fill": "auction",
+       "price": 34.11
+      }
+     ],
+     "gross": -0.009388,
+     "cost": 0.001133,
+     "net": -0.010521,
+     "passive": -0.000148,
+     "scored": 126
+    }
+   ],
+   "pending": [],
+   "stopped": "retired",
+   "late": [],
+   "edited": [],
+   "refused": [],
+   "versions": [
+    "momentum-lightgbm-20260906-202609280102"
+   ]
+  },
+  {
+   "card": {
+    "schema": 1,
+    "id": "steady",
+    "name_ar": "محفظة الصعود الهادي",
+    "name_en": "Steady rise",
+    "status": "retired",
+    "kind": "weekly_portfolio",
+    "family_ar": "نموذج تعلم آلي (LightGBM)",
+    "about_ar": "أسهم الموديل شايف إنها ممكن تطلع 2% الأسبوع الجاي من غير ما تنزل أكتر من 1%: حركة أهدى ومخاطرة أقل.",
+    "how_ar": [
+     "كان بيرشح الأسهم اللي احتمالها 60% أو أكتر، ولو مفيش بيرشح أعلى 5% في الترتيب، وبنفس الوزن.",
+     "الشراء بأمر محدد عند إقفال الخميس زائد 2% في مزاد الأحد. السهم اللي ما اتنفذش يوم الأحد بيتشال الأسبوع ده."
+    ],
+    "horizon_ar": "أسبوع",
+    "live_since": "2026-09-20",
+    "site_since": "2026-10-18",
+    "retired_on": "2026-10-10",
+    "retired_ar": "اتدمج في نموذج الزخم المعدل لمستوى المخاطرة يوم 10 أكتوبر 2026، وترشيحاته لأسبوع 11 أكتوبر اتلغت قبل المزاد.",
+    "rules": {
+     "cost_per_side": 0.0017,
+     "min_coverage": 0.8
+    },
+    "checkpoints": [],
+    "links": {
+     "telegram": "https://t.me/Stock_Talking"
+    }
+   },
+   "summary": {
+    "weeks": 2,
+    "model_pct": -2.03,
+    "passive_pct": -2.39,
+    "excess_pts": 0.37,
+    "drawdown_pct": -2.03,
+    "drawdown_breached": false,
+    "checkpoints": [],
+    "path": [
+     {
+      "week": "2026-09-20",
+      "exit": "2026-10-04",
+      "model": 0.0,
+      "passive": -0.023794
+     },
+     {
+      "week": "2026-09-27",
+      "exit": "2026-10-11",
+      "model": -0.020273,
+      "passive": -0.023938
+     }
+    ]
+   },
+   "weeks": [
+    {
+     "week": "2026-09-20",
+     "entry": "2026-09-27",
+     "exit": "2026-10-04",
+     "published": true,
+     "version": "lightgbm-20260913-202609261317",
+     "in_cash": true,
+     "picks": [],
+     "gross": 0.0,
+     "cost": 0.0,
+     "net": 0.0,
+     "passive": -0.023794,
+     "scored": 125
+    },
+    {
+     "week": "2026-09-27",
+     "entry": "2026-10-04",
+     "exit": "2026-10-11",
+     "published": true,
+     "version": "lightgbm-20260913-202609261317",
+     "in_cash": false,
+     "picks": [
+      {
+       "ticker": "TMGH",
+       "r": -0.01236,
+       "fill": "auction",
+       "price": 89.0
+      },
+      {
+       "ticker": "GDWA",
+       "r": -0.014706,
+       "fill": "auction",
+       "price": 0.68
+      },
+      {
+       "ticker": "ORHD",
+       "r": -0.014092,
+       "fill": "auction",
+       "price": 12.17152479
+      },
+      {
+       "ticker": "PHDC",
+       "r": -0.033133,
+       "fill": "auction",
+       "price": 13.28
+      }
+     ],
+     "gross": -0.018573,
+     "cost": 0.0017,
+     "net": -0.020273,
+     "passive": -0.000148,
+     "scored": 126
+    }
+   ],
+   "pending": [],
+   "stopped": "retired",
+   "late": [],
+   "edited": [],
+   "refused": [],
+   "versions": [
+    "lightgbm-20260913-202609261317"
+   ]
+  }
+ ]
+}
