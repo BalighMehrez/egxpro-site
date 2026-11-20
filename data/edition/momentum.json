@@ -1,0 +1,604 @@
+{
+ "edition": "2026-11-19",
+ "basis_id": "tv-37e7258f7c86",
+ "as_of": "2026-11-19",
+ "params": {
+  "min_price_egp": 1.0,
+  "min_adr_pct": 2.5,
+  "min_bars": 150,
+  "lookback_bars": 130,
+  "max_bar_move": 0.4,
+  "bo_min_rs": 70,
+  "bo_prior_gain": 0.3,
+  "bo_base_min": 5,
+  "bo_base_max": 45,
+  "bo_max_depth": 0.25,
+  "bo_max_retrace": 0.5,
+  "bo_tight_days": 5,
+  "bo_tight_adr_mult": 2.2,
+  "bo_max_dist_adr": 1.5,
+  "bo_min_breakout_vol": 1.3,
+  "ep_min_move": 0.1,
+  "ep_min_vol_mult": 4.0,
+  "ep_max_age": 3,
+  "ps_lookback": 20,
+  "ps_min_gain": 0.5,
+  "ps_min_ext_adr": 5.0,
+  "ps_min_up_days": 3,
+  "min_turnover_egp": 5000000.0
+ },
+ "regime": {
+  "index": "EGX30",
+  "state": "mixed",
+  "text_ar": "EGX30 بين متوسط 10 و20 جلسة، والصورة مش واضحة.",
+  "close": 51458.0,
+  "sma10": 51830.58,
+  "sma20": 50657.24,
+  "as_of": "2026-11-19"
+ },
+ "scanned": 137,
+ "counts": {
+  "breakout": 1,
+  "ep": 1,
+  "parabolic": 0,
+  "triggered": 0,
+  "watch": 2
+ },
+ "excluded_counts": {
+  "stale": 30,
+  "feed_disagreement": 1,
+  "illiquid": 67,
+  "penny": 16,
+  "short_history": 1,
+  "price_break": 4
+ },
+ "excluded": {
+  "stale": [
+   {
+    "ticker": "ALEX",
+    "last_date": "2026-11-18"
+   },
+   {
+    "ticker": "ALMF",
+    "last_date": "2022-01-20"
+   },
+   {
+    "ticker": "APPC",
+    "last_date": "2026-11-18"
+   },
+   {
+    "ticker": "BIDI",
+    "last_date": "2026-07-20"
+   },
+   {
+    "ticker": "CCAPP",
+    "last_date": "2022-01-20"
+   },
+   {
+    "ticker": "CRST",
+    "last_date": "2026-11-17"
+   },
+   {
+    "ticker": "DCRC",
+    "last_date": "2026-11-18"
+   },
+   {
+    "ticker": "DEIN",
+    "last_date": "2026-10-29"
+   },
+   {
+    "ticker": "EITP",
+    "last_date": "2026-11-16"
+   },
+   {
+    "ticker": "EPPK",
+    "last_date": "2026-09-09"
+   },
+   {
+    "ticker": "GPPL",
+    "last_date": "2026-11-15"
+   },
+   {
+    "ticker": "GTHE",
+    "last_date": "2026-11-18"
+   },
+   {
+    "ticker": "ICLE",
+    "last_date": "2026-10-27"
+   },
+   {
+    "ticker": "IRAX",
+    "last_date": "2026-11-18"
+   },
+   {
+    "ticker": "MEGM",
+    "last_date": "2022-04-28"
+   },
+   {
+    "ticker": "MISR",
+    "last_date": "2026-09-03"
+   },
+   {
+    "ticker": "MKIT",
+    "last_date": "2026-11-18"
+   },
+   {
+    "ticker": "NBKE",
+    "last_date": "2026-11-18"
+   },
+   {
+    "ticker": "NCGC",
+    "last_date": "2026-11-18"
+   },
+   {
+    "ticker": "NDRL",
+    "last_date": "2026-10-07"
+   },
+   {
+    "ticker": "PACH",
+    "last_date": "2026-11-18"
+   },
+   {
+    "ticker": "RTVC",
+    "last_date": "2026-11-11"
+   },
+   {
+    "ticker": "SAIB",
+    "last_date": "2026-11-18"
+   },
+   {
+    "ticker": "SEIGA",
+    "last_date": "2022-01-20"
+   },
+   {
+    "ticker": "SMPP",
+    "last_date": "2026-11-11"
+   },
+   {
+    "ticker": "SNFI",
+    "last_date": "2026-11-11"
+   },
+   {
+    "ticker": "SPHT",
+    "last_date": "2026-11-02"
+   },
+   {
+    "ticker": "SUCE",
+    "last_date": "2026-11-18"
+   },
+   {
+    "ticker": "TORA",
+    "last_date": "2026-11-18"
+   },
+   {
+    "ticker": "WATP",
+    "last_date": "2026-11-18"
+   }
+  ],
+  "feed_disagreement": [
+   {
+    "ticker": "ZEOT"
+   }
+  ],
+  "illiquid": [
+   {
+    "ticker": "ACAP",
+    "turnover_med": 2286998.625
+   },
+   {
+    "ticker": "ADCI",
+    "turnover_med": 2355219.515
+   },
+   {
+    "ticker": "AFDI",
+    "turnover_med": 2480875.71
+   },
+   {
+    "ticker": "ALUM",
+    "turnover_med": 2748192.88
+   },
+   {
+    "ticker": "AMPI",
+    "turnover_med": 324586.64
+   },
+   {
+    "ticker": "APSW",
+    "turnover_med": 358141.22000000003
+   },
+   {
+    "ticker": "AXPH",
+    "turnover_med": 4965255.0
+   },
+   {
+    "ticker": "BIGP",
+    "turnover_med": 736350.502
+   },
+   {
+    "ticker": "BINV",
+    "turnover_med": 4048614.62
+   },
+   {
+    "ticker": "CEFM",
+    "turnover_med": 2130859.88
+   },
+   {
+    "ticker": "CFGH",
+    "turnover_med": 3855.544
+   },
+   {
+    "ticker": "CICH",
+    "turnover_med": 2075928.48
+   },
+   {
+    "ticker": "CNFN",
+    "turnover_med": 4735444.015
+   },
+   {
+    "ticker": "CPCI",
+    "turnover_med": 3704690.035
+   },
+   {
+    "ticker": "DGTZ",
+    "turnover_med": 1249249.65
+   },
+   {
+    "ticker": "DOMT",
+    "turnover_med": 2350269.77
+   },
+   {
+    "ticker": "EALR",
+    "turnover_med": 4489609.2
+   },
+   {
+    "ticker": "EASB",
+    "turnover_med": 4655502.155
+   },
+   {
+    "ticker": "EBSC",
+    "turnover_med": 3356386.92
+   },
+   {
+    "ticker": "ECAP",
+    "turnover_med": 1924380.7349999999
+   },
+   {
+    "ticker": "EDFM",
+    "turnover_med": 798943.6799999999
+   },
+   {
+    "ticker": "EGAS",
+    "turnover_med": 3473524.315
+   },
+   {
+    "ticker": "EGBE",
+    "turnover_med": 47951.748
+   },
+   {
+    "ticker": "EGSA",
+    "turnover_med": 3328.38
+   },
+   {
+    "ticker": "ELNA",
+    "turnover_med": 401231.97
+   },
+   {
+    "ticker": "ELWA",
+    "turnover_med": 619661.125
+   },
+   {
+    "ticker": "EOSB",
+    "turnover_med": 65932.44
+   },
+   {
+    "ticker": "EPCO",
+    "turnover_med": 3169595.2
+   },
+   {
+    "ticker": "FAIT",
+    "turnover_med": 2086914.175
+   },
+   {
+    "ticker": "FAITA",
+    "turnover_med": 25671.4315
+   },
+   {
+    "ticker": "FERC",
+    "turnover_med": 4151117.5300000003
+   },
+   {
+    "ticker": "FIRE",
+    "turnover_med": 476760.995
+   },
+   {
+    "ticker": "FNAR",
+    "turnover_med": 1611173.41
+   },
+   {
+    "ticker": "FTNS",
+    "turnover_med": 623938.71
+   },
+   {
+    "ticker": "GMCI",
+    "turnover_med": 432085.57
+   },
+   {
+    "ticker": "GSSC",
+    "turnover_med": 1058075.1
+   },
+   {
+    "ticker": "GTEX",
+    "turnover_med": 5598.9545
+   },
+   {
+    "ticker": "IBCT",
+    "turnover_med": 907621.7799999999
+   },
+   {
+    "ticker": "ICID",
+    "turnover_med": 2384986.3600000003
+   },
+   {
+    "ticker": "IFAP",
+    "turnover_med": 4136153.11
+   },
+   {
+    "ticker": "MENA",
+    "turnover_med": 2450946.53
+   },
+   {
+    "ticker": "MFSC",
+    "turnover_med": 1478663.835
+   },
+   {
+    "ticker": "MIPH",
+    "turnover_med": 1083144.99
+   },
+   {
+    "ticker": "MMAT",
+    "turnover_med": 465795.83999999997
+   },
+   {
+    "ticker": "MOIL",
+    "turnover_med": 151623.883
+   },
+   {
+    "ticker": "MOSC",
+    "turnover_med": 4160446.3
+   },
+   {
+    "ticker": "NAHO",
+    "turnover_med": 5996.153
+   },
+   {
+    "ticker": "NARE",
+    "turnover_med": 4684940.17
+   },
+   {
+    "ticker": "NEDA",
+    "turnover_med": 214170.565
+   },
+   {
+    "ticker": "OCPH",
+    "turnover_med": 4089161.3049999997
+   },
+   {
+    "ticker": "PHTV",
+    "turnover_med": 1284358.0
+   },
+   {
+    "ticker": "RACC",
+    "turnover_med": 4686010.6899999995
+   },
+   {
+    "ticker": "RAKT",
+    "turnover_med": 152382.01499999998
+   },
+   {
+    "ticker": "RKAZ",
+    "turnover_med": 191197.38499999998
+   },
+   {
+    "ticker": "SCFM",
+    "turnover_med": 3232453.35
+   },
+   {
+    "ticker": "SCTS",
+    "turnover_med": 4033267.0300000003
+   },
+   {
+    "ticker": "SMFR",
+    "turnover_med": 2677778.74
+   },
+   {
+    "ticker": "SPIN",
+    "turnover_med": 3624171.1
+   },
+   {
+    "ticker": "TRTO",
+    "turnover_med": 4196.869000000001
+   },
+   {
+    "ticker": "UBEE",
+    "turnover_med": 418480.43999999994
+   },
+   {
+    "ticker": "UEFM",
+    "turnover_med": 1664584.375
+   },
+   {
+    "ticker": "UNIT",
+    "turnover_med": 2256921.04
+   },
+   {
+    "ticker": "UPMS",
+    "turnover_med": 121365.1
+   },
+   {
+    "ticker": "UTOP",
+    "turnover_med": 750309.72
+   },
+   {
+    "ticker": "VERT",
+    "turnover_med": 1159231.92
+   },
+   {
+    "ticker": "VLMR",
+    "turnover_med": 67094.055
+   },
+   {
+    "ticker": "WCDF",
+    "turnover_med": 946520.5
+   }
+  ],
+  "penny": [
+   {
+    "ticker": "AIDC",
+    "close": 0.495
+   },
+   {
+    "ticker": "ARAB",
+    "close": 0.254
+   },
+   {
+    "ticker": "ASPI",
+    "close": 0.322
+   },
+   {
+    "ticker": "COPR",
+    "close": 0.385
+   },
+   {
+    "ticker": "GDWA",
+    "close": 0.534
+   },
+   {
+    "ticker": "GGCC",
+    "close": 0.553
+   },
+   {
+    "ticker": "GGRN",
+    "close": 0.99
+   },
+   {
+    "ticker": "IEEC",
+    "close": 0.675
+   },
+   {
+    "ticker": "INEG",
+    "close": 0.618
+   },
+   {
+    "ticker": "KRDI",
+    "close": 0.338
+   },
+   {
+    "ticker": "LUTS",
+    "close": 0.673
+   },
+   {
+    "ticker": "MOED",
+    "close": 0.479
+   },
+   {
+    "ticker": "OFH",
+    "close": 0.726
+   },
+   {
+    "ticker": "PHGC",
+    "close": 0.078
+   },
+   {
+    "ticker": "SPMD",
+    "close": 0.327
+   },
+   {
+    "ticker": "UNIP",
+    "close": 0.308
+   }
+  ],
+  "short_history": [
+   {
+    "ticker": "KORA",
+    "bars": 111
+   }
+  ],
+  "price_break": [
+   {
+    "ticker": "CPME",
+    "date": "2026-05-11"
+   },
+   {
+    "ticker": "EGREF",
+    "date": "2026-08-09"
+   },
+   {
+    "ticker": "HBCO",
+    "date": "2026-09-21"
+   },
+   {
+    "ticker": "SEIG",
+    "date": "2026-10-29"
+   }
+  ]
+ },
+ "setups": [
+  {
+   "ticker": "SDTI",
+   "name_ar": "شارم دريمز",
+   "name_en": "Sharm Dreams",
+   "sector_en": "Travel & Leisure",
+   "sector_ar": "سياحة وترفيه",
+   "type": "breakout",
+   "status": "watch",
+   "trigger": 87.8,
+   "stop": 83.904,
+   "notes_ar": [
+    "طلعة قبلها +108%",
+    "قاعدة 37 جلسة، عمقها 21%",
+    "آخر 5 جلسات في مدى 6.7% بس",
+    "الفوليوم 0.54x متوسط 50 جلسة",
+    "نقطة الاختراق تحت قمة القاعدة (94.90)"
+   ],
+   "zone": {
+    "from": "2026-09-28",
+    "high": 94.9,
+    "low": 75.01
+   },
+   "close": 83.0,
+   "dist_pct": 5.78,
+   "risk_pct": 4.44,
+   "risk_adr": 1.0,
+   "adr": 4.44,
+   "rs": 80,
+   "turnover_med": 16219447.21
+  },
+  {
+   "ticker": "INFI",
+   "name_ar": "فوديكو",
+   "name_en": "Foodico",
+   "sector_en": "Food, Beverages and Tobacco",
+   "sector_ar": "أغذية و مشروبات و تبغ",
+   "type": "ep",
+   "status": "watch",
+   "trigger": 178.25,
+   "stop": 143.51,
+   "notes_ar": [
+    "طلع +10.0% بفوليوم 5.0x المتوسط (17 نوفمبر، من جلستين)",
+    "قفل في النص الفوقاني من مدى اليوم ده",
+    "كان هادي قبلها (-4% في 3 شهور)"
+   ],
+   "zone": {
+    "from": "2026-11-17",
+    "high": 162.5,
+    "low": 143.51
+   },
+   "close": 160.11,
+   "dist_pct": 11.33,
+   "risk_pct": 19.49,
+   "risk_adr": 2.06,
+   "adr": 9.46,
+   "rs": 89,
+   "turnover_med": 18989071.32
+  }
+ ]
+}
