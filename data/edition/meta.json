@@ -1,0 +1,410 @@
+{
+ "edition": "2026-11-26",
+ "last_bar": "2026-11-26",
+ "generated_at": "2026-11-27T15:43:55+02:00",
+ "basis": {
+  "basis_id": "tv-e062b2cbec8b",
+  "adjusted": true,
+  "state": "complete",
+  "writer": "egxpro-tv-export",
+  "source": "tradingview split-adjusted (vendor), anonymous tvDatafeed",
+  "exported_at": "2026-11-27T15:37:41+02:00",
+  "cutoff_date": "2026-11-28",
+  "manifest": null,
+  "warning_ar": "الأسعار متعدلة من المصدر نفسه للتجزئة وأسهم المنحة، بس المصدر مش بيدينا قايمة بالإجراءات اللي عدلها. عشان كده مش بنقول عدد الإجراءات اللي اتطبقت، ومش بنفترض إنها صفر.",
+  "engine_warning_ar": "⚠️ المجلد مختوم كـ«معدَّل» لكن ملف الإجراءات (manifest) غير قابل للقراءة — كل عدّاد إجراءات في هذا التقرير غير مقيس، وليس صفراً"
+ },
+ "crosscheck": {
+  "status": "not_run",
+  "feed": null,
+  "rule": null,
+  "tolerance_pct": null,
+  "recent_bars": null,
+  "counts": null,
+  "divergent": null,
+  "quarantine": null,
+  "max_quarantine": null,
+  "checked_at": null,
+  "note": "cross-check skipped by operator flag",
+  "sample_n": 0
+ },
+ "fetch": {
+  "exported_at": "2026-11-27T15:37:41+02:00",
+  "cutoff_date": "2026-11-28",
+  "n_requested": 284,
+  "n_ok": 256,
+  "n_carried": 0,
+  "n_failed": 0,
+  "n_unserved": 28,
+  "elapsed_s": 316.1,
+  "unserved": [
+   "ACFR",
+   "ACRO",
+   "AIHC",
+   "ANCC",
+   "BQDC",
+   "DIFC",
+   "EFAC",
+   "EGWA",
+   "ENHD",
+   "ESAC",
+   "ESRS",
+   "FCMD",
+   "GEOS",
+   "HAVC",
+   "HCFI",
+   "HDST",
+   "KNGC",
+   "MLIC",
+   "NAPR",
+   "QNBA",
+   "RMTV",
+   "SFWA",
+   "SIEG",
+   "SINA",
+   "SLAR",
+   "SWDY",
+   "UASG",
+   "YAYT"
+  ],
+  "carried": [],
+  "failed": []
+ },
+ "universe": {
+  "source": "egx_sectors.json",
+  "n_shares": 284,
+  "n_with_prices": 256,
+  "n_scanned": 256,
+  "no_price_data": [
+   "ACFR",
+   "ACRO",
+   "AIHC",
+   "ANCC",
+   "BQDC",
+   "DIFC",
+   "EFAC",
+   "EGWA",
+   "ENHD",
+   "ESAC",
+   "ESRS",
+   "FCMD",
+   "GEOS",
+   "HAVC",
+   "HCFI",
+   "HDST",
+   "KNGC",
+   "MLIC",
+   "NAPR",
+   "QNBA",
+   "RMTV",
+   "SFWA",
+   "SIEG",
+   "SINA",
+   "SLAR",
+   "SWDY",
+   "UASG",
+   "YAYT"
+  ]
+ },
+ "scan": {
+  "timeframes": [
+   "D",
+   "W",
+   "M",
+   "Q",
+   "Y"
+  ],
+  "timeframe_horizon_ar": {
+   "D": "الأيام الجاية",
+   "W": "الأسبوع الجاي",
+   "M": "الشهر الجاي",
+   "Q": "الربع الجاي",
+   "Y": "السنة الجاية"
+  },
+  "scoring_notes_ar": "التقييم أداة ترتيب أولية شفافة (وزن أساس حسب الوضع الموجي ورقم الموجة + تعديلات الاتجاه/الزخم/التشبع × عامل ثقة العدّ)، وليس حكماً. موجة 2 (شراء للموجة 3) تفوق موجة 4 (شراء للموجة 5)؛ وموجة 5 ممتدّة مشبعة ترجّح التصحيح. الترقيم اجتهادي على ZigZag — يراجع الوكيل المرشحين ويذكر الإبطال والأهداف.",
+  "coverage": {
+   "requested": 284,
+   "scanned": 256,
+   "no_price_data": [
+    "ACFR",
+    "ACRO",
+    "AIHC",
+    "ANCC",
+    "BQDC",
+    "DIFC",
+    "EFAC",
+    "EGWA",
+    "ENHD",
+    "ESAC",
+    "ESRS",
+    "FCMD",
+    "GEOS",
+    "HAVC",
+    "HCFI",
+    "HDST",
+    "KNGC",
+    "MLIC",
+    "NAPR",
+    "QNBA",
+    "RMTV",
+    "SFWA",
+    "SIEG",
+    "SINA",
+    "SLAR",
+    "SWDY",
+    "UASG",
+    "YAYT"
+   ],
+   "per_timeframe_analysed": {
+    "D": 256,
+    "W": 255,
+    "M": 248,
+    "Q": 244,
+    "Y": 232
+   }
+  },
+  "engine": {
+   "source_repo": "egx_multi_agent",
+   "source_commit": "82f822b3a3f3ef1b243fa8b27c19b874ea1434e9",
+   "vendored_files": 28,
+   "vendored_on": "2026-10-06T15:17:54+03:00"
+  }
+ },
+ "gate": {
+  "params": {
+   "min_turnover_egp": 5000000.0,
+   "turnover_window": 20,
+   "max_stale_sessions": 3,
+   "ranked_kinds": [
+    "real"
+   ]
+  },
+  "counts": {
+   "no_price_data": 28,
+   "feed_disagreement": 0,
+   "illiquid": 96,
+   "stale": 16,
+   "not_a_stop": 353,
+   "spans_break": 191,
+   "no_invalidation": 42
+  },
+  "ranked": {
+   "D": {
+    "top_impulse": 10,
+    "top_correction": 6
+   },
+   "W": {
+    "top_impulse": 5,
+    "top_correction": 5
+   },
+   "M": {
+    "top_impulse": 9,
+    "top_correction": 0
+   },
+   "Q": {
+    "top_impulse": 7,
+    "top_correction": 2
+   },
+   "Y": {
+    "top_impulse": 6,
+    "top_correction": 0
+   }
+  }
+ },
+ "market": {
+  "date": "2026-11-26",
+  "verdict": "quiet",
+  "verdict_ar": "السوق هادي، ومفيش قطاع عامل حركة لوحده",
+  "n_sectors": 19,
+  "n_event_sectors": 0
+ },
+ "momentum": {
+  "scanned": 141,
+  "counts": {
+   "breakout": 3,
+   "ep": 0,
+   "parabolic": 0,
+   "triggered": 0,
+   "watch": 3
+  },
+  "excluded_counts": {
+   "stale": 30,
+   "feed_disagreement": 0,
+   "illiquid": 66,
+   "penny": 15,
+   "short_history": 1,
+   "price_break": 3
+  },
+  "regime": "unfavorable"
+ },
+ "voice": {
+  "untranslated": 0,
+  "distinct": 0,
+  "examples": []
+ },
+ "elliott_count": {
+  "status": "ok",
+  "method": "bottom-up 1",
+  "counted": [
+   "CCAP",
+   "COMI",
+   "TMGH",
+   "ORAS",
+   "PHDC",
+   "FWRY",
+   "BTFH",
+   "HELI",
+   "ETEL",
+   "ORHD",
+   "ZMID",
+   "ABUK",
+   "HRHO",
+   "OIH",
+   "MPCI",
+   "ADIB",
+   "AMOC",
+   "ACAMD",
+   "MFPC",
+   "EGAL",
+   "RAYA",
+   "GBCO",
+   "ISPH",
+   "EFIH",
+   "MPCO",
+   "EGCH",
+   "VLMRA",
+   "MCRO",
+   "EMFD",
+   "SKPC",
+   "AMER",
+   "SVCE",
+   "MASR",
+   "EAST",
+   "ISMQ",
+   "ATQA",
+   "EFID",
+   "OCDI",
+   "PHAR",
+   "RMDA",
+   "ELEC",
+   "DSCW",
+   "POUL",
+   "KRDI",
+   "ARCC",
+   "JUFO",
+   "ORWE",
+   "EXPA",
+   "TAQA",
+   "UEGC",
+   "OFH",
+   "MBSC",
+   "CLHO",
+   "IEEC",
+   "LUTS",
+   "MCQE",
+   "HDBK",
+   "EGTS",
+   "COSG",
+   "ALCN",
+   "SDTI",
+   "ELSH",
+   "MTIE",
+   "ETRS",
+   "SIPC",
+   "COPR",
+   "MEPA",
+   "ASPI",
+   "MPRC",
+   "EHDR",
+   "PRCL",
+   "NCCW",
+   "LCSW",
+   "ELKA",
+   "AMII",
+   "ICFC",
+   "CERA",
+   "AIFI",
+   "MOED",
+   "PRDC",
+   "AREH",
+   "KABO",
+   "OBRI",
+   "CCRS",
+   "ASCM",
+   "ISMA"
+  ],
+  "skipped": [
+   {
+    "ticker": "KORA",
+    "median_value_egp": 276811563,
+    "reason": "116 sessions, 750 needed"
+   },
+   {
+    "ticker": "CRST",
+    "median_value_egp": 92257024,
+    "reason": "287 sessions after the price break of 2025-09-23, 750 needed"
+   },
+   {
+    "ticker": "NIPH",
+    "median_value_egp": 67649096,
+    "reason": "321 sessions after the price break of 2025-08-07, 750 needed"
+   },
+   {
+    "ticker": "ARAB",
+    "median_value_egp": 67550475,
+    "reason": "412 sessions after the price break of 2025-03-12, 750 needed"
+   },
+   {
+    "ticker": "SCEM",
+    "median_value_egp": 30028508,
+    "reason": "559 sessions after the price break of 2024-08-13, 750 needed"
+   },
+   {
+    "ticker": "BONY",
+    "median_value_egp": 21887855,
+    "reason": "332 sessions, 750 needed"
+   },
+   {
+    "ticker": "VALU",
+    "median_value_egp": 19016339,
+    "reason": "350 sessions, 750 needed"
+   },
+   {
+    "ticker": "ACTF",
+    "median_value_egp": 18145858,
+    "reason": "568 sessions, 750 needed"
+   },
+   {
+    "ticker": "GPIM",
+    "median_value_egp": 15815698,
+    "reason": "688 sessions after the price break of 2024-01-21, 750 needed"
+   },
+   {
+    "ticker": "DTPP",
+    "median_value_egp": 14177010,
+    "reason": "424 sessions after the price break of 2025-02-24, 750 needed"
+   },
+   {
+    "ticker": "GGRN",
+    "median_value_egp": 14046073,
+    "reason": "427 sessions, 750 needed"
+   },
+   {
+    "ticker": "GOUR",
+    "median_value_egp": 13910929,
+    "reason": "193 sessions, 750 needed"
+   },
+   {
+    "ticker": "GTWL",
+    "median_value_egp": 12896906,
+    "reason": "737 sessions after the price break of 2023-11-09, 750 needed"
+   },
+   {
+    "ticker": "AIDC",
+    "median_value_egp": 12465280,
+    "reason": "319 sessions, 750 needed"
+   }
+  ],
+  "reason": null
+ }
+}
